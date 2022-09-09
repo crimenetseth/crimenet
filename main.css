@@ -142,7 +142,7 @@ select {
 			color: var(--txt-clr);
 		}
 		.btn3,
-		.cat__fora__sub a,
+		.cat__fora__sub a:hover,
 		.threadlist__actions__bottom a,
 		.pagination span a:link,
 		.pagination span a:visited,
@@ -3497,6 +3497,8 @@ p.author {
 				padding: 0 12px;
 				height: 30px;
 				line-height: 30px;
+
+				transition:  all 0.15s ease-in;
 			}
 				.pa__mdm li:hover {
 					left: 0;
@@ -3776,7 +3778,14 @@ p.author {
 				text-transform: lowercase;
 				width: 270px;
 				border-radius: 4px;
+
+				transition:  all 0.3s ease-in;
 			}
+				.qeel__stats li a:hover {
+					background-color: var(--bg-mid);
+
+					transition:  all 0.3s ease-in;
+				}
 	.qeel__group {
 		display: flex;
 		flex-flow: row-reverse;
