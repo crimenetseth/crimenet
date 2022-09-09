@@ -1,0 +1,22 @@
+/*SITES DE SVGS
+https://www.svgrepo.com/
+
+HERBERGER UN SVG SUR DROPBOX
+Go sur SVGs > trophees et dépose ton svg à la bonne taille (35x35) dans le dossier
+copie le lien de partage et remplace le "www" par "dl"*/
+
+.operationjudith trophicone {
+	background-image: url(https://dl.dropbox.com/s/ltlls28r9k6nteh/halloween.svg?dl=0);
+}
+.operationjudith trophname::before {
+	content: "Opération Judith";
+}
+.operationjudith trophname::after {
+	content: "- 2021";
+}
+.operationjudith trophcontent::before {
+	content: "Enfant de la rouille";
+}
+.operationjudith trophcontent::after {
+	content: "Votre âme et votre sang ont été mit à l’épreuve dans l’École Midwich et vous avez survécu.";
+}

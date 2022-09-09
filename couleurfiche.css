@@ -1,0 +1,115 @@
+/*GEYSTER*/
+prez.geyster civname,
+prez.geyster civimg::before,
+prez.geyster profname,
+prez.geyster profimg::before,
+prez.geyster psyimg:before,
+prez.geyster lookimg:before,
+prez.geyster storimg:before,
+inv.geyster invh2,
+inv.geyster trophicone,
+rplist.geyster rplisth2,
+rplist.geyster timevent a,
+prez.geyster timevent a {
+	background-color: var(--geyster);
+}
+inv.geyster skilltitle,
+inv.geyster asstitle {
+	color: var(--geyster);
+}
+
+rplist.geyster timetxt,
+prez.geyster timetxt {
+	border-left: 3px solid var(--geyster);
+}
+rplist.geyster timetitle::before,
+prez.geyster timetitle::before {
+	border: 2px solid var(--geyster);
+}
+
+/*SPETSNAZ*/
+prez.spetsnaz civname,
+prez.spetsnaz civimg::before,
+prez.spetsnaz profname,
+prez.spetsnaz profimg::before,
+prez.spetsnaz psyimg:before,
+prez.spetsnaz lookimg:before,
+prez.spetsnaz storimg:before,
+inv.spetsnaz invh2,
+inv.spetsnaz trophicone,
+rplist.spetsnaz rplisth2,
+rplist.spetsnaz timevent a,
+prez.spetsnaz timevent a {
+	background-color: var(--spetsnaz);
+}
+inv.spetsnaz skilltitle,
+inv.spetsnaz asstitle {
+	color: var(--spetsnaz);
+}
+
+rplist.spetsnaz timetxt,
+prez.spetsnaz timetxt {
+	border-left: 3px solid var(--spetsnaz);
+}
+rplist.spetsnaz timetitle::before,
+prez.spetsnaz timetitle::before {
+	border: 2px solid var(--spetsnaz);
+}
+
+/*VRACH*/
+prez.vrach civname,
+prez.vrach civimg::before,
+prez.vrach profname,
+prez.vrach profimg::before,
+prez.vrach psyimg:before,
+prez.vrach lookimg:before,
+prez.vrach storimg:before,
+inv.vrach invh2,
+inv.vrach trophicone,
+rplist.vrach rplisth2,
+rplist.vrach timevent a,
+prez.vrach timevent a {
+	background-color: var(--vrach);
+}
+inv.vrach skilltitle,
+inv.vrach asstitle {
+	color: var(--vrach);
+}
+
+rplist.vrach timetxt,
+prez.vrach timetxt {
+	border-left: 3px solid var(--vrach);
+}
+rplist.vrach timetitle::before,
+prez.vrach timetitle::before {
+	border: 2px solid var(--vrach);
+}
+
+/*LYUDI*/
+prez.lyudi civname,
+prez.lyudi civimg::before,
+prez.lyudi profname,
+prez.lyudi profimg::before,
+prez.lyudi psyimg:before,
+prez.lyudi lookimg:before,
+prez.lyudi storimg:before,
+inv.lyudi invh2,
+inv.lyudi trophicone,
+rplist.lyudi rplisth2,
+rplist.lyudi timevent a,
+prez.lyudi timevent a {
+	background-color: var(--lyudi-bg);
+}
+inv.lyudi skilltitle,
+inv.lyudi asstitle {
+	color: var(--lyudi);
+}
+
+rplist.lyudi timetxt,
+prez.lyudi timetxt {
+	border-left: 3px solid var(--lyudi-bg);
+}
+rplist.lyudi timetitle::before,
+prez.lyudi timetitle::before {
+	border: 2px solid var(--lyudi-bg);
+}

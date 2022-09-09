@@ -1,0 +1,198 @@
+body {
+	background: var(--bg-mid);
+	color: var(--txt-clr);
+	font-family: var(--txt-font2);
+	font-size: var(--txt-size-normal);
+	padding: 0;
+	margin: 0;
+}
+* {
+	box-sizing: border-box;
+}
+a {
+	color: var(--txt-clr);
+	text-decoration: none;
+
+	transition:  all 0.3s ease-in;
+}
+header,
+main {
+	width: 645px;
+}
+header {
+	background-color: var(--bg-dark);
+	background-image: url(https://i.imgur.com/BJDC3bz.png);
+	background-repeat: no-repeat;
+	background-position: 570px 5px;
+	background-size: 60px;
+}
+ul {
+	padding: 0;
+	margin: 0;
+}
+li {
+	list-style: none;
+}
+.logo {
+	width: 18px;
+	height: 18px;
+	margin: 13.5px 28px;
+	object-fit: contain;
+}
+nav {
+	display: flex;
+	align-items: flex-end;
+}
+.nav ul {
+	display: flex;
+}
+.nav li a {
+	display: block;
+	border-radius: 4px 4px 0 0;
+	height: 28px;
+	width: 100px;
+	padding: 0 14px;
+	line-height: 28px;
+	position: relative;
+	font-size: var(--txt-size-small);
+	background-image: url(https://dl.dropbox.com/s/g9ru7027t3ah7md/navclose.svg?dl=0);
+	background-position: 83px 11px;
+	background-repeat: no-repeat;
+
+	transition:  all 0.3s ease-in;
+}
+	.nav li a::after {
+		position: absolute;
+		height: 14px;
+		width: 1px;
+		top: 8px;
+		right: 0;
+		content: " ";
+		background-color: var(--bg-light);
+	}
+	.nav li a:hover {
+		background-color: var(--bg-light);
+
+		transition:  all 0.3s ease-in;
+	}
+	.nav li:first-of-type a {
+		background-color: var(--bg-light);
+	}
+.navsearch {
+	background-color: var(--bg-light);
+	height: 44px;
+	display: flex;
+	padding: 0 15px;
+	align-items: center;
+}
+input {
+	border: none;
+	cursor: pointer;
+	background-size: contain;
+	width: 25px;
+    height: 45px;
+}
+.navsearch ul {
+	display: flex;
+}
+.navsearch li {
+	width: 25px;
+    height: 45px;
+    cursor: pointer;
+}
+.navsearch__bar {
+    flex-grow: 1;
+    min-width: 220px;
+    height: 34px;
+    line-height: 33px;
+    border-radius: 38px;
+    border: 1px solid var(--bg-dark);
+    padding-left: 35px;
+    background: url(https://i.imgur.com/iHZDVXK.png) no-repeat left center, url(https://i.imgur.com/bNIpLsW.png) no-repeat right center;
+}
+	.navsearch__bar a:hover {
+		color: var(--affordance);
+
+		transition:  all 0.3s ease-in;
+	}
+
+.header {
+	background: url(https://i.imgur.com/rN4J7gZ.gif) no-repeat center;
+	background-size: cover;
+	height: 250px;
+	display: flex;
+	flex-flow: column;
+	align-items: center;
+	justify-content: center;
+	text-transform: uppercase;
+	font-weight: 800;
+	text-align: center;
+}
+h1 {
+	font-size: var(--txt-size-huge);
+	padding: 0;
+	margin: 0;
+}
+.header p {
+	font-family: var(--txt-font1);
+	padding: 0;
+	margin: 0;
+}
+main {
+	padding: 40px 45px;
+	display: flex;
+	flex-flow: column;
+	gap: 20px;
+}
+strong {
+	color: var(--affordance);
+	font-weight: 800;
+}
+.content {
+	display: flex;
+	flex-flow: column;
+	gap: 30px;
+	line-height: 1.4;
+}
+.content p {
+	margin: 0;
+}
+.groupe {
+	display: flex;
+	justify-content: space-between;
+	margin-top: 10px;
+}
+.groupe li {
+	width: 110px;
+	display: flex;
+	flex-flow: column;
+	align-items: center;
+}
+.groupe__img {
+	width: 63px;
+	height: 63px;
+	margin-bottom: 10px;
+}
+.groupe__title {
+	font-family: var(--txt-font1);
+	text-transform: uppercase;
+	font-weight: 800;
+}
+	.groupe__title.geyster {
+		color: var(--geyster);
+	}
+	.groupe__title.spetsnaz {
+		color: var(--spetsnaz);
+	}
+	.groupe__title.vrach {
+		color: var(--vrach);
+	}
+	.groupe__title.lyudi {
+		color: var(--lyudi);
+	}
+.groupe__txt {
+	text-transform: lowercase;
+	font-size: var(--txt-size-mini);
+	word-break: break-word;
+	text-align: center;
+}

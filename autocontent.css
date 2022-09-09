@@ -1,0 +1,252 @@
+/*all tags and auto-fill content*/
+
+/*Compétences & assets*/
+/*img*/
+.reperage skillimg,
+.reperage assimg {
+	background: url(https://cdn.discordapp.com/attachments/891252228487274516/985149804579536947/un-prete-pour-un-rendu-02.png) center;
+	background-size: cover;
+}
+.relation skillimg,
+.relation assimg {
+	background: url(https://zupimages.net/up/21/42/m8j7.png) center;
+	background-size: cover;
+}
+.technologie skillimg,
+.technologie assimg {
+	background: url(https://zupimages.net/up/21/39/ltvw.png) center;
+	background-size: cover;
+}
+.mecanique skillimg,
+.mecanique assimg {
+	background: url(https://cdn.discordapp.com/attachments/872078258315857930/929686868054929408/unknown.png) center;
+	background-size: cover;
+}
+.hacking skillimg,
+.hacking assimg {
+	background: url(https://i.imgur.com/7dDXiop.jpg) center;
+	background-size: cover;
+}
+.securite skillimg,
+.securite assimg {
+	background: url(https://zupimages.net/up/22/03/82n1.png) center;
+	background-size: cover;
+}
+.violence skillimg,
+.violence assimg {
+	background: url(https://zupimages.net/up/21/39/c3dc.png) center;
+	background-size: cover;
+}
+.infiltration skillimg,
+.infiltration assimg {
+	background: url(https://i.imgur.com/LRF8GTa.png) center;
+	background-size: cover;
+}
+.diagnostic skillimg,
+.diagnostic assimg {
+	background: url(https://zupimages.net/up/21/39/5pih.png) center;
+	background-size: cover;
+}
+.urgence skillimg,
+.urgence assimg {
+	background: url(https://zupimages.net/up/21/42/5war.png) center;
+	background-size: cover;
+}
+.armeslourdes skillimg,
+.armeslourdes assimg {
+	background: url(https://zupimages.net/up/21/45/ktyk.png) center;
+	background-size: cover;
+}
+.eloquence skillimg,
+.eloquence assimg {
+	background: url(https://www.zupimages.net/up/21/48/vfl5.png) center;
+	background-size: cover;
+}
+
+/*niveaux*/
+invskill.lvl1 skillimg::before{
+	content: "Niveau 1";
+}
+invass.lvl1 assimg::before {
+	content: "Lvl1";
+}
+invskill.lvl2 skillimg::before {
+	content: "Niveau 2";
+}
+invass.lvl2 assimg::before {
+	content: "Lvl2";
+}
+invskill.lvl3 skillimg::before {
+	content: "Niveau 3";
+}
+invass.lvl3 assimg::before {
+	content: "Lvl3";
+}
+
+/*text*/
+invskill.reperage skilltitle::before,
+invass.reperage asstitle::before {
+	content: "Repérage";
+}
+invskill.reperage skilltxt::before {
+	content: "Vous êtes plus doués que la moitié de la population mondiale et savez enfin lire une carte. Ah, aussi en créer une en étant sur le terrain, ainsi que d'autres plans pouvant servir à diverses activités plus ou moins délictueuses. Parfait pour planifier les vols de sous-vêtements lors des soirées pyjama des voisines par exemple !";
+}
+invass.reperage asstxt::before {
+	content: "Les bases de données d'Outer Haven sont remplies de cartes détaillées du monde entier. Et elles sont maintenant disponibles à la location !";
+}
+
+invskill.relation skilltitle::before,
+invass.relation asstitle::before {
+	content: "Relation";
+}
+invskill.relation skilltxt::before {
+	content: "Vous connaissez des personnes qui connaissent d’autres personnes. Bon, n’imaginez pas que vous allez pouvoir faire la fête à Ibiza avec le reste de la Jet Set, mais des connaissances, ça ouvre des portes et certaines vous sont désormais ouvertes.";
+}
+invass.relation asstxt::before {
+	content: " ";
+}
+
+invskill.technologie skilltitle::before,
+invass.technologie asstitle::before {
+	content: "Technologie";
+}
+invskill.technologie skilltxt::before {
+	content: "Les plus gros modèles Lego ne seront plus que de la rigolade, les Mécano ? Des jeux d'enfants ! Vous êtes désormais capable de comprendre, monter et démonter des machines qui étaient à la pointe de la technologie... il y a dix ans. Ca n'en reste pas moins un bon début.";
+}
+invass.technologie asstxt::before {
+	content: " ";
+}
+
+invskill.mecanique skilltitle::before,
+invass.mecanique asstitle::before {
+	content: "Mécanique";
+}
+invskill.mecanique skilltxt::before {
+	content: "Plus qu’en rouler, il faut savoir comment les gérer. Vous apprenez à parler aux engrenages, à dribbler avec les clés de douze et à utiliser l’huile de moteur sans vous en foutre partout. C’est une base solide, qui vous permettra de comprendre toute mécanique basique. Et avec le temps, fera de vous un génie du tournevis !";
+}
+invass.mecanique asstxt::before {
+	content: " ";
+}
+
+invskill.hacking skilltitle::before,
+invass.hacking asstitle::before {
+	content: "Hacking";
+}
+invskill.hacking skilltxt::before {
+	content: "Hacker, n’importe qui de motivé avec une capacité d’apprentissage peut le faire. Ce qui distingue les vrais hackers des hobbyistes est la capacité d’entrer dans des systèmes protégés par ENV. Félicitations, vous en êtes désormais capable... parfois... ça dépend du système. Bon, vous n’allez pas pirater Fort Knox, mais c’est un bon début.";
+}
+invass.hacking asstxt::before {
+	content: " ";
+}
+
+invskill.securite skilltitle::before,
+invass.securite asstitle::before {
+	content: "Sécurité";
+}
+invskill.securite skilltxt::before {
+	content: "Caméra, détecteurs, lasers… Toutes ces choses dans le domaine de la sécurité sont devenues des bases solides de votre manière de penser. Et vous savez tant en abuser qu’en souffrir ! Avec le temps, cette connaissance fera de vous un spécialiste de l’esquive sécuritaire !";
+}
+invass.securite asstxt::before {
+	content: "Un expert en sécurité d'ENV vous loue ses services afin de gérer la sécurité d'un événement.";
+}
+
+invskill.violence skilltitle::before,
+invass.violence asstitle::before  {
+	content: "Violence";
+}
+invskill.violence skilltxt::before {
+	content: "Tout est dans le titre. Vous êtes le plus grand fan de Rambo et de Rocky, vous savez mettre des patates et avoir l'air intimidant malgré un accent autrichien immonde. Bon, pas forcément pour l'accent. Vous avez désormais la clé qui ouvre toutes les portes... une grande mandale dans la gueule. Gaffe par contre, la violence n'est pas une denrée rare.";
+}
+invass.violence asstxt::before {
+	content: " ";
+}
+
+invskill.infiltration skilltitle::before,
+invass.infiltration asstitle::before {
+	content: "Infiltration";
+}
+invskill.infiltration skilltxt::before {
+	content: "Cette fois-ci, si personne ne vous a rien offert à Noël ou ne vous a vu sur les photos de famille, c’est parce que c’était volontaire ! Vous êtes une ombre dans l’obscurité, capable de vous faufiler sans que personne ne vous voit ou ne vous entende !";
+}
+invass.infiltration asstxt::before {
+	content: " ";
+}
+
+invskill.diagnostic skilltitle::before,
+invass.diagnostic asstitle::before {
+	content: "Diagnostic";
+}
+invskill.diagnostic skilltxt::before {
+	content: "Vous avez tous joué au docteur quand vous étiez petits (et moins petits). Maintenant, vous avez les connaissances pour le faire réellement. Le corps humain a toujours des tas de secrets pour vous, mais vous savez le réparer en cas de souci...";
+}
+invass.diagnostic asstxt::before {
+	content: " ";
+}
+
+invskill.urgence skilltitle::before,
+invass.urgence asstitle::before {
+	content: "Urgence";
+}
+invskill.urgence skilltxt::before {
+	content: "Une suture ? Une blessure ouverte ? Pas de soucis. Avec une agrafeuse et du scotch, vous pouvez empêcher ce genre de blessure d’être mortelle, et laisser le temps au patient de tomber sur des personnes pouvant le soigner ! Peut-être sauriez-vous même faire un véritable bandage, avec de vraies fournitures médicales !";
+}
+invass.urgence asstxt::before {
+	content: " ";
+}
+
+invskill.armeslourdes skilltitle::before,
+invass.armeslourdes asstitle::before {
+	content: "Armes lourdes";
+}
+invskill.armeslourdes skilltxt::before {
+	content: "Que ce soit une Gatling ou un marteau avec un pan de C4 au bout, vous savez manier une arme lourde pour faire de sérieux dégâts ! Vous risquez sûrement de vous faire de vilaines douleurs aux lombaires, mais personne ne saura soulever votre lance-roquette anti-aérien comme vous !";
+}
+invass.armeslourdes asstxt::before {
+	content: " ";
+}
+
+invskill.eloquence skilltitle::before,
+invass.eloquence asstitle::before {
+	content: "Éloquence";
+}
+invskill.eloquence skilltxt::before {
+	content: "Quand on emballe bien le produit, on vend n’importe quoi. Vous roulez du verbe afin d’obtenir ce que vous voulez, et jouez de votre charme pour vous frayer des chemins vers vos objectifs ! Bon, vous ne risquez pas de vendre de la neige en hiver ou du feu dans une fournaise mais c’est un début !";
+}
+invass.eloquence asstxt::before {
+	content: " ";
+}
+
+/*Tags sujets*/
+tag.termine::before {
+	content: "Terminé";
+}
+tag.solo::before {
+	content: "Solo";
+}
+tag.neutre::before {
+	content: "Neutre";
+}
+tag.geyster::before {
+	content: "Geyster";
+}
+tag.spetsnaz::before {
+	content: "Spetsnaz";
+}
+tag.oxford::before {
+	content: "Oxford";
+}
+tag.skynet::before {
+	content: "Skynet";
+}
+tag.outerhaven::before {
+	content: "Outer Haven";
+}
+tag.env::before {
+	content: "ENV";
+}
+tag.vidocq::before {
+	content: "Vidocq";
+}
+tag.redmercy::before {
+	content: "Red Mercy";
+}
