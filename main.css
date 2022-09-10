@@ -928,9 +928,10 @@ opacity: 0 !important;
 								}
 								.chrono__title {
 									font-family: var(--txt-font1);
-									font-size: var(--txt-size-normal);
+									font-size: var(--txt-size-small);
 									text-transform: uppercase;
 									font-weight: 800;
+									margin-bottom: 5px;
 								}
 								.chrono__txt{
 									position: relative;
