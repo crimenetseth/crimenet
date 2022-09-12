@@ -2447,19 +2447,19 @@ relations {
 		opacity: .25;
 	}
 	invitem.banalcar::before {
-		background-image: url(https://i.imgur.com/SQ4nhGL.png);
+		background-image: url(https://dl.dropbox.com/s/6vh0m9pib5e4011/banalised%20delamain.svg?dl=0);
 	}
 	invitem.luxcar::before {
-		background-image: url(https://i.imgur.com/c2NZJkb.png);
+		background-image: url(https://dl.dropbox.com/s/kuejtcxt68lc7to/luxe%20delamain.svg?dl=0);
 	}
 	invitem.tankcar::before {
-		background-image: url(https://i.imgur.com/NRaOli2.png);
+		background-image: url(https://dl.dropbox.com/s/bmzuv30uidras3k/tank%20delamain.svg?dl=0);
 	}
 	invitem.house::before {
-		background-image: url(https://i.imgur.com/0rsnT80.png);
+		background-image: url(https://dl.dropbox.com/s/of8tw4uqdl9397x/house.svg?dl=0);
 	}
 	invitem.workplace::before {
-		background-image: url(https://i.imgur.com/m6AYpzY.png);
+		background-image: url(https://dl.dropbox.com/s/gne5xix8vmmdqpr/workplace.svg?dl=0);
 	}
 	.active invlabel,
 	.active invitem.banalcar::before,
