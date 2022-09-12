@@ -2436,12 +2436,13 @@ relations {
 	invitem.inv__vidocq::before,
 	invitem.inv__skynet::before {
 		position: absolute;
-		top: 0;
-		left: 0;
-		height: 45px;
-		width: 45px;
+		top: Calc(50% - 7.5px);
+		left: Calc(50% - 7.5px);
+		height: 15px;
+		width: 15px;
 		background-repeat: no-repeat;
 		background-position: center;
+		background-size: cover;
 		content: " ";
 		opacity: .25;
 	}
