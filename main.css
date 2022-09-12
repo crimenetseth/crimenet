@@ -234,7 +234,7 @@ opacity: 0 !important;
 		height: 45px;
 	}
 		.nav__logo {
-			background: url(https://dl.dropbox.com/s/zfvy94cufny731w/logo_crimenet_light.svg?dl=0) no-repeat center 15px;
+			background: url(https://crimenetseth.github.io/crimenet/svgs/logo_crimenet_light.svg) no-repeat center 15px;
 			background-size: 20px;
 			height: 48px;
 			width: 68px;
@@ -1210,7 +1210,7 @@ opacity: 0 !important;
 }
 .threadlist__container,
 .privmsgs__container {
-	background: url(https://i.imgur.com/BJDC3bz.png) no-repeat 1100px 16px, url(https://dl.dropbox.com/s/7uzpxzf55jtv8d8/folder.svg?dl=0) no-repeat 16px 16px;
+	background: url(https://i.imgur.com/BJDC3bz.png) no-repeat 1100px 16px, url(https://crimenetseth.github.io/crimenet/svgs/folder.svg) no-repeat 16px 16px;
 	background-color: var(--bg-dark);
 	margin-top: 50px;
 	width: 1200px;
@@ -1286,7 +1286,7 @@ opacity: 0 !important;
 		}
 			.threadlist__breadcrumbs__path,
 			.mp__breadcrumbs__path {
-				background: url(https://dl.dropbox.com/s/7uzpxzf55jtv8d8/folder.svg?dl=0) no-repeat 16px center;
+				background: url(https://crimenetseth.github.io/crimenet/svgs/folder.svg) no-repeat 16px center;
 				background-color: var(--bg-light);
 				min-width: 220px;
 				flex-grow: 1;
@@ -2447,19 +2447,19 @@ relations {
 		opacity: .25;
 	}
 	invitem.banalcar::before {
-		background-image: url(https://dl.dropbox.com/s/6vh0m9pib5e4011/banalised%20delamain.svg?dl=0);
+		background-image: url(https://crimenetseth.github.io/crimenet/svgs/assets/banalisedcar.svg);
 	}
 	invitem.luxcar::before {
-		background-image: url(https://dl.dropbox.com/s/kuejtcxt68lc7to/luxe%20delamain.svg?dl=0);
+		background-image: url(https://crimenetseth.github.io/crimenet/svgs/assets/luxcar.svg);
 	}
 	invitem.tankcar::before {
-		background-image: url(https://dl.dropbox.com/s/bmzuv30uidras3k/tank%20delamain.svg?dl=0);
+		background-image: url(https://crimenetseth.github.io/crimenet/svgs/assets/tankcar.svg);
 	}
 	invitem.house::before {
-		background-image: url(https://dl.dropbox.com/s/of8tw4uqdl9397x/house.svg?dl=0);
+		background-image: url(https://crimenetseth.github.io/crimenet/svgs/assets/house.svg);
 	}
 	invitem.workplace::before {
-		background-image: url(https://dl.dropbox.com/s/gne5xix8vmmdqpr/workplace.svg?dl=0);
+		background-image: url(https://crimenetseth.github.io/crimenet/svgs/assets/workplace.svg);
 	}
 	.active invlabel,
 	.active invitem.banalcar::before,
@@ -2493,19 +2493,19 @@ relations {
 		background-image: url(https://i.imgur.com/m6AYpzY.png);
 	}
 	invitem.inv__redmercy::before {
-		background-image: url(https://i.imgur.com/m6AYpzY.png);
+		background-image: url(https://crimenetseth.github.io/crimenet/svgs/affiliations/redmercy.svg);
 	}
 	invitem.inv__outerhaven::before {
-		background-image: url(https://dl.dropbox.com/s/3i6d39jatd68kuq/Outer%20Haven%201.svg?dl=0);
+		background-image: url(https://crimenetseth.github.io/crimenet/svgs/affiliations/outerhaven.svg);
 	}
 	invitem.inv__env::before {
-		background-image: url(https://dl.dropbox.com/s/c40qy9hcbmvp17o/ENV%201.svg?dl=0);
+		background-image: url(https://crimenetseth.github.io/crimenet/svgs/affiliations/env.svg);
 	}
 	invitem.inv__vidocq::before {
-		background-image: url(https://dl.dropbox.com/s/2ac4ejchqs2kshg/Vidocq%201.svg?dl=0);
+		background-image: url(https://crimenetseth.github.io/crimenet/svgs/affiliations/vidocq.svg);
 	}
 	invitem.inv__skynet::before {
-		background-image: url(https://dl.dropbox.com/s/zdhplyudnccep6b/Skynet%201.svg?dl=0);
+		background-image: url(https://crimenetseth.github.io/crimenet/svgs/affiliations/skynet.svg);
 	}
 	skillscontainer,
 	asscontainer {
@@ -2763,7 +2763,7 @@ relations {
 	left: -16px;
 	border-radius: 0;
 	border: none;
-	background: url(https://i.imgur.com/BJDC3bz.png) no-repeat 1100px 16px, url(https://dl.dropbox.com/s/7uzpxzf55jtv8d8/folder.svg?dl=0) no-repeat 16px 16px;
+	background: url(https://i.imgur.com/BJDC3bz.png) no-repeat 1100px 16px, url(https://crimenetseth.github.io/crimenet/svgs/folder.svg) no-repeat 16px 16px;
 	background-color: var(--bg-dark);
 }
 	#preview .h3 {
@@ -3168,10 +3168,10 @@ p.author {
 					transition:  all 0.15s ease-in;
 				}
 				.pa__staff__tab__staff__info__contact {
-					background-image: url(https://dl.dropbox.com/s/hbarqmg8k0kfld6/contacvt.svg?dl=0);
+					background-image: url(https://crimenetseth.github.io/crimenet/svgs/staff/contact.svg);
 				}
 				.pa__staff__tab__staff__info__profile {
-					background-image: url(https://dl.dropbox.com/s/nz3ixm0xgzx97mx/profile.svg?dl=0);
+					background-image: url(https://crimenetseth.github.io/crimenet/svgs/staff/profile.svg);
 					background-position: 8.5px 6px;
 				}
 				.pa__staff__tab__staff__info__profile:hover,
@@ -4011,7 +4011,7 @@ troph {
 	height: 70px;
 	width: 100%;
 	background-color: var(--bg-mid);
-	background-image: url(https://dl.dropbox.com/s/mtn4rdk585o8r30/trophy.svg?dl=0);
+	background-image: url(https://crimenetseth.github.io/crimenet/svgs/trophees/trophy.svg);
 	background-repeat: no-repeat;
 	background-position: 463px 10px;
 	border-radius: 4px;
@@ -4056,7 +4056,7 @@ troph {
 .mp__dossier {
 	width: 40px;
 	height: 40px;
-	background: url(https://dl.dropbox.com/s/7uzpxzf55jtv8d8/folder.svg?dl=0) no-repeat center;
+	background: url(https://crimenetseth.github.io/crimenet/svgs/folder.svg) no-repeat center;
 	background-size: contain;
 	position: relative;
 	top: 5px;
@@ -4106,7 +4106,7 @@ troph {
 		content: " ";
 		width: 8px;
 		height: 8px;
-		background: url(https://dl.dropbox.com/s/dz0p74udr2xpj8l/right.svg?dl=0) no-repeat center;
+		background: url(https://crimenetseth.github.io/crimenet/svgs/right.svg) no-repeat center;
 		background-size: contain;
 		transform: rotate(90deg);
 		margin: 6px;
