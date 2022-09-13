@@ -4117,6 +4117,9 @@ troph {
 	display: flex;
 	font-family: var(--txt-font2);
 }
+.mp__mess {
+	position: relative;
+}
 	.mp__nav__header::before,
 	.mp__mess__header::before {
 		content: " ";
@@ -4134,6 +4137,19 @@ troph {
 		margin: 10px;
 		flex-grow: 1;
 		background: var(--bg-light);
+	}
+
+	.mp__quicktool {
+		width: fit-content;
+		position: absolute;
+		top: -8px;
+		right: 0;
+		background: var(--bg-dark);
+		padding: 0 10px 0 17px;
+		font-size: var(--txt-size-small);
+		font-family: var(--txt-font2);
+		text-transform: uppercase;
+		line-height: 50px;
 	}
 
 	.mp__list__header {
