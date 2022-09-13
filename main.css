@@ -1810,7 +1810,12 @@ opacity: 0 !important;
 			}
 				.thread__message__profile__contact a {
 					width: 24px;
+					height: 24px;
 					background-color: var(--bg-dark);
+					border-radius: 4px;
+					display: flex;
+					align-items: center;
+					justify-content: center;
 				}
 	.thread__message__post {
 		width: 825px;
