@@ -4083,6 +4083,7 @@ troph {
 	flex-wrap: wrap;
 	padding: 0 40px;
 	float: none;
+	box-shadow: none;
 }
 	#privmsgs-menu li,
 	#privmsgs-menu li a {
