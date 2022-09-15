@@ -4240,3 +4240,15 @@ troph {
 	.mp__mess .right-box {
 		padding: 30px 40px 0;
 	}
+
+/*LOGIN ELEMENTS*/
+
+.user_login_form .fl_username,
+.user_login_form .fl_password {
+    padding: 10px 20px;
+    text-align: left;
+    border-radius: 38px;
+    background-color: var(--bg-dark);
+    border: none;
+    width: 295px;
+}
