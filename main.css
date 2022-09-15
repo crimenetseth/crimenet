@@ -4245,10 +4245,33 @@ troph {
 
 .user_login_form .fl_username,
 .user_login_form .fl_password {
-    padding: 10px 20px;
-    text-align: left;
-    border-radius: 38px;
-    background-color: var(--bg-dark);
-    border: none;
-    width: 295px;
+	padding: 10px 20px;
+	text-align: left;
+	border-radius: 38px;
+	background-color: var(--bg-dark);
+	border: none;
+	width: 2335px;
+}
+
+.user_login_form {
+	display: flex;
+	flex-flow: column;
+	align-items: flex-end;
+	width: 335px;
+	gap: 10px;
+	position: relative;
+}
+
+.user_login_form_container {
+	display: flex;
+	flex-flow: column;
+	gap: 10px;
+}
+
+.user_login_form_autologin {
+	position: absolute;
+	bottom: 4px;
+	left: 0;
+	text-transform: uppercase;
+	font-family: var(--txt-font2);
 }
