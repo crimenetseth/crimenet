@@ -2876,6 +2876,9 @@ fieldset dl:hover dt label {
 .posting__btns {
 	padding-top: 0 !important;
 }
+	.posting__btns .inner {
+		height: 34px;
+	}
 	.posting__btns__container {
 		margin: 0 auto !important;
 		display: flex;
