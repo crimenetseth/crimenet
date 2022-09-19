@@ -4368,9 +4368,7 @@ troph {
 			opacity: .5;
 		}
 
-		.profilepage__img::before {
-			content: " ";
-			display: block;
+		..profilpage_img_mix-blend  {
 			position: absolute;
 			top: 0;
 			left: 0;
