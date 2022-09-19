@@ -4631,6 +4631,7 @@ troph {
 	border-radius: 0;
 	border: none;
 	display: flex;
+	margin: 0 auto 25px;
 }
 
 .postprofile {
