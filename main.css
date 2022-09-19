@@ -2033,7 +2033,8 @@ rpimg,
 prezimg,
 invimg,
 rplistimg,
-relimg {
+relimg,
+majimg {
 	position: absolute;
 	top: 0;
 	left: -1px;
@@ -2043,7 +2044,8 @@ relimg {
 	prezimg::before,
 	invimg::before,
 	rplistimg::before,
-	relimg::before {
+	relimg::before,
+	majimg::before {
 		content: " ";
 		width: 826px;
 		height: 337px;
@@ -2057,7 +2059,8 @@ relimg {
 	prezimg img,
 	invimg img,
 	rplistimg img,
-	relimg img {
+	relimg img,
+	majimg img {
 		width: 826px;
 		height: 337px;
 		opacity: .5;
@@ -2067,7 +2070,8 @@ rpmain,
 prez,
 inv,
 rplist,
-relations {
+relations,
+majbody {
 	position: relative;
 	z-index: 1;	
 }
@@ -2161,7 +2165,8 @@ rpmain {
 			flex-wrap: wrap;
 		}
 /*fiche prez*/
-prez {
+prez,
+majbody {
 	display: flex;
 	flex-flow: column;
 	gap: 30px;
@@ -2319,20 +2324,24 @@ prez {
 	lookimg:before,
 	storimg,
 	storimg img,
-	storimg:before {
+	storimg:before,
+	majtitleimg img,
+	majtitleimg:before {
 		width: 100%;
 		height: 115px;
 	}
 	psyimg,
 	lookimg,
-	storimg {
+	storimg,
+	majtitleimg {
 		position: relative;
 		display: block;
 		background-color: var(--bg-dark);
 	}
 		psyimg:before,
 		lookimg:before,
-		storimg:before {
+		storimg:before,
+		majtitleimg:before {
 			position: absolute;
 			top: 0;
 			left: 0;
@@ -2342,7 +2351,8 @@ prez {
 		}
 		psyimg:after,
 		lookimg:after,
-		storimg:after {
+		storimg:after,
+		majtitleimg:after {
 			position: absolute;
 			top: 25px;
 			left: 45px;
@@ -2365,6 +2375,11 @@ prez {
 		storimg:after {
 			content: "Histoire";
 		}
+		/*** DATE DYNAMIQUE DANS MSG MAJ ***/
+		majtitleimg:after {
+			content: attr(data-date);
+		}
+
 	psyimg img,
 	lookimg img,
 	storimg img {
@@ -2373,7 +2388,8 @@ prez {
 	}
 	prez-psy,
 	prez-look,
-	prez-story {
+	prez-story,
+	majmsg {
 		display: flex;
 		flex-flow: column;
 		gap: 30px;
@@ -2389,7 +2405,8 @@ relh1 {
 }
 invh2,
 invh3,
-rplisth2 {
+rplisth2,
+majh2 {
 	display: block;
 	width: fit-content;
 	padding: 2px 10px;
@@ -2936,11 +2953,13 @@ p.author {
 .postingpreview__content invimg img,
 .postingpreview__content rplistimg img,
 .postingpreview__content relimg img,
+.postingpreview__content majimg img,
 .postingpreview__content rpimg::before,
-.postingpreview__content prezimg::before,
+.postingpreview__content majimg::before,
 .postingpreview__content invimg::before,
 .postingpreview__content rplistimg::before,
-.postingpreview__content relimg::before {
+.postingpreview__content relimg::before,
+.postingpreview__content majimg::before {
 	width: 1200px;
 }
 .postpage__details {
