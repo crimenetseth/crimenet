@@ -4640,7 +4640,7 @@ troph {
 }
 	.previewmsg__container {
 		width: 495px;
-		margin: 40 auto 0;
+		margin: 40px auto 0;
 		word-break: break-word;
 		font-size: var(--txt-size-normal);
 	}
