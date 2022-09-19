@@ -2869,7 +2869,7 @@ input.inputbox, select.inputbox {
 }
 
 input.inputbox, select.inputbox {
-	width: 650px important;
+	width: 650px !important;
 	left: 0;
 }
 .posting__group__field input {
