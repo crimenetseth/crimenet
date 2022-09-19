@@ -4637,6 +4637,7 @@ troph {
 .postinfo {
 	width: 195px;
 	background: var(--bg-mid);
+	font-size: var(--txt-size-normal);
 }
 	.previewmsg__container {
 		width: 495px;
