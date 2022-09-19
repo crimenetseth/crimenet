@@ -2856,10 +2856,7 @@ input.medium.posting__subject__title__input,
 dd.posting__group__field select,
 input.inputbox.posting__user__switch,
 input.inputbox.posting__user__switched,
-.posting__user input.inputbox,
-input.inputbox,
-select.inputbox,
-textarea.inputbox {
+.posting__user input.inputbox {
 	background: var(--bg-mid);
 	border-radius: 36px;
 	border: 1px solid var(--bg-dark);
@@ -2873,8 +2870,12 @@ textarea.inputbox {
 input.inputbox,
 select.inputbox,
 textarea.inputbox {
-	width: 650px !important;
-	left: 0;
+	background: var(--bg-mid);
+	border-radius: 36px;
+	border: 1px solid var(--bg-dark);
+	padding: 5px 15px;
+	font-family: var(--txt-font2);
+	width: 650px;
 }
 .posting__group__field input {
 	width: fit-content;
