@@ -2412,10 +2412,12 @@ majbody {
 
 	majmsg.left .majmsg__sandy {
 		left: -150px;
+		z-index: 99;
 	}
 
 	majmsg.right .majmsg__sandy {
 		right: -150px;
+		z-index: 99;
 	}
 
 	majmsg.left .container__maj {
