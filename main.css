@@ -4639,6 +4639,7 @@ troph {
 	width: 195px;
 	background: var(--bg-mid);
 	font-size: var(--txt-size-normal);
+	padding: 16px;
 }
 	.previewmsg__container {
 		width: 495px;
@@ -4646,3 +4647,9 @@ troph {
 		word-break: break-word;
 		font-size: var(--txt-size-normal);
 	}
+.previewmsg__ttl {
+	margin: 20px 0 5px;
+	font-family: var(--txt-font2);
+	text-transform: uppercase;
+	font-size: var(--txt-size-small);
+}
