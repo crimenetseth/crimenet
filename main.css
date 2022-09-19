@@ -2827,7 +2827,7 @@ relations {
 	border: none;
 	box-shadow: none;
 }
-.submit-buttons {
+.posting__btns__container {
 	margin: 0 auto;
 }
 .posting__user,
@@ -4404,17 +4404,17 @@ troph {
 			position: relative;
 			width: 825px;
 		}
-		.submit-buttons {
+		.submit__btns {
 			position: absolute;
 			top: 5px;
 			right: 35px;
 		}
-			.submit-buttons input {
+			.submit__btns input {
 				background-color: var(--bg-dark);
 
 				transition:  all 0.3s ease-in;
 			}
-			.submit-buttons input:hover {
+			.submit__btns input:hover {
 				background-color: var(--affordance);
 
 				transition:  all 0.3s ease-in;
@@ -4522,3 +4522,10 @@ troph {
 					text-transform: lowercase;
 					font-size: var(--txt-size-small);
 				}
+
+/*SUBSCRIBE PAGE*/
+#ucp .submit-buttons {
+	top: inherit;
+	bottom: 30px;
+	margin: 0;
+}
