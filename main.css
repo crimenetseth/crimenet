@@ -4619,6 +4619,19 @@ troph {
 	margin: 0;
 }
 
+/*MESSAGE RESEARCH*/
 .previewmsg {
 	position: relative;
+}
+
+.post {
+	box-shadow: none;
+	border-radius: 0;
+	border: none;
+	display: flex;
+}
+
+.postprofile {
+	width: 195px;
+	background: var(--bg-mid);
 }
