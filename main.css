@@ -4622,6 +4622,7 @@ troph {
 /*MESSAGE RESEARCH*/
 .previewmsg {
 	position: relative;
+	width: 825px;
 }
 
 .post {
