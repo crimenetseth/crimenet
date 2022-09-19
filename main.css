@@ -128,7 +128,7 @@ select {
 	}
 		.btn1,
 		.linklist__a,
-		input[type="submit"]:hover,
+		input[type="submit"],
 		.button:hover,
 		.button1:hover,
 		.button2:hover,
@@ -155,6 +155,7 @@ select {
 		.cat__fora__sub a,
 		.threadlist__actions__bottom__button.btn4,
 		.button2,
+		input[type="submit"]:hover,
 		.threadlist__actions__top a.btn3:hover,
 		.button1 {
 			background-color: var(--affordance);
@@ -1960,11 +1961,18 @@ opacity: 0 !important;
 			color: var(--txt-clr) !important;
 			padding-right: 0 !important;
 		}
-		.sceditor-container textarea {
+		
+		.quickreply__container .sceditor-container textarea {
 			height: 256px !important;
 			width: 860px !important;
 			padding-right: 10px !important;
 		}
+
+		.sceditor-container textarea {
+			width: 860px !important;
+			padding-right: 10px !important;
+		}
+
 		div.sceditor-toolbar {
 			border-radius: 0 !important;
 			background-color: var(--bg-mid) !important;
@@ -2413,12 +2421,12 @@ majbody {
 
 	majmsg.left .majmsg__sandy {
 		left: -150px;
-		z-index: 2;
+		z-index: 3;
 	}
 
 	majmsg.right .majmsg__sandy {
 		right: -150px;
-		z-index: 2;
+		z-index: 3;
 	}
 
 	majmsg.left .container__maj {
