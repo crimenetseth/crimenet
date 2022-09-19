@@ -1563,7 +1563,8 @@ opacity: 0 !important;
 				font-size: var(--txt-size-normal);
 				font-weight: 400;  			
 				color: var(--txt-clr);
-        padding: 6.5px 10px 6.5px 10px;
+        		padding: 6.5px 10px 6.5px 10px;
+				margin:0;
       }
 		.liste_membres_contenant_bouton {
 	  	display: flex;
@@ -2420,7 +2421,7 @@ majh2 {
 	border-radius: 4px;
 }
 
-majhv2 {
+majh2 {
 	background-color: var(--affordance)
 }
 
