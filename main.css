@@ -155,7 +155,8 @@ select {
 		.cat__fora__sub a,
 		.threadlist__actions__bottom__button.btn4,
 		.button2,
-		.threadlist__actions__top a.btn3:hover {
+		.threadlist__actions__top a.btn3:hover,
+		.button1 {
 			background-color: var(--affordance);
 			color: var(--txt-clr);
 		}
