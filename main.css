@@ -4261,6 +4261,7 @@ troph {
 .user_login_form .fl_username,
 .user_login_form .fl_password {
 	padding: 10px 20px;
+	margin: 0;
 	text-align: left;
 	border-radius: 38px;
 	background-color: var(--bg-dark);
