@@ -2418,6 +2418,11 @@ majh2 {
 	text-transform: uppercase;
 	border-radius: 4px;
 }
+
+majhv2 {
+	background-color: var(--affordance)
+}
+
 invh3 {
 	background-color: var(--bg-light);
 }
