@@ -4459,6 +4459,11 @@ troph {
 
 				transition:  all 0.3s ease-in;
 			}
+			.submit__btns .gen {
+				position: absolute;
+				top: 100px;
+				left: -570px;
+			}
 	.profilepage__main__links ul {
 		display: flex;
 		gap: 30px;
