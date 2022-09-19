@@ -2422,7 +2422,8 @@ majh2 {
 }
 
 majh2 {
-	background-color: var(--affordance)
+	background-color: var(--affordance);
+	width: Calc(100% + 30px);
 }
 
 invh3 {
