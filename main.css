@@ -2400,6 +2400,24 @@ majbody {
 		flex-flow: column;
 		gap: 30px;
 	}
+
+	majmsg {
+		position: relative;
+	}
+
+	.majmsg__sandy {
+		position: absolute;
+		top: 25px;
+	}
+
+	majmsg.left .majmsg__sandy {
+		left: -150px;
+	}
+
+	majmsg.right .majmsg__sandy {
+		right: -150px;
+	}
+
 invh1,
 rplisth1 {
 	margin-bottom: -30px;
@@ -2423,7 +2441,7 @@ majh2 {
 
 majh2 {
 	background-color: var(--affordance);
-	width: Calc(100% + 30px);
+	width: 100%;
 }
 
 invh3 {
