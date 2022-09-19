@@ -4510,7 +4510,8 @@ troph {
 						}
 						.profilepage__infos__icon.newbie::before,
 						.profilepage__infos__icon.crimenet::before,
-						.profilepage__infos__icon.bot::before {
+						.profilepage__infos__icon.bot::before,
+						.profilepage__infos__icon.off::before {
 							background-image: url(https://crimenetseth.github.io/crimenet/svgs/logo_crimenet_light.svg);
 						}
 						.profilepage__infos__icon.geyster::before {
