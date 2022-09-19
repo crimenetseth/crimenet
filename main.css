@@ -4622,7 +4622,7 @@ troph {
 /*MESSAGE RESEARCH*/
 .previewmsg {
 	position: relative;
-	width: 825px;
+	width: 825px !important;
 	background-color: var(--bg-dark);
 }
 
