@@ -2867,6 +2867,11 @@ input.inputbox, select.inputbox {
 	font-family: var(--txt-font2);
 	width: 950px;
 }
+
+input.inputbox, select.inputbox {
+	width: 650px important;
+	left: 0;
+}
 .posting__group__field input {
 	width: fit-content;
 	position: relative;
