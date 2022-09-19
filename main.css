@@ -2857,7 +2857,9 @@ dd.posting__group__field select,
 input.inputbox.posting__user__switch,
 input.inputbox.posting__user__switched,
 .posting__user input.inputbox,
-input.inputbox, select.inputbox {
+input.inputbox,
+select.inputbox,
+textarea.inputbox {
 	background: var(--bg-mid);
 	border-radius: 36px;
 	border: 1px solid var(--bg-dark);
@@ -2868,7 +2870,9 @@ input.inputbox, select.inputbox {
 	width: 950px;
 }
 
-input.inputbox, select.inputbox {
+input.inputbox,
+select.inputbox,
+textarea.inputbox {
 	width: 650px !important;
 	left: 0;
 }
