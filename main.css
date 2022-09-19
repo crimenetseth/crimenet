@@ -2375,6 +2375,10 @@ majbody {
 		storimg:after {
 			content: "Histoire";
 		}
+
+		majtitleimg:before {
+			background-color: var(--affordance)
+		}
 		/*** DATE DYNAMIQUE DANS MSG MAJ ***/
 		majtitleimg:after {
 			content: attr(data-date);
