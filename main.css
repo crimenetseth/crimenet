@@ -2856,7 +2856,8 @@ input.medium.posting__subject__title__input,
 dd.posting__group__field select,
 input.inputbox.posting__user__switch,
 input.inputbox.posting__user__switched,
-.posting__user input.inputbox {
+.posting__user input.inputbox,
+input.inputbox, select.inputbox {
 	background: var(--bg-mid);
 	border-radius: 36px;
 	border: 1px solid var(--bg-dark);
