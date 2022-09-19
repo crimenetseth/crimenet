@@ -2403,29 +2403,34 @@ majbody {
 
 	majmsg {
 		position: relative;
+		margin-top: 120px;
 	}
 
 	.majmsg__sandy {
 		position: absolute;
-		top: 25px;
+		top: -36px;
 	}
 
 	majmsg.left .majmsg__sandy {
 		left: -150px;
-		z-index: 99;
+		z-index: 2;
 	}
 
 	majmsg.right .majmsg__sandy {
 		right: -150px;
-		z-index: 99;
+		z-index: 2;
 	}
 
 	majmsg.left .container__maj {
+		width: Calc(100% - 50px);
+		
 		position: relative;
 		right: -50px;
 	}
 
 	majmsg.right .container__maj {
+		width: Calc(100% - 50px);
+
 		position: relative;
 	}
 
@@ -2452,7 +2457,7 @@ majh2 {
 
 majh2 {
 	background-color: var(--affordance);
-	width: 100%;
+	width: 80%;
 }
 
 invh3 {
@@ -2953,7 +2958,7 @@ fieldset dl:hover dt label {
 		margin: 0 auto !important;
 		display: flex;
 		gap: 10px;
-		flex-direction: row-reverse;
+		flex-direction: row;
 		justify-content: flex-end;
 	}
 .postingbox__container,
