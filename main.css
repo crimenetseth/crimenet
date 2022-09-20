@@ -3370,9 +3370,11 @@ p.author {
 						text-transform: lowercase;
 						line-height: 1.3;
 					}
-					.pa__staff__tit,
-					anonymtxt {
+					.pa__staff__tit {
 						background-color: var(--bg-dark);
+					}
+					anonymtxt {
+						background-color: var(--bg-mid);
 					}
 					.pa__staff__desc,
 					sandytxt {
