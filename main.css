@@ -2053,6 +2053,7 @@ mjimg {
 }
 mjimg {
 	filter: unset;
+	z-index: 0;
 }
 	rpimg::before,
 	prezimg::before,
