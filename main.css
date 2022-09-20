@@ -2052,7 +2052,7 @@ mjimg {
 	filter: grayscale(1);
 }
 mjimg {
-	filter: inherit;
+	filter: unset;
 }
 	rpimg::before,
 	prezimg::before,
