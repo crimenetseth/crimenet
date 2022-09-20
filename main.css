@@ -2272,6 +2272,13 @@ majbody {
 		width: 195px;
 		height: 221px;
 	}
+	sommaireimg,
+	sommaireimg img,
+	sommaireimg::before,
+	sommaireover {
+		width: 195px;
+		height: 221px;
+	}
 	civimg img,
 	profimg img,
 	sommaireimg img {
