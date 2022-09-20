@@ -2076,6 +2076,7 @@ mjimg {
 		width: 826px;
 		height: 337px;
 		background: var(--affordance);
+		mix-blend-mode: color;
 		position: absolute;
 		top: 0;
 		left: 0;
