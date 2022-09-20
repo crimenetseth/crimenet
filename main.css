@@ -2276,7 +2276,7 @@ majbody {
 	sommaireimg img,
 	sommaireimg::before,
 	sommaireover {
-		height:100%;
+		height:120px;
 		width:295px;
 	}
 	civimg img,
