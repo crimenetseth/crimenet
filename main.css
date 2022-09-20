@@ -4762,3 +4762,15 @@ sandyimg {
 		background: url(https://i.imgur.com/c1itovs.jpg) no-repeat center;
 		background-size: cover;
 	}
+
+anonymmain,
+sandymain {
+	display: flex;
+	flex-flow: column;
+	gap: 5px;
+}
+
+anonymtxt,
+sandytxt {
+	width: 350px;
+}
