@@ -3370,16 +3370,22 @@ p.author {
 						text-transform: lowercase;
 						line-height: 1.3;
 					}
-					.pa__staff__tit {
+					.pa__staff__tit,
+					anonymtxt {
 						background-color: var(--bg-dark);
 					}
-					.pa__staff__desc {
+					.pa__staff__desc,
+					sandytxt {
 						background-color: var(--affordance);
-						left: 30px;
 						text-align: right;
 					}
+					.pa__staff__desc {
+						left: 30px;
+					}
 						.pa__staff__tit::after,
-						.pa__staff__desc::after {
+						.pa__staff__desc::after,
+						sandytxt::after,
+						anonymtxt::after {
 							width: 6px;
 							height: 6px;
 							transform: rotate(45deg);
@@ -3387,11 +3393,13 @@ p.author {
 							position: absolute;
 							bottom: -3px;
 						}
-						.pa__staff__tit::after {
+						.pa__staff__tit::after,
+						anonymtxt::after {
 							background-color: var(--bg-dark);
 							left: 10px;
 						}
-						.pa__staff__desc::after {
+						.pa__staff__desc::after,
+						sandytxt::pa__staff__tab__container {
 							background-color: var(--bg-dark);
 							background-color: var(--affordance);
 							right: 10px;
@@ -4724,4 +4732,25 @@ troph {
 	font-size: var(--txt-size-small);
 	position: relative;
 	left: 75px;
+}
+
+/*FAQ*/
+anonym {
+	float: left;
+}
+sandy {
+	float: right;
+}
+anonym,
+sandy {
+	display: flex;
+	align-items: flex-end;
+	gap: 10px;
+}
+
+anonymimg,
+sandyimg {
+	width: 25px;
+	height: 25px;
+	border-radius: 100%;
 }
