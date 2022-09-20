@@ -3404,7 +3404,7 @@ p.author {
 							left: 10px;
 						}
 						.pa__staff__desc::after,
-						sandytxt::pa__staff__tab__container {
+						sandytxt::after {
 							background-color: var(--affordance);
 							right: 10px;
 						}
@@ -4764,6 +4764,7 @@ sandyimg {
 	anonymimg {
 		background: url(https://crimenetseth.github.io/crimenet/svgs/anonym.svg) no-repeat center;
 		background-size: 80%;
+		background-color: var(--bg-light);
 	}
 	sandyimg {
 		background: url(https://i.imgur.com/c1itovs.jpg) no-repeat center;
@@ -4774,7 +4775,7 @@ anonymain,
 sandymain {
 	display: flex;
 	flex-flow: column;
-	gap: 5px;
+	gap: 1px;
 }
 
 anonymtxt,
@@ -4782,6 +4783,16 @@ sandytxt {
 	width: 350px;
 	position: relative;
 	border-radius: 4px;
+	padding: 5px 10px;
+}
+
+sandyname {
+	text-align: right;
+}
+sandyname,
+anonymname {
+	font-size: var(--txt-size-small);
+	opacity: .7;
 }
 
 sandyname::before {
