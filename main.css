@@ -4749,6 +4749,9 @@ sandy {
 	align-items: flex-end;
 	gap: 10px;
 }
+sandy {
+	flex-flow: row-reverse;
+}
 
 anonymimg,
 sandyimg {
@@ -4758,14 +4761,14 @@ sandyimg {
 }
 	anonymimg {
 		background: url(https://crimenetseth.github.io/crimenet/svgs/anonym.svg) no-repeat center;
-		background-size: contain;
+		background-size: 80%;
 	}
 	sandyimg {
 		background: url(https://i.imgur.com/c1itovs.jpg) no-repeat center;
 		background-size: cover;
 	}
 
-anonymmain,
+anonymain,
 sandymain {
 	display: flex;
 	flex-flow: column;
@@ -4775,4 +4778,8 @@ sandymain {
 anonymtxt,
 sandytxt {
 	width: 350px;
+}
+
+sandyname {
+	content: "Sandy";
 }
