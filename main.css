@@ -3395,14 +3395,16 @@ p.author {
 							position: absolute;
 							bottom: -3px;
 						}
-						.pa__staff__tit::after,
-						anonymtxt::after {
+						.pa__staff__tit::after {
 							background-color: var(--bg-dark);
+							left: 10px;
+						}
+						anonymtxt::after {
+							background-color: var(--bg-mid);
 							left: 10px;
 						}
 						.pa__staff__desc::after,
 						sandytxt::pa__staff__tab__container {
-							background-color: var(--bg-dark);
 							background-color: var(--affordance);
 							right: 10px;
 						}
@@ -4778,8 +4780,10 @@ sandymain {
 anonymtxt,
 sandytxt {
 	width: 350px;
+	position: relative;
+	border-radius: 4px;
 }
 
-sandyname {
+sandyname::before {
 	content: "Sandy";
 }
