@@ -4754,3 +4754,11 @@ sandyimg {
 	height: 25px;
 	border-radius: 100%;
 }
+	anonymimg {
+		background: url(https://crimenetseth.github.io/crimenet/svgs/anonym.svg) no-repeat center;
+		background-size: contain;
+	}
+	sandyimg {
+		background: url(https://i.imgur.com/c1itovs.jpg) no-repeat center;
+		background-size: cover;
+	}
