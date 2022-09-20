@@ -2051,6 +2051,9 @@ mjimg {
 	left: -1px;
 	filter: grayscale(1);
 }
+mjimg {
+	filter: inherit;
+}
 	rpimg::before,
 	prezimg::before,
 	invimg::before,
