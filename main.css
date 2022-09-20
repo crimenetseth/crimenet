@@ -4738,7 +4738,13 @@ troph {
 	left: 75px;
 }
 
-/*FAQ*/
+/*BUBBLE CHAT*/
+faq {
+	display: flex;
+	flex-flow: column;
+	gap: 20px;
+}
+
 anonym {
 	float: left;
 }
