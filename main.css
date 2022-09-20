@@ -2044,7 +2044,8 @@ prezimg,
 invimg,
 rplistimg,
 relimg,
-majimg {
+majimg,
+mjimg {
 	position: absolute;
 	top: 0;
 	left: -1px;
@@ -2055,7 +2056,8 @@ majimg {
 	invimg::before,
 	rplistimg::before,
 	relimg::before,
-	majimg::before {
+	majimg::before,
+	mjimg::before {
 		content: " ";
 		width: 826px;
 		height: 337px;
@@ -2070,7 +2072,8 @@ majimg {
 	invimg img,
 	rplistimg img,
 	relimg img,
-	majimg img {
+	majimg img,
+	mjimg img {
 		width: 826px;
 		height: 337px;
 		opacity: .5;
@@ -2175,19 +2178,22 @@ rpmain {
 			gap: 5px 15px;
 			flex-wrap: wrap;
 		}
-/*fiche annonce staff*/
-annonce {
+/*fiches staff*/
+annonce,
+mjmain {
 	display: flex;
 	flex-flow: column;
 	gap: 20px;
 }
 
-annoncetxt {
+annoncetxt,
+mjtxt {
 	display: block;
 	position: relative;
 	padding-bottom: 30px;
 }
-	annoncetxt::after {
+	annoncetxt::after,
+	mjtxt::after {
 		content: " ";
 		width: 20px;
 		height: 20px;
@@ -2198,6 +2204,19 @@ annoncetxt {
 		left: Calc(50% - 10px);
 		top: 25px;
 	}
+
+mjinfo {
+	display: block;
+	padding: 3px 10px;
+	background-color: var(--affordance);
+	border-radius: 4px;
+	font-family: var(--txt-font2);
+	font-size: var(--txt-size-small);
+	text-transform: uppercase;
+	position: absolute;
+	top: 10px;
+	right: 40px;
+}
 
 /*fiche prez*/
 prez,
