@@ -2401,24 +2401,27 @@ majbody {
 	lookimg:before,
 	storimg,
 	storimg img,
-	storimg:before,
+	storimg::before,
 	majtitleimg img,
-	majtitleimg:before {
+	majtitleimg::before,
+	mjcharimg,
+	mjcharimg img {
 		width: 100%;
 		height: 115px;
 	}
 	psyimg,
 	lookimg,
 	storimg,
-	majtitleimg {
+	majtitleimg,
+	mjarchimg {
 		position: relative;
 		display: block;
 		background-color: var(--bg-dark);
 	}
-		psyimg:before,
-		lookimg:before,
+		psyimg::before,
+		lookimg::before,
 		storimg:before,
-		majtitleimg:before {
+		majtitleimg::before {
 			position: absolute;
 			top: 0;
 			left: 0;
@@ -2426,10 +2429,11 @@ majbody {
 			mix-blend-mode: color;
 			z-index: 1;
 		}
-		psyimg:after,
-		lookimg:after,
-		storimg:after,
-		majtitleimg:after {
+		psyimg::after,
+		lookimg::after,
+		storimg::after,
+		majtitleimg::after;
+		mjcharname {
 			position: absolute;
 			top: 25px;
 			left: 45px;
@@ -2443,21 +2447,25 @@ majbody {
 			font-family: var(--txt-font2);
 			z-index: 2;
 		}
-		psyimg:after {
+		psyimg::after {
 			content: "Profil Psychologique";
 		}
-		lookimg:after {
+		lookimg::after {
 			content: "Description Physique";
 		}
-		storimg:after {
+		storimg::after {
 			content: "Histoire";
 		}
 
-		majtitleimg:before {
+		majtitleimg::before {
 			background-color: var(--affordance)
 		}
+
+		mjcharimg img {
+			opacity: .5;
+		}
 		/*** DATE DYNAMIQUE DANS MSG MAJ ***/
-		majtitleimg:after {
+		majtitleimg::after {
 			content: attr(data-date);
 		}
 
