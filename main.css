@@ -2432,7 +2432,7 @@ majbody {
 		psyimg::after,
 		lookimg::after,
 		storimg::after,
-		majtitleimg::after;
+		majtitleimg::after,
 		mjcharname {
 			position: absolute;
 			top: 25px;
