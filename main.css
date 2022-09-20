@@ -2461,6 +2461,11 @@ majbody {
 			background-color: var(--affordance)
 		}
 
+		mjcharming {
+			display: block;
+			position: relative;
+			margin: 20px 0;
+		}
 		mjcharimg img {
 			opacity: .5;
 		}
