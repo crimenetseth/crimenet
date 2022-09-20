@@ -2162,7 +2162,8 @@ rpmain {
 		rptitle,
 		invh1,
 		rplisth1,
-		relh1 {
+		relh1,
+		annoncetitle {
 			font-size: var(--txt-size-title);
 			font-weight: 800;
 			line-height: 1.3;
@@ -2174,6 +2175,27 @@ rpmain {
 			gap: 5px 15px;
 			flex-wrap: wrap;
 		}
+/*fiche annonce staff*/
+annonce {
+	display: flex;
+	flex-flow: column;
+	gap: 20px;
+}
+
+annoncetxt {
+	display: block;
+	position: relative;
+}
+	annoncetxt::after {
+		content: " ";
+		width: 20px;
+		height: 20px;
+		display: block;
+		background: url(https://crimenetseth.github.io/crimenet/svgs/logo_crimenet_light.svg) no-repeat center;
+		background-size: contain;
+		position: relative;
+	}
+
 /*fiche prez*/
 prez,
 majbody {
