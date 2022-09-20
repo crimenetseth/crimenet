@@ -2099,7 +2099,8 @@ prez,
 inv,
 rplist,
 relations,
-majbody {
+majbody,
+sommaire {
 	position: relative;
 	z-index: 1;	
 }
@@ -2243,13 +2244,15 @@ mjinfo {
 
 /*fiche prez*/
 prez,
-majbody {
+majbody,
+sommaire {
 	display: flex;
 	flex-flow: column;
 	gap: 30px;
 }
 	prez-civ,
-	prez-profil {
+	prez-profil,
+	sommairebody {
 		display: flex;
 		font-family: var(--txt-font2);
 		gap: 30px;
