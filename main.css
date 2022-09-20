@@ -2273,25 +2273,30 @@ majbody {
 		height: 221px;
 	}
 	civimg img,
-	profimg img {
+	profimg img,
+	sommaireimg img {
 		object-fit: cover;
 		opacity: .5;
 	}
 	civimg,
-	profimg {
+	profimg,
+	sommaireimg {
 		position: relative;
 		background-color: var(--bg-dark);
 	}
 	civimg::before,
 	civimg::after,
 	profimg::before,
-	profimg::after {
+	profimg::after,
+	sommaireimg::before,
+	sommaireimg::after {
 		position: absolute;
 		bottom: 0;
 		left: 0;
 	}
 	civimg::before,
-	profimg::before {
+	profimg::before,
+	sommaireimg::before {
 		content: " ";
 		mix-blend-mode: color;
 		z-index: 1;
@@ -2304,8 +2309,13 @@ majbody {
 		content: "Online";
 		left: 180px;
 	}
+	sommaireimg::after {
+		content: "Table of Content";
+		left: 180px;
+	}
 	civimg::after,
-	profimg::after {
+	profimg::after,
+	sommaireimg::after {
 		font-size: var(--txt-size-inter);
 		text-transform: uppercase;
 		background-color: var(--bg-trans);
@@ -2324,6 +2334,10 @@ majbody {
 	profimg::after {
 		height: 165px;
 		width: 191px;
+	}
+	sommaireimg::after {
+		height:100%;
+		width:295px;
 	}
 	civinfo,
 	profinfo {
@@ -4816,4 +4830,9 @@ anonymname {
 
 sandyname::before {
 	content: "Sandy";
+}
+
+/** SOMMAIRE **/
+sommairebody {
+	font-family: var(--txt-font2);	
 }
