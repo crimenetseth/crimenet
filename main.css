@@ -2185,6 +2185,7 @@ annonce {
 annoncetxt {
 	display: block;
 	position: relative;
+	padding-bottom: 30px;
 }
 	annoncetxt::after {
 		content: " ";
@@ -2194,6 +2195,8 @@ annoncetxt {
 		background: url(https://crimenetseth.github.io/crimenet/svgs/logo_crimenet_light.svg) no-repeat center;
 		background-size: contain;
 		position: relative;
+		left: Calc(50% - 10px);
+		top: 25px;
 	}
 
 /*fiche prez*/
