@@ -2071,17 +2071,6 @@ mjimg {
 		left: 0;
 		z-index: 2;
 	}
-	mjimg::after {
-		content: " ";
-		width: 826px;
-		height: 337px;
-		background: var(--affordance);
-		mix-blend-mode: color;
-		position: absolute;
-		top: 0;
-		left: 0;
-		z-index: 1;
-	}
 	rpimg img,
 	prezimg img,
 	invimg img,
@@ -2192,6 +2181,9 @@ rpmain {
 		}
 		mjtitle {
 			margin-top: 120px;
+		}
+		mjtitle.solo {
+			margin: 0;
 		}
 		rpplayer {
 			display: flex;
