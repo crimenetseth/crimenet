@@ -9408,6 +9408,21 @@ somhead {
 	text-align: center;
 }
 
+somflex {
+    display: flex;
+	gap: 10px;
+    align-items: center;
+
+    font-family: var(--txt-font2);
+}
+
+sommaireimg,
+sommaireimg img,
+sommaireimg::before,
+sommaireover {
+		width: 80px;
+	}
+
 /*FICHE CASSES*/
 casse {
 	display: block;
