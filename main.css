@@ -9429,9 +9429,11 @@ cassecontainer {
 	casseinfodiff,
 	casseinfomoney {
 		width: 180px;
+		height: 60px;
 		background-color: var(--bg-dark);
 		border-radius: 4px;
 		display: flex;
+		flex-flow: column;
 		justify-content: center;
 		align-items: center;
 	}
