@@ -389,8 +389,8 @@ newbie {
 	z-index: 1;
 }
 .crimestats {
-	top: 15px;
-	left: Calc(50% - 56px);
+	top: 25px;
+	left: Calc(50% - 42px);
 	gap: 20px;
 }
 .crimegroups {
