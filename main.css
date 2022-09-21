@@ -6655,7 +6655,8 @@ prez,
 inv,
 rplist,
 relations,
-majbody {
+majbody,
+som {
 	position: relative;
 	z-index: 1;	
 }
