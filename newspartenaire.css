@@ -433,6 +433,7 @@ newbie {
 		border-radius: 4px;
 		padding: 2px 5px;
 		display: flex;
+		font-family: var(--txt-font1);
 	}
 		.geyster {
 			color: var(--geyster);
@@ -476,6 +477,7 @@ newbie {
 			.lyudi::after {
 				color: var(--txt-clr);
 				font-weight: 400;
+				font-family: var(--txt-font2);
 			}
 			.geyster::after {
 				content: "Geyster";
