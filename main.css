@@ -2207,8 +2207,7 @@ prez {
 		height: 221px;
 	}
 	civimg img,
-	profimg img,
-	sommaireimg img {
+	profimg img {
 		object-fit: cover;
 		opacity: .5;
 	}
@@ -2245,7 +2244,7 @@ prez {
 	}
 	sommaireimg::after {
 		content: "Sommaire";
-		left: 80px;
+		left: 62px;
 	}
 	civimg::after,
 	profimg::after,
@@ -2270,8 +2269,8 @@ prez {
 		width: 191px;
 	}
 	sommaireimg::after {
-		min-width: 140px;
-		height: 65px
+		min-width: 100px;
+		height: 45px
 	}
 	
 	
@@ -9425,6 +9424,8 @@ sommaireimg img,
 sommaireimg::before,
 sommaireover {
 		width: 80px;
+		
+		background-color: var(--affordance);
 	}
 
 /*FICHE CASSES*/
