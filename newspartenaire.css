@@ -268,7 +268,8 @@ crimetitle {
 geyster,
 spetsnaz,
 vrach,
-lyudi {
+lyudi,
+newbie {
 	border-radius: 4px;
 	font-size: var(--txt-size-mini);
 	font-family: var(--txt-font2);
@@ -286,4 +287,7 @@ lyudi {
 	}
 	lyudi {
 		background-color: var(--lyudi-bg);
+	}
+	newbie {
+		background-color: var(--bg-dark);
 	}
