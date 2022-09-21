@@ -9451,20 +9451,26 @@ cassecontainer {
 			content: "Payement";
 		}
 
-	casseobjectif::before,
-	cassecondition::before,
-	cassederoulement::before {
-		display: block;
-		text-transform: uppercase;
-		font-size: var(--txt-size-small);
-		font-family: var(--txt-font2);
+	cassetxt {
+		display: flex;
+		flex-flow: column;
+		gap: 20px;
 	}
-		casseobjectif::before {
-			content: "Objectif";
-		}
-		cassecondition::before {
-			content: "Conditions";
-		}
+		casseobjectif::before,
+		cassecondition::before,
 		cassederoulement::before {
-			content: "Déroulement";
+			display: block;
+			text-transform: uppercase;
+			font-size: var(--txt-size-small);
+			font-family: var(--txt-font2);
+			font-weight: 800;
 		}
+			casseobjectif::before {
+				content: "Objectif";
+			}
+			cassecondition::before {
+				content: "Conditions";
+			}
+			cassederoulement::before {
+				content: "Déroulement";
+			}
