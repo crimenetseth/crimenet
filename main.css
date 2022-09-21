@@ -9434,9 +9434,41 @@ sommaireimg img,
 sommaireimg::before,
 sommaireover {
 		width: 80px;
-		
 		background-color: var(--affordance);
 	}
+
+/* BLOC MISSION */
+misstitle {
+	display: block;
+	width: 100%;
+	background-color: var(--affordance);
+	border-radius: 4px;
+	padding: 2px 10px;
+	font-family: var(--txt-font2);
+	text-transform: uppercase;
+}
+
+misstitre:before {
+	display: block;
+	text-transform: uppercase;
+	line-height: .85;
+}
+	misstitre:before {
+		content: "Titre";
+	}
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /*FICHE CASSES*/
 casse {
