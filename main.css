@@ -9448,10 +9448,6 @@ misstitle {
 	text-transform: uppercase;
 }
 
-misscontent {
-	padding: 10px;
-}
-
 misstitre,
 misscode,
 misscmmd,
@@ -9463,6 +9459,10 @@ missgain {
 	text-transform: uppercase;
 }
 
+misslocation,
+missmask {
+	font-weight: bold;
+}
 
 
 
