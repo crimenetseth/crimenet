@@ -387,6 +387,7 @@ newbie {
 	display: flex;
 	position: absolute;
 	z-index: 1;
+	flex-flow: column;
 }
 .crimestats {
 	top: 0;
@@ -396,17 +397,26 @@ newbie {
 	top: 0;
 	right: 0;
 }
-	.crimemembers {
+	.crimemembers,
+	.messages {
 		font-size: var(--txt-size-title);
 		font-weight: 800;
 		display: flex;
 		align-items: center;
 		justify-content: center;
+		flex-flow: column;
 	}
-		.crimemembers::before {
+		.crimemembers::before,
+		.messages::before {
 			display: block;
 			content: " ";
 			width: 30px;
 			height: 30px;
+		}
+		.crimemembers::before {
 			background: url(https://crimenetseth.github.io/crimenet/svgs/members.svg) no-repeat center;
+		}
+		.crimemembers::before,
+		.messages::before {
+			background: url(https://crimenetseth.github.io/crimenet/svgs/sujets.svg) no-repeat center;
 		}
