@@ -382,3 +382,22 @@ newbie {
 		.redmercy::after {
 			background-image: url(https://crimenetseth.github.io/crimenet/svgs/affiliations/redmercy.svg);
 		}
+.crimestats,
+.crimegroups {
+	display: flex;
+	position: absolute;
+	z-index: 1;
+}
+	crimemembers {
+		font-size: var(--txt-size-title);
+		font-weight: 800;
+		display: flex;
+		align-items: center;
+		justify-content: center;
+	}
+		crimemembers::before {
+			display: block;
+			width: 30px;
+			height: 30px;
+			background: url(https://crimenetseth.github.io/crimenet/svgs/members.svg);
+		}
