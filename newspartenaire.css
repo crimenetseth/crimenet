@@ -153,6 +153,7 @@ crimenet li {
 	position: relative;
 }
 .crimeheader::before {
+	content: " ";
 	width: 100%;
 	height: 250px;
 	position: absolute;
@@ -241,10 +242,6 @@ crimenet strong {
 						background: url(https://i.imgur.com/WG7Chf0.png) center;
 						background-size: cover;
 					}
-				.crimenavsearchbar__symbols__home {
-					background: url(https://i.imgur.com/wnIp1te.png) center;
-					background-size: cover;
-				}
 		.crimenavsearchbar__bar {
 			flex-grow: 1;
 			min-width: 220px;
