@@ -6664,6 +6664,9 @@ prez-civ,
 som {
 	margin-top: 120px;
 }
+som {
+	display: block;
+}
 /*tags*/
 geystertag,
 spetsnaztag,
