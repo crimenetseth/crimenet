@@ -9448,14 +9448,12 @@ misstitle {
 	text-transform: uppercase;
 }
 
-misstitre:before {
-	display: block;
+misstitre {
 	text-transform: uppercase;
-	line-height: .85;
+	font-family: var(--txt-font2);
+    text-transform: uppercase;
 }
-	misstitre:before {
-		content: "Titre";
-	}
+
 
 
 
