@@ -421,7 +421,7 @@ newbie {
 			background: url(https://crimenetseth.github.io/crimenet/svgs/sujets.svg) no-repeat center;
 		}
 	.crimegroups li {
-		width: 120px;
+		width: 140px;
 		text-transform: uppercase;
 		list-style: none;
 		display: flex;
