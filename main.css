@@ -9441,12 +9441,23 @@ sommaireover {
 misstitle {
 	display: block;
 	width: 100%;
-	background-color: var(--affordance);
 	border-radius: 4px;
 	padding: 2px 10px;
 	font-family: var(--txt-font2);
 	text-transform: uppercase;
+
+	background-color: var(--affordance);
 }
+
+	.missneutre {
+		background-color: var(--lyudi-bg);
+	}
+	.missgeyster {
+		background-color: var(--geyster);
+	}
+	.missgeyster {
+		background-color: var(--spetsnaz);
+	}
 
 misstitre,
 misscode,
