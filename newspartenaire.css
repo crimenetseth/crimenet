@@ -416,7 +416,6 @@ newbie {
 		.crimemembers::before {
 			background: url(https://crimenetseth.github.io/crimenet/svgs/members.svg) no-repeat center;
 		}
-		.crimemembers::before,
 		.messages::before {
 			background: url(https://crimenetseth.github.io/crimenet/svgs/sujets.svg) no-repeat center;
 		}
