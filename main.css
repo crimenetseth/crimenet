@@ -9421,16 +9421,16 @@ customtitle {
 }
 
 	.cstmTlyudi {
-		background-color: var(--lyudi-bg);
+		color: var(--lyudi-bg);
 	}
 	.cstmTgeyster {
-		background-color: var(--geyster);
+		color: var(--geyster);
 	}
 	.cstmTspetsnaz {
-		background-color: var(--spetsnaz);
+		color: var(--spetsnaz);
 	}
 	.cstmTvrach {
-		background-color: var(--vrach);
+		color: var(--vrach);
 	}
 
 somflex {
@@ -9461,14 +9461,17 @@ misstitle {
 	background-color: var(--affordance);
 }
 
-	.missneutre {
+	.missNeutre {
 		background-color: var(--lyudi-bg);
 	}
-	.missgeyster {
+	.missGeyster {
 		background-color: var(--geyster);
 	}
-	.missgeyster {
+	.missSpetsnaz {
 		background-color: var(--spetsnaz);
+	}
+	.missVrach {
+		background-color: var(--vrach);
 	}
 
 misstitre,
