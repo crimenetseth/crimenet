@@ -292,3 +292,60 @@ newbie {
 		background-color: var(--txt-clr);
 		color: var(--bg-dark);
 	}
+
+.oxford,
+.skynet,
+.outerhaven,
+.env,
+.vidocq,
+.redmercy {
+	width: 255px;
+	height: 50px;
+	background-color: var(--bg-dark);
+	padding-left: 60px;
+	border-radius: 4px;
+}
+	.oxford::before,
+	.skynet::before,
+	.outerhaven::before,
+	.env::before,
+	.vidocq::before,
+	.redmercy::before {
+		text-transform: uppercase;
+		display: block;
+	}
+		.oxford::before {
+			content: "Oxford";
+		}
+		.skynet::before {
+			content: "Skynet";
+		}
+		.outerhaven::before {
+			content: "Outer Haven";
+		}
+		.env::before {
+			content: "ENV";
+		}
+		.vidocq::before {
+			content: "Vidocq";
+		}
+		.redmercy::before {
+			content: "Red Mercy";
+		}
+	.oxford::after,
+	.skynet::after,
+	.outerhaven::after,
+	.env::after,
+	.vidocq::after,
+	.redmercy::after {
+		width: 50px;
+		height: 50px;
+		background-color: var(--bg-light);
+		border-radius: 4px;
+		background-size: 25px;
+		background-position: center;
+		content: " ";
+		position: absolute;
+		top: 0;
+		left: ;
+	}
