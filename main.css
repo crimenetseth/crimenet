@@ -9384,3 +9384,26 @@ sandyname::before {
 sommaire {
 	font-family: var(--txt-font2);	
 }
+
+/*FICHE CASSES*/
+casse {
+	display: block;
+	background: var(--bg-mid);
+	border-radius: 4px;
+}
+
+cassetitle {
+	display: block;
+  background: url(https://i.imgur.com/BJDC3bz.png) no-repeat 100px 10px;
+  background-size: 56px 10px;
+  text-transform: uppercase;
+  font-family: var(--txt-font2);
+  font-size: var(--txt-size-small);
+}
+	cassetitle::before {
+		content: " ";
+		width: 15px;
+		height: 15px;
+		background: url(https://crimenetseth.github.io/crimenet/svgs/groupes/geyster_clr.svg) no-repeat center;
+		background-size: contain;
+	}
