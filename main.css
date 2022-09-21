@@ -9420,6 +9420,18 @@ customtitle {
 	text-align: center;
 }
 
+	.cstmTlyudi {
+		background-color: var(--lyudi-bg);
+	}
+	.cstmTgeyster {
+		background-color: var(--geyster);
+	}
+	.cstmTspetsnaz {
+		background-color: var(--spetsnaz);
+	}
+	.cstmTvrach {
+		background-color: var(--vrach);
+	}
 
 somflex {
     display: flex;
@@ -9474,19 +9486,6 @@ misslocation,
 missmask {
 	font-weight: bold;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /*FICHE CASSES*/
 casse {
