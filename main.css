@@ -2043,7 +2043,8 @@ rpimg,
 prezimg,
 invimg,
 rplistimg,
-relimg {
+relimg,
+somimg {
 	position: absolute;
 	top: 0;
 	left: -1px;
@@ -2053,7 +2054,8 @@ relimg {
 	prezimg::before,
 	invimg::before,
 	rplistimg::before,
-	relimg::before {
+	relimg::before,
+	somimg::before {
 		content: " ";
 		width: 826px;
 		height: 337px;
@@ -2067,7 +2069,8 @@ relimg {
 	prezimg img,
 	invimg img,
 	rplistimg img,
-	relimg img {
+	relimg img,
+	somimg img {
 		width: 826px;
 		height: 337px;
 		opacity: .5;
@@ -2950,7 +2953,8 @@ p.author {
 .postingpreview__content prezimg::before,
 .postingpreview__content invimg::before,
 .postingpreview__content rplistimg::before,
-.postingpreview__content relimg::before {
+.postingpreview__content relimg::before,
+.postingpreview__content somimg::before {
 	width: 1200px;
 }
 .postpage__details {
