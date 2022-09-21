@@ -9421,7 +9421,7 @@ cassecontainer {
 	display: flex;
 	padding: 0 45px;
 	flex-flow: column;
-	gap: 20;
+	gap: 20px;
 }
 	casseinfo {
 		display: flex;
