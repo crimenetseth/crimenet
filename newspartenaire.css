@@ -264,3 +264,26 @@ crimetitle {
 	border-radius: 4px;
 	background-color: var(--affordance);
 }
+
+geyster,
+spetsnaz,
+vrach,
+lyud {
+	border-radius: 4px;
+	font-size: var(--txt-size-mini);
+	font-family: var(--txt-font2);
+	text-transform: uppercase;
+	padding: 1px 5px;
+}
+	geyster {
+		background-color: var(--geyster);
+	}
+	spetsnaz {
+		background-color: var(--spetsnaz);
+	}
+	vrach {
+		background-color: var(--vrach);
+	}
+	lyudi {
+		background-color: var(--lyudi-bg);
+	}
