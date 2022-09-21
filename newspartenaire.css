@@ -396,14 +396,14 @@ newbie {
 	top: 0;
 	right: 0;
 }
-	crimemembers {
+	.crimemembers {
 		font-size: var(--txt-size-title);
 		font-weight: 800;
 		display: flex;
 		align-items: center;
 		justify-content: center;
 	}
-		crimemembers::before {
+		.crimemembers::before {
 			display: block;
 			content: " ";
 			width: 30px;
