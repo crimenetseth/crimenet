@@ -9415,7 +9415,7 @@ customtitle {
 	font-size: var(--txt-size-title);
 	font-weight: 800;
 	line-height: 1.3;
-	color: attr(data-couleur);
+	color: var(--affordance);
 	text-transform: uppercase;
 	text-align: center;
 }
