@@ -188,9 +188,6 @@ crimenet strong {
 	font-weight: 800;
 }
 .crimecontent {
-	display: flex;
-	flex-flow: column;
-	gap: 30px;
 	line-height: 1.4;
 }
 .crimecontent p {
