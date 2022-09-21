@@ -420,3 +420,40 @@ newbie {
 		.messages::before {
 			background: url(https://crimenetseth.github.io/crimenet/svgs/sujets.svg) no-repeat center;
 		}
+	.crimegroups li {
+		width: 120px;
+		text-transform: uppercase;
+		list-style: none;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		gap: 5px;
+		background-color: var(--bg-dark);
+		border-radius: 4px;
+		padding: 2px 5px;
+		display: flex;
+	}
+		.geyster {
+			color: var(--geyster);
+		}
+			.geyster::before,
+			.spetsnaz::before,
+			.vrach::before,
+			.lyudi::before {
+				content: " ";
+				width: 12px;
+				height: 12px;
+				display: block;
+			}
+			.geyster::before {
+				background: url(https://crimenetseth.github.io/crimenet/svgs/groupes/geyster.svg);
+			}
+			.spetsnaz::before {
+				background: url(https://crimenetseth.github.io/crimenet/svgs/groupes/spetsnaz.svg);
+			}
+			.vrach::before {
+				background: url(https://crimenetseth.github.io/crimenet/svgs/groupes/vrach.svg);
+			}
+			.lyudi::before {
+				background: url(https://crimenetseth.github.io/crimenet/svgs/groupes/lyudi.svg);
+			}
