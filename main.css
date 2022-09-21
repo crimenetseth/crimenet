@@ -1908,6 +1908,16 @@ opacity: 0 !important;
 					.thread__message__post__content img {
 						max-width: 100%;
 					}
+					.thread__message__post__content a {
+						color: var(--affordance);
+
+						transition:  all 0.3s ease-in;
+					}
+					.thread__message__post__content a:hover {
+						color: var(--txt-clr);
+
+						transition:  all 0.3s ease-in;
+					}
 	.thread__botactions {
 		display: flex;
 		flex-flow: column;
