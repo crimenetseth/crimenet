@@ -41,6 +41,11 @@ crimenet a {
 
 	transition:  all 0.3s ease-in;
 }
+crimenet a:hover {
+	color: var(--affordance);
+
+	transition:  all 0.3s ease-in;
+}
 crimeheader {
 	background-color: var(--bg-dark);
 	background-image: url(https://i.imgur.com/BJDC3bz.png);
@@ -249,3 +254,13 @@ crimenet strong {
 			padding-left: 35px;
 			background: url(https://i.imgur.com/iHZDVXK.png) no-repeat left center, url(https://i.imgur.com/bNIpLsW.png) no-repeat right center;
 		}
+
+crimetitle {
+	display: block;
+	width: fit-content;
+	padding: 2px 10px;
+	font-family: var(--txt-font2);
+	text-transform: uppercase;
+	border-radius: 4px;
+	background-color: var(--affordance);
+}
