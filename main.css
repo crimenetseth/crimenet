@@ -1908,12 +1908,14 @@ opacity: 0 !important;
 					.thread__message__post__content img {
 						max-width: 100%;
 					}
-					.thread__message__post__content a {
+					.thread__message__post__content a,
+					.postingpreview__content a {
 						color: var(--affordance);
 
 						transition:  all 0.3s ease-in;
 					}
-					.thread__message__post__content a:hover {
+					.thread__message__post__content a:hover,
+					.postingpreview__content a:hover {
 						color: var(--txt-clr);
 
 						transition:  all 0.3s ease-in;
@@ -2084,7 +2086,8 @@ relations {
 	position: relative;
 	z-index: 1;	
 }
-prez-civ {
+prez-civ,
+som {
 	margin-top: 120px;
 }
 /*tags*/
@@ -2267,7 +2270,8 @@ prez {
 		width: 191px;
 	}
 	sommaireimg::after {
-		width: 80px;
+		min-width: 140px;
+		height: 65px
 	}
 	
 	
