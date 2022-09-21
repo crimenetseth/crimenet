@@ -349,3 +349,21 @@ newbie {
 		top: 0;
 		left: ;
 	}
+		.oxford::after {
+			background-image: url(https://crimenetseth.github.io/crimenet/svgs/affiliations/oxford.svg);
+		}
+		.skynet::after {
+			background-image: url(https://crimenetseth.github.io/crimenet/svgs/affiliations/skynet.svg);
+		}
+		.outerhaven::after {
+			background-image: url(https://crimenetseth.github.io/crimenet/svgs/affiliations/outerhaven.svg);
+		}
+		.env::after {
+			background-image: url(https://crimenetseth.github.io/crimenet/svgs/affiliations/env.svg);
+		}
+		.vidocq::after {
+			background-image: url(https://crimenetseth.github.io/crimenet/svgs/affiliations/vidocq.svg);
+		}
+		.redmercy::after {
+			background-image: url(https://crimenetseth.github.io/crimenet/svgs/affiliations/redmercy.svg);
+		}
