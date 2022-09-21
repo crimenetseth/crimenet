@@ -9448,10 +9448,19 @@ misstitle {
 	text-transform: uppercase;
 }
 
-misstitre {
-	text-transform: uppercase;
+misscontent {
+	padding: 10px;
+}
+
+misstitre,
+misscode,
+misscmmd,
+missobjctf,
+misscondition,
+missgain {
 	font-family: var(--txt-font2);
-    text-transform: uppercase;
+	font-weight: 800;
+	text-transform: uppercase;
 }
 
 
