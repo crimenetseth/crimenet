@@ -9402,7 +9402,8 @@ sommaire {
 	font-family: var(--txt-font2);	
 }
 
-somhead {
+somhead,
+customtitle {
 	font-size: var(--txt-size-title);
 	font-weight: 800;
 	line-height: 1.3;
