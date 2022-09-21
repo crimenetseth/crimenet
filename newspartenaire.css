@@ -388,6 +388,14 @@ newbie {
 	position: absolute;
 	z-index: 1;
 }
+.crimestats {
+	top: 0;
+	left: 0;
+}
+.crimegroups {
+	top: 0;
+	right: 0;
+}
 	crimemembers {
 		font-size: var(--txt-size-title);
 		font-weight: 800;
