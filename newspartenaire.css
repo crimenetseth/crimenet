@@ -459,16 +459,16 @@ newbie {
 				background-repeat: no-repeat;
 			}
 			.geyster::before {
-				background-image: url(https://crimenetseth.github.io/crimenet/svgs/groupes/geysterclr.svg);
+				background-image: url(https://crimenetseth.github.io/crimenet/svgs/groupes/geyster_clr.svg);
 			}
 			.spetsnaz::before {
-				background-image: url(https://crimenetseth.github.io/crimenet/svgs/groupes/spetsnazclr.svg);
+				background-image: url(https://crimenetseth.github.io/crimenet/svgs/groupes/spetsnaz_clr.svg);
 			}
 			.vrach::before {
-				background-image: url(https://crimenetseth.github.io/crimenet/svgs/groupes/vrachclr.svg);
+				background-image: url(https://crimenetseth.github.io/crimenet/svgs/groupes/vrach_clr.svg);
 			}
 			.lyudi::before {
-				background-image: url(https://crimenetseth.github.io/crimenet/svgs/groupes/lyudiclr.svg);
+				background-image: url(https://crimenetseth.github.io/crimenet/svgs/groupes/lyudi_clr.svg);
 			}
 			.geyster::after,
 			.spetsnaz::after,
