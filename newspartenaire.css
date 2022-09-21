@@ -263,6 +263,7 @@ crimetitle {
 	text-transform: uppercase;
 	border-radius: 4px;
 	background-color: var(--affordance);
+	margin: 10px 0 5px 0;
 }
 
 geyster,
@@ -292,6 +293,14 @@ newbie {
 		background-color: var(--txt-clr);
 		color: var(--bg-dark);
 	}
+
+.crimeaccred {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	gap: 10px;
+	margin: 20px 0;
+}
 
 .oxford,
 .skynet,
@@ -349,7 +358,7 @@ newbie {
 		content: " ";
 		position: absolute;
 		top: 0;
-		left: ;
+		left: 0;
 	}
 		.oxford::after {
 			background-image: url(https://crimenetseth.github.io/crimenet/svgs/affiliations/oxford.svg);
