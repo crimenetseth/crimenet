@@ -1,0 +1,197 @@
+:root {
+	--bg-light: #303030;
+	--bg-mid: #272727;
+	--bg-dark: #1E1E1E;
+	--bg-trans: rgba(27, 27, 27, 0.7);
+
+	--txt-clr: #EFEFEF;
+	--txt-font1: "Open Sans", sans-serif;
+	--txt-font2:  "Supply", monospace;
+	--txt-size-mini: 10px;
+	--txt-size-small: 12px;
+	--txt-size-normal: 14px;
+	--txt-size-inter: 18px;
+	--txt-size-title: 24px;
+	--txt-size-huge: 35px;
+
+	--affordance: #7A45EC;
+	--geyster: #377EBC;
+	--spetsnaz: #CF3D3D;
+	--vrach: #E076D2;
+	--lyudi: #A7D49B;
+	--lyudi-bg: #80a177;
+}
+
+crimenet {
+	background: var(--bg-mid);
+	color: var(--txt-clr);
+	font-family: var(--txt-font2);
+	font-size: var(--txt-size-normal);
+	padding: 0;
+	margin: 0 auto;
+	display: block;
+	width: 645px;
+}
+* {
+	box-sizing: border-box;
+}
+crimenet a {
+	color: var(--txt-clr);
+	text-decoration: none;
+
+	transition:  all 0.3s ease-in;
+}
+crimeheader {
+	background-color: var(--bg-dark);
+	background-image: url(https://i.imgur.com/BJDC3bz.png);
+	background-repeat: no-repeat;
+	background-position: 570px 5px;
+	background-size: 60px;
+	display: block;
+}
+crimenet ul {
+	padding: 0;
+	margin: 0;
+}
+crimenet li {
+	list-style: none;
+}
+.logo {
+	width: 18px;
+	height: 18px;
+	margin: 13.5px 28px;
+	object-fit: contain;
+}
+.crimenav {
+	display: flex;
+	align-items: flex-end;
+}
+.crimenav ul {
+	display: flex;
+}
+.crimenav li a {
+	display: block;
+	border-radius: 4px 4px 0 0;
+	height: 28px;
+	width: 100px;
+	padding: 0 14px;
+	line-height: 28px;
+	position: relative;
+	font-size: var(--txt-size-small);
+	background-image: url(https://dl.dropbox.com/s/g9ru7027t3ah7md/navclose.svg?dl=0);
+	background-position: 83px 11px;
+	background-repeat: no-repeat;
+
+	transition:  all 0.3s ease-in;
+}
+	.crimenav li a::after {
+		position: absolute;
+		height: 14px;
+		width: 1px;
+		top: 8px;
+		right: 0;
+		content: " ";
+		background-color: var(--bg-light);
+	}
+	.crimenav li a:hover {
+		background-color: var(--bg-light);
+
+		transition:  all 0.3s ease-in;
+	}
+	.crimenav li:first-of-type a {
+		background-color: var(--bg-light);
+	}
+.crimenavsearch {
+	background-color: var(--bg-light);
+	height: 44px;
+	display: flex;
+	padding: 0 15px;
+	align-items: center;
+}
+.crimenavsearch input {
+	border: none;
+	cursor: pointer;
+	background-size: contain;
+	width: 25px;
+    height: 45px;
+}
+.crimenavsearch ul {
+	display: flex;
+}
+.crimenavsearch li {
+	width: 25px;
+    height: 45px;
+    cursor: pointer;
+}
+.crimenavsearch__bar {
+    flex-grow: 1;
+    min-width: 220px;
+    height: 34px;
+    line-height: 33px;
+    border-radius: 38px;
+    border: 1px solid var(--bg-dark);
+    padding-left: 35px;
+    background: url(https://i.imgur.com/iHZDVXK.png) no-repeat left center, url(https://i.imgur.com/bNIpLsW.png) no-repeat right center;
+}
+	.navsearch__bar a:hover {
+		color: var(--affordance);
+
+		transition:  all 0.3s ease-in;
+	}
+
+.crimeheader {
+	background: url(https://i.imgur.com/TEDsgjp.png) no-repeat center;
+	background-size: cover;
+	height: 250px;
+	display: flex;
+	flex-flow: column;
+	align-items: center;
+	justify-content: center;
+	text-transform: uppercase;
+	font-weight: 800;
+	text-align: center;
+	position: relative;
+}
+.crimeheader::before {
+	width: 100%;
+	height: 250px;
+	position: absolute;
+	top: 0;
+	left: 0;
+	background-color: var(--affordance);
+	mix-blend-mode: color;
+}
+.crimeh1 {
+	font-size: var(--txt-size-huge);
+	padding: 0;
+	margin: 0;
+	position: relative;
+	z-index: 1;
+}
+.crimeheadp {
+	font-family: var(--txt-font1);
+	padding: 0;
+	margin: 0;
+	position: relative;
+	z-index: 1;
+}
+crimemain {
+	padding: 40px 45px;
+	display: flex;
+	flex-flow: column;
+	gap: 20px;
+	display: block;
+}
+crimenet strong {
+	color: var(--affordance);
+	font-weight: 800;
+}
+.crimecontent {
+	display: flex;
+	flex-flow: column;
+	gap: 30px;
+	line-height: 1.4;
+}
+.crimecontent p {
+	margin: 0;
+}
