@@ -195,3 +195,63 @@ crimenet strong {
 .crimecontent p {
 	margin: 0;
 }
+
+	.crimenavsearchbar {
+		background-color: var(--bg-light);
+		display: flex;
+		align-items: center;
+		justify-content: space-around;
+		gap: 15px;
+		box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
+	}
+		.crimenavsearchbar__symbols ul {
+			display: flex;
+			margin-left: 11px;
+		}
+			.crimenavsearchbar__symbols li {
+				width: 25px;
+				height: 45px;
+				cursor: pointer;
+			}
+				.crimenavsearchbar__symbols li input {
+					width: 25px;
+					height: 45px;
+				}
+					.crimenavsearchbar__symbols__back--btn {
+						background: url(https://i.imgur.com/ezrE3zL.png) center;
+
+						transition:  all 0.3s ease-in;
+					}
+						.crimenavsearchbar__symbols__back--btn:hover {
+							background: url(https://i.imgur.com/VMMgOxC.png) center;
+
+						transition:  all 0.3s ease-in;
+						}
+					.crimenavsearchbar__symbols__next--btn {
+						background: url(https://i.imgur.com/rmsHk1b.png) center;
+
+						transition:  all 0.3s ease-in;
+					}
+						.crimenavsearchbar__symbols__next--btn:hover {
+							background: url(https://i.imgur.com/vmhYRGN.png) center;
+
+						transition:  all 0.3s ease-in;
+						}
+					.crimenavsearchbar__symbols__refresh--btn {
+						background: url(https://i.imgur.com/WG7Chf0.png) center;
+						background-size: cover;
+					}
+				.crimenavsearchbar__symbols__home {
+					background: url(https://i.imgur.com/wnIp1te.png) center;
+					background-size: cover;
+				}
+		.crimenavsearchbar__bar {
+			flex-grow: 1;
+			min-width: 220px;
+			height: 34px;
+			line-height: 33px;
+			border-radius: 38px;
+			border: 1px solid var(--bg-dark);
+			padding-left: 35px;
+			background: url(https://i.imgur.com/iHZDVXK.png) no-repeat left center, url(https://i.imgur.com/bNIpLsW.png) no-repeat right center;
+		}
