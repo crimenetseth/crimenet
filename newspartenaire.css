@@ -475,6 +475,7 @@ newbie {
 			.vrach::after,
 			.lyudi::after {
 				color: var(--txt-clr);
+				font-weight: 400;
 			}
 			.geyster::after {
 				content: "Geyster";
