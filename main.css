@@ -9385,6 +9385,18 @@ sommaire {
 	font-family: var(--txt-font2);	
 }
 
+somhead {
+	display: flex;
+	flex-flow: column;
+	gap: 15px;
+
+	font-size: var(--txt-size-title);
+		font-weight: 800;
+		line-height: 1.3;
+		color: var(--affordance);
+		text-transform: uppercase;
+}
+
 /*FICHE CASSES*/
 casse {
 	display: block;
