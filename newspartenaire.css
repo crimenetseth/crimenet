@@ -395,8 +395,9 @@ newbie {
 	gap: 20px;
 }
 .crimegroups {
-	top: 0;
-	right: 0;
+	top: 65px;
+	right: 30px;
+	gap: 10px;
 }
 	.crimemembers,
 	.messages {
@@ -436,6 +437,15 @@ newbie {
 		.geyster {
 			color: var(--geyster);
 		}
+		.spestnaz {
+			color: var(--spestnaz);
+		}
+		.vrach {
+			color: var(--vrach);
+		}
+		.lyudi {
+			color: var(--lyudi);
+		}
 			.geyster::before,
 			.spetsnaz::before,
 			.vrach::before,
@@ -444,16 +454,37 @@ newbie {
 				width: 12px;
 				height: 12px;
 				display: block;
+				background-size: contain;
+				background-position: center;
+				background-repeat: no-repeat;
 			}
 			.geyster::before {
-				background: url(https://crimenetseth.github.io/crimenet/svgs/groupes/geyster.svg);
+				background-image: url(https://crimenetseth.github.io/crimenet/svgs/groupes/geysterclr.svg);
 			}
 			.spetsnaz::before {
-				background: url(https://crimenetseth.github.io/crimenet/svgs/groupes/spetsnaz.svg);
+				background-image: url(https://crimenetseth.github.io/crimenet/svgs/groupes/spetsnazclr.svg);
 			}
 			.vrach::before {
-				background: url(https://crimenetseth.github.io/crimenet/svgs/groupes/vrach.svg);
+				background-image: url(https://crimenetseth.github.io/crimenet/svgs/groupes/vrachclr.svg);
 			}
 			.lyudi::before {
-				background: url(https://crimenetseth.github.io/crimenet/svgs/groupes/lyudi.svg);
+				background-image: url(https://crimenetseth.github.io/crimenet/svgs/groupes/lyudiclr.svg);
+			}
+			.geyster::after,
+			.spetsnaz::after,
+			.vrach::after,
+			.lyudi::after {
+				color: var(--txt-clr);
+			}
+			.geyster::after {
+				content: "Geyster";
+			}
+			.spetsnaz::after {
+				content: "spetsnaz";
+			}
+			.vrach::after {
+				content: "vrach";
+			}
+			.lyudi::after {
+				content: "lyudi";
 			}
