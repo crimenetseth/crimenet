@@ -304,6 +304,7 @@ newbie {
 	background-color: var(--bg-dark);
 	padding-left: 60px;
 	border-radius: 4px;
+	position: relative;
 }
 	.oxford::before,
 	.skynet::before,
