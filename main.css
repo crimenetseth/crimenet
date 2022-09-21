@@ -6660,7 +6660,8 @@ som {
 	position: relative;
 	z-index: 1;	
 }
-prez-civ {
+prez-civ,
+som {
 	margin-top: 120px;
 }
 /*tags*/
