@@ -390,8 +390,9 @@ newbie {
 	flex-flow: column;
 }
 .crimestats {
-	top: 0;
-	left: 0;
+	top: 65px;
+	left: 70px;
+	gap: 20px;
 }
 .crimegroups {
 	top: 0;
