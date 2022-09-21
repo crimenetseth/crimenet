@@ -289,5 +289,6 @@ newbie {
 		background-color: var(--lyudi-bg);
 	}
 	newbie {
-		background-color: var(--bg-dark);
+		background-color: var(--txt-clr);
+		color: var(--bg-dark);
 	}
