@@ -9419,7 +9419,7 @@ cassetitle {
 
 cassecontainer {
 	display: flex;
-	padding: 0 45px;
+	padding: 0 45px 40px;
 	flex-flow: column;
 	gap: 20px;
 }
@@ -9449,4 +9449,22 @@ cassecontainer {
 		}
 		casseinfomoney::before{
 			content: "Payement";
+		}
+
+	casseobjectif::before,
+	cassecondition::before,
+	cassederoulement::before {
+		display: block;
+		text-transform: uppercase;
+		font-size: var(--txt-size-small);
+		font-family: var(--txt-font2);
+	}
+		casseobjectif::before {
+			content: "Objectif";
+		}
+		cassecondition::before {
+			content: "Conditions";
+		}
+		cassederoulement::before {
+			content: "Déroulement";
 		}
