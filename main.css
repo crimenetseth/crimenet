@@ -9720,3 +9720,47 @@ bounty {
 				bountybarprogress.btybar__green {
 					background-color: var(--lyudi);
 				}
+/*TUTO DE SANDY*/
+tutobasebbl {
+	display: flex;
+	justify-content: space-between;
+}
+	tutobasebbl div {
+		height: 26px;
+		width: 150px;
+		display: flex;
+		align-items: center;
+		font-family: var(--txt-font2);
+		text-transform: uppercase;
+		font-size: var(--txt-size-small);
+		background-color: var(--bg-light);
+		flex-wrap: wrap;
+	}
+	tutobasebbl div.usa,
+	tutobasebbl div.rp {
+		width: 225px;
+	}
+	tutobasebbl div::before {
+		display: block;
+		content: " ";
+		width: 15px;
+		height: 15px;
+		background-repeat: no-repeat;
+		background-position: center;
+		background-size: contain;
+	}
+	tutobasebbl div.age18::before {
+		background-image: url(https://crimenetseth.github.io/crimenet/svgs/tuto/18.svg);
+	}
+	tutobasebbl div.year::before {
+		background-image: url(https://crimenetseth.github.io/crimenet/svgs/tuto/calendar.svg);
+	}
+	tutobasebbl div.money::before {
+		background-image: url(https://crimenetseth.github.io/crimenet/svgs/tuto/money.svg);
+	}
+	tutobasebbl div.usa::before {
+		background-image: url(https://crimenetseth.github.io/crimenet/svgs/tuto/nuclear.svg);
+	}
+	tutobasebbl div.rp::before {
+		background-image: url(https://crimenetseth.github.io/crimenet/svgs/tuto/map.svg);
+	}
