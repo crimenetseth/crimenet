@@ -19193,6 +19193,8 @@ bounty {
 				justify-content: center;
 				transform-origin: bottom left;
 				transform: rotate(-90deg);
+				width: 276px;
+				height: 64px;
 				position: absolute;
 				bottom: 30px;
 				left: Calc(64px + 28px);
