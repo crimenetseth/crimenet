@@ -9873,6 +9873,7 @@ tutobasebbl {
 				padding: 0 19px 0 9px;
 				font-family: var(--txt-font2);
 				font-size: var(--txt-size-mini);
+				text-transform: lowercase;
 
 				transition:  all 0.3s ease-in;
 			}
@@ -9883,11 +9884,11 @@ tutobasebbl {
 			}
 			tutoli a::after {
 				content: " ";
-				top: 3px;
+				top: 5px;
 				right: 4px;
-				width: 5px;
+				width: 6px;
 				height: 5px;
-				background: url(https://i.imgur.com/8pzUbbX.png) no-repeat 18px 5px;
+				background: url(https://i.imgur.com/8pzUbbX.png) no-repeat center;
 				background-size: 5px;
 				background-color: var(--bg-light);
 			}
