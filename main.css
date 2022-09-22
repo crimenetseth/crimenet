@@ -176,6 +176,11 @@ select {
 			box-shadow: none;
 		}
 
+		input[type="submit"],
+		input[type="submit"]:hover {
+			transition:  all 0.3s ease-in;
+		}
+
 /*TOOLBAR TWEAK*/
 #notif_list { /* Menu déroulant des notifications */
     top: 250px;
@@ -4742,6 +4747,9 @@ select {
 		.button1:hover,
 		.button2:hover {
 			box-shadow: none;
+		}
+		input[type="submit"] {
+
 		}
 
 /*TOOLBAR TWEAK*/
