@@ -9854,14 +9854,38 @@ tutobasebbl {
 				left: 4px;
 			}
 			tutoliactive {
-				display: block;
 				width: 31px;
-				height: 15px;
-				position: relative;
 				background: url(https://i.imgur.com/8pzUbbX.png) no-repeat 18px 5px;
 				background-size: 5px;
 				background-color: var(--bg-light);
+			}
+			tutoli a,
+			tutoliactive {
+				display: block;
+				height: 15px;
+				position: relative;
 				border-radius: 4px 4px 0 0;
+			}
+			tutoli a {
+				background-color: var(--bg-mid);
+				color: var(--txt-clr);
+
+				transition:  all 0.3s ease-in;
+			}
+			tutoli a:hover {
+				background-color: var(--bg-light);
+
+				transition:  all 0.3s ease-in;
+			}
+			tutoli a::after {
+				content: " ";
+				top: 3px;
+				right: 4px;
+				width: 5px;
+				height: 5px;
+				background: url(https://i.imgur.com/8pzUbbX.png) no-repeat 18px 5px;
+				background-size: 5px;
+				background-color: var(--bg-light);
 			}
 			tutoli {
 				display: block;
