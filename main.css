@@ -2213,24 +2213,20 @@ prez {
 		opacity: .5;
 	}
 	civimg,
-	profimg,
-	sommaireimg {
+	profimg {
 		position: relative;
 		background-color: var(--bg-dark);
 	}
 	civimg::before,
 	civimg::after,
 	profimg::before,
-	profimg::after,
-	sommaireimg::before,
-	sommaireimg::after {
+	profimg::after {
 		position: absolute;
 		bottom: 0;
 		left: 0;
 	}
 	civimg::before,
-	profimg::before,
-	sommaireimg::before {
+	profimg::before {
 		content: " ";
 		mix-blend-mode: color;
 		z-index: 1;
@@ -2243,13 +2239,9 @@ prez {
 		content: "Online";
 		left: 180px;
 	}
-	sommaireimg::after {
-		content: "Sommaire";
-		left: 62px;
-	}
+
 	civimg::after,
-	profimg::after,
-	sommaireimg::after {
+	profimg::after {
 		font-size: var(--txt-size-inter);
 		text-transform: uppercase;
 		background-color: var(--bg-trans);
@@ -2269,11 +2261,7 @@ prez {
 		height: 165px;
 		width: 191px;
 	}
-	sommaireimg::after {
-		min-width: 100px;
-		height: 45px
-	}
-	
+
 	
 	civinfo,
 	profinfo {
@@ -9412,15 +9400,34 @@ somhead {
 	text-align: center;
 }
 
-customtitle {
-	font-size: var(--txt-size-title);
-	font-weight: 800;
-	line-height: 1.3;
-	color: var(--affordance);
-	text-transform: uppercase;
-	text-align: center;
+somblock {
+	background-color: var(--affordance);
+	position: relative;
 }
 
+	somtrans {
+		background-color: var(--bg-trans);
+		transform: rotate(-90deg);
+		transform-origin: center;
+
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		z-index: 2;
+		position: absolute;
+		width: fit-content;
+
+		margin: 15px;
+		padding: 10px;
+	}
+
+		somtxt {
+			font-size: var(--txt-size-inter);
+			text-transform: uppercase;
+			word-break: normal;
+
+
+		}
 
 somflex {
     display: flex;
@@ -9430,13 +9437,14 @@ somflex {
     font-family: var(--txt-font2);
 }
 
-sommaireimg,
-sommaireimg img,
-sommaireimg::before,
-sommaireover {
-		width: 80px;
-		background-color: var(--affordance);
-	}
+customtitle {
+	font-size: var(--txt-size-title);
+	font-weight: 800;
+	line-height: 1.3;
+	color: var(--affordance);
+	text-transform: uppercase;
+	text-align: center;
+}
 
 /* BLOC MISSION */
 misstitle {
