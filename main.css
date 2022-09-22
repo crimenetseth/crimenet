@@ -2086,7 +2086,8 @@ rpmain,
 prez,
 inv,
 rplist,
-relations {
+relations,
+tuto {
 	position: relative;
 	z-index: 1;	
 }
