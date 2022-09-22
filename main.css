@@ -9726,6 +9726,9 @@ bounty {
 					background-color: var(--lyudi);
 				}
 /*TUTO DE SANDY*/
+tuto {
+	display: block;
+}
 tutobasebbl {
 	display: flex;
 	justify-content: space-between;
