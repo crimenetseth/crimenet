@@ -19222,4 +19222,5 @@ bounty {
 					background-color: var(--bg-light);
 					order: 2;
 					flex-grow: 1;
+					content: " ";
 				}
