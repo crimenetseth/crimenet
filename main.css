@@ -9871,6 +9871,8 @@ tutobasebbl {
 				color: var(--txt-clr);
 				display: block;
 				padding: 0 12px 0 9px;
+				font-family: var(--txt-font2);
+				font-size: var(--txt-size-mini);
 
 				transition:  all 0.3s ease-in;
 			}
@@ -9888,8 +9890,6 @@ tutobasebbl {
 				background: url(https://i.imgur.com/8pzUbbX.png) no-repeat 18px 5px;
 				background-size: 5px;
 				background-color: var(--bg-light);
-				font-family: var(--txt-font2);
-				font-size: var(--txt-size-mini);
 			}
 			tutoli {
 				display: block;
