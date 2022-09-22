@@ -9729,11 +9729,17 @@ bounty {
 tuto {
 	display: block;
 }
+tutohead {
+	display: block;
+	margin-bottom: 20px;
+	text-align: left;
+}
 tutobasebbl {
 	display: flex;
 	justify-content: space-between;
 	flex-wrap: wrap;
 	gap: 10px;
+	margin-bottom: 30px;
 }
 	tutobasebbl div {
 		height: 26px;
@@ -9775,3 +9781,64 @@ tutobasebbl {
 	tutobasebbl div.rp::before {
 		background-image: url(https://crimenetseth.github.io/crimenet/svgs/tuto/map.svg);
 	}
+
+	tutobase {
+		display: flex;
+		gap: 30px;
+	}
+		tutobaseimg,
+		tutogrpimg,
+		tutomoulaimg,
+		tutomoreimg {
+			width: 120px;
+			background-repeat: no-repeat;
+			background-size: contain;
+			background-position: center;
+		}
+		tutobaseimg {
+			background-image: url(https://i.imgur.com/S7tHPLR.png);
+		}
+		tutogrpimg {
+			width: 195px;
+			background-image: url(https://i.imgur.com/7QHtSL0.png);
+		}
+		tutomoulaimg {
+			width: 195px;
+			background-image: url(https://i.imgur.com/qsbyekI.png);
+		}
+		tutomoreimg {
+			width: 195px;
+			background-image: url(https://i.imgur.com/Jf7c0bD.png);
+		}
+
+		tutowindow {
+			width: 345px;
+			background-color: var(--bg-mid);
+			font-size: var(--txt-size-small);
+			border-radius: 4px;
+		}
+		tutowindowhead {
+			text-transform: uppercase;
+			font-size: 8px;
+			font-family: var(--txt-font2);
+			display: flex;
+			gap: 10px;
+		  background: url(https://i.imgur.com/BJDC3bz.png) no-repeat 328px 10px;
+  		background-size: 56px 10px;
+		}
+			tutowindowhead::before {
+				width: 10px;
+				height: 10px;
+				content: " ";
+				background: url(https://crimenetseth.github.io/crimenet/svgs/logo_crimenet_light.svg) no-repeat center;
+				background-size: contain;
+				display: block;
+			}
+		tutonav {
+			display: flex;
+		}
+
+		tutotxt {
+			background-color: var(--bg-light);
+			padding: 15px 20px;
+		}
