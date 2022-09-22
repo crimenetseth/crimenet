@@ -9858,6 +9858,10 @@ tutobasebbl {
 				display: block;
 				margin-left: 6px;
 			}
+		tutogrp tutowindowhead,
+		tutomoula tutowindowhead {
+			background-position: 391px 3px;
+		}
 		tutonav {
 			display: flex;
 			margin-top: 5px;
