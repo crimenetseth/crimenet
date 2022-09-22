@@ -9834,6 +9834,10 @@ tutobasebbl {
 			font-size: var(--txt-size-small);
 			border-radius: 4px;
 		}
+		tutogrp tutowindow,
+		tutomoula tutowindow {
+			width: 100%;
+		}
 		tutowindowhead {
 			text-transform: uppercase;
 			font-size: 8px;
