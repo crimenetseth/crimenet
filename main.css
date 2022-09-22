@@ -9848,8 +9848,10 @@ tutobasebbl {
 				height: 8px;
 				position: absolute;
 				background: url(https://crimenetseth.github.io/crimenet/svgs/logo_crimenet_light.svg) no-repeat center;
-				background-size: cover;
+				background-size: contain;
 				content: " ";
+				top: 3px;
+				left: 4px;
 			}
 			tutoliactive {
 				display: block;
