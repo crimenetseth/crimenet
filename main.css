@@ -9675,6 +9675,7 @@ bounty {
 	bountyprogess {
 		display: flex;
 		gap: 5px;
+		flex-flow: column;
 	}
 		bountynbr {
 			display: flex;
