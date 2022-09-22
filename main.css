@@ -9888,6 +9888,8 @@ tutobasebbl {
 				background: url(https://i.imgur.com/8pzUbbX.png) no-repeat 18px 5px;
 				background-size: 5px;
 				background-color: var(--bg-light);
+				font-family: var(--txt-font2);
+				font-size: var(--txt-size-mini);
 			}
 			tutoli {
 				display: block;
