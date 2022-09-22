@@ -9841,4 +9841,5 @@ tutobasebbl {
 		tutotxt {
 			background-color: var(--bg-light);
 			padding: 15px 20px;
+			display: block;
 		}
