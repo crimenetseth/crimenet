@@ -9828,6 +9828,7 @@ tutobasebbl {
 		}
 
 		tutowindow {
+			display: block;
 			width: 345px;
 			background-color: var(--bg-mid);
 			font-size: var(--txt-size-small);
