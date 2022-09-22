@@ -9860,7 +9860,7 @@ tutobasebbl {
 			}
 		tutogrp tutowindowhead,
 		tutomore tutowindowhead {
-			background-position: 391px 3px;
+			background-position: 441px 3px;
 		}
 		tutonav {
 			display: flex;
@@ -9912,7 +9912,7 @@ tutobasebbl {
 				display: block;
 				position: absolute;
 				top: 5px;
-				right: 4px;
+				right: 6px;
 				width: 6px;
 				height: 5px;
 				background: url(https://i.imgur.com/8pzUbbX.png) no-repeat center;
@@ -9923,7 +9923,7 @@ tutobasebbl {
 				display: block;
 				position: absolute;
 				top: 4px;
-				left: 0;
+				left: -1px;
 				width: 1px;
 				height: 8px;
 				background-color: var(--bg-light);
