@@ -9402,17 +9402,17 @@ somhead {
 
 somblock {
 	background-color: var(--affordance);
+	display: flex;
+	justify-content: center;
+	align-items: center;
 	position: relative;
+	width: 80px;
 }
 
 	somtrans {
 		background-color: var(--bg-trans);
 		transform: rotate(-90deg);
 		transform-origin: center;
-
-		display: flex;
-		justify-content: center;
-		align-items: center;
 		z-index: 2;
 		position: absolute;
 		width: fit-content;
@@ -9420,13 +9420,10 @@ somblock {
 		margin: 15px;
 		padding: 10px;
 	}
-
 		somtxt {
 			font-size: var(--txt-size-inter);
 			text-transform: uppercase;
 			word-break: normal;
-
-
 		}
 
 somflex {
