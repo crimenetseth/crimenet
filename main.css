@@ -9822,9 +9822,11 @@ tutobasebbl {
 			font-size: 8px;
 			font-family: var(--txt-font2);
 			display: flex;
-			gap: 10px;
-		  background: url(https://i.imgur.com/BJDC3bz.png) no-repeat 328px 10px;
-  		background-size: 56px 10px;
+			gap: 6px;
+		  background: url(https://i.imgur.com/BJDC3bz.png) no-repeat 291px 3px;
+  		background-size: 45px 8px;
+  		height: 17px;
+  		align-items: center;
 		}
 			tutowindowhead::before {
 				width: 10px;
@@ -9833,6 +9835,7 @@ tutobasebbl {
 				background: url(https://crimenetseth.github.io/crimenet/svgs/logo_crimenet_light.svg) no-repeat center;
 				background-size: contain;
 				display: block;
+				margin-left: 6px;
 			}
 		tutonav {
 			display: flex;
