@@ -9572,7 +9572,7 @@ bounty {
 				object-fit: cover;
 			}
 
-			bountyimgtext {
+			bountyimgtxt {
 				background: var(--bg-trans);
 				font-size: var(--txt-size-inter);
 				text-transform: uppercase;
