@@ -9869,6 +9869,8 @@ tutobasebbl {
 			.thread__message__post__content tutoli a {
 				background-color: var(--bg-mid);
 				color: var(--txt-clr);
+				display: block;
+				padding: 0 12px 0 9px;
 
 				transition:  all 0.3s ease-in;
 			}
