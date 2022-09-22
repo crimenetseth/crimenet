@@ -9839,12 +9839,14 @@ tutobasebbl {
 			}
 		tutonav {
 			display: flex;
+			position: relative;
+			bottom: -3px;
 		}
 			tutoliactive::before {
 				display: block;
 				width: 8px;
 				height: 8px;
-				position: relative;
+				position: absolute;
 				background: url(https://crimenetseth.github.io/crimenet/svgs/logo_crimenet_light.svg) no-repeat center;
 				background-size: cover;
 				content: " ";
@@ -9853,7 +9855,7 @@ tutobasebbl {
 				display: block;
 				width: 31px;
 				height: 15px;
-				position: absolute;
+				position: relative;
 				background: url(https://i.imgur.com/8pzUbbX.png) no-repeat 18px 5px;
 				background-size: 5px;
 				background-color: var(--bg-light);
