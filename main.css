@@ -6298,6 +6298,12 @@ opacity: 0 !important;
 					height: 30px;
 					line-height: 30px;
 					width: 120px;
+
+					transition:  all 0.3s ease-in;
+				}
+				.thread__btn .btn4:hover,
+				.thread__botactions__topost a:hover {
+					transition:  all 0.3s ease-in;
 				}
 			.pagination {
 				font-family: var(--txt-font2);
