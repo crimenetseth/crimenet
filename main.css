@@ -19224,3 +19224,32 @@ bounty {
 					flex-grow: 1;
 					content: " ";
 				}
+
+			bountyperk {
+				display: flow;
+				gap: 12px;
+				width: 345px;
+				height: 70px;
+				align-items: center;
+				background: var(--bg-mid);
+				border-radius: 4px;
+				font-family: var(--txt-font2);
+				font-size: var(--txt-size-mini);
+			}
+				bountyperkimg {
+					border-radius: 4px;
+					width: 70px;
+					height: 70px;
+					display: flex;
+					align-items: center;
+					justify-content: center;
+				}
+					bountyperkimg img {
+						width: 35px;
+						height: 35px;
+						object-fit: contain;
+					}
+				bountyperktitle {
+					text-transform: uppercase;
+					font-weight: 800;
+				}
