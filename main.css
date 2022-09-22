@@ -19224,13 +19224,14 @@ bounty {
 					order: 2;
 					flex-grow: 1;
 					content: " ";
+					margin:  10px 5px;
 				}
 				bountyline div {
 					order: 3;
 				}
 
 			bountyperk {
-				display: flow;
+				display: flex;
 				gap: 12px;
 				width: 345px;
 				height: 70px;
@@ -19256,4 +19257,9 @@ bounty {
 				bountyperktitle {
 					text-transform: uppercase;
 					font-weight: 800;
+				}
+				bountyperktxt {
+					display: flex;
+					flex-flow: column;
+					gap: 1px;
 				}
