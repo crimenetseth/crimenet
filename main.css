@@ -134,7 +134,8 @@ select {
 		.button1:hover,
 		.button2:hover,
 		.thread__botactions__follow__a a,
-		.thread__btn .btn4:hover {
+		.thread__btn .btn4:hover,
+		.thread__botactions__topost a:hover {
 			background-color: var(--bg-dark);
 			color: var(--txt-clr);
 		}
