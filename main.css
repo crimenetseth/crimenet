@@ -9884,6 +9884,7 @@ tutobasebbl {
 			}
 			tutoli a::after {
 				content: " ";
+				display: block;
 				top: 5px;
 				right: 4px;
 				width: 6px;
@@ -9893,6 +9894,7 @@ tutobasebbl {
 			}
 			tutoli a::before {
 				content: " ";
+				display: block;
 				top: 5px;
 				left: 0;
 				width: 1px;
