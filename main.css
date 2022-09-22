@@ -9839,8 +9839,7 @@ tutobasebbl {
 			}
 		tutonav {
 			display: flex;
-			position: relative;
-			bottom: -3px;
+			margin-top: 5px;
 		}
 			tutoliactive::before {
 				display: block;
@@ -9860,7 +9859,8 @@ tutobasebbl {
 				background-color: var(--bg-light);
 			}
 			tutoli a,
-			tutoliactive {
+			tutoliactive,
+			tutoli {
 				display: block;
 				height: 15px;
 				position: relative;
@@ -9870,7 +9870,7 @@ tutobasebbl {
 				background-color: var(--bg-mid);
 				color: var(--txt-clr);
 				display: block;
-				padding: 0 12px 0 9px;
+				padding: 0 19px 0 9px;
 				font-family: var(--txt-font2);
 				font-size: var(--txt-size-mini);
 
