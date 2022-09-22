@@ -9724,6 +9724,7 @@ bounty {
 tutobasebbl {
 	display: flex;
 	justify-content: space-between;
+	flex-wrap: wrap;
 }
 	tutobasebbl div {
 		height: 26px;
@@ -9734,7 +9735,6 @@ tutobasebbl {
 		text-transform: uppercase;
 		font-size: var(--txt-size-small);
 		background-color: var(--bg-light);
-		flex-wrap: wrap;
 	}
 	tutobasebbl div.usa,
 	tutobasebbl div.rp {
