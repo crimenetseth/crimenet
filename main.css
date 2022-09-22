@@ -9847,14 +9847,20 @@ tutobasebbl {
 				position: relative;
 				background: url(https://crimenetseth.github.io/crimenet/svgs/logo_crimenet_light.svg) no-repeat center;
 				background-size: cover;
+				content: " ";
 			}
 			tutoliactive {
 				display: block;
-				width: 5px;
-				height: 5px;
+				width: 31px;
+				height: 15px;
 				position: absolute;
-				background: url(https://i.imgur.com/8pzUbbX.png) no-repeat center;
-				background-size: contain;
+				background: url(https://i.imgur.com/8pzUbbX.png) no-repeat 18px 5px;
+				background-size: 5px;
+				background-color: var(--bg-light);
+				border-radius: 4px 4px 0 0;
+			}
+			tutoli {
+				display: block;
 			}
 
 		tutotxt {
