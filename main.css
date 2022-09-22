@@ -19273,6 +19273,7 @@ bounty {
 		font-family: var(--txt-font2);
 		font-weight: 800;
 		text-transform: uppercase;
+		display: block;
 	}
 	bountygameplay::before {
 		content: "Gameplay";
