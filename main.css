@@ -19262,4 +19262,6 @@ bounty {
 					display: flex;
 					flex-flow: column;
 					gap: 1px;
+					margin-right: 10px;
+					width: 275px;
 				}
