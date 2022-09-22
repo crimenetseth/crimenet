@@ -9735,6 +9735,8 @@ tutobasebbl {
 		text-transform: uppercase;
 		font-size: var(--txt-size-small);
 		background-color: var(--bg-light);
+		border-radius: 4px;
+		gap: 10px;
 	}
 	tutobasebbl div.usa,
 	tutobasebbl div.rp {
