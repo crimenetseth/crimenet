@@ -20,6 +20,7 @@
 	--vrach: #E076D2;
 	--lyudi: #A7D49B;
 	--lyudi-bg: #80a177;
+	--bot: #d38e26;
 }
 
 :root.geyster {
@@ -9670,3 +9671,40 @@ bounty {
 	bountyconsequences::before {
 		content: "Conséquences";
 	}
+
+	bountyprogess {
+		display: flex;
+		gap: 5px;
+	}
+		bountynbr {
+			display: flex;
+			justify-content: space-between;
+		}
+			bountynbr::before {
+				content: "Progression";
+				text-transform: uppercase;
+				font-weight: 800;
+			}
+
+		bountybar {
+			position: relative;
+			width: 100%;
+			height: 5px;
+			display: block;
+			background-color: var(--bg-light);
+		}
+			bountybarprogress {
+				position: absolute;
+				top: 0;
+				left: 0;
+				height: 5px;
+			}
+				bountybarprogress.btybar__red {
+					background-color: var(--spetsnaz);
+				}
+				bountybarprogress.btybar__orange {
+					background-color: var(--bot);
+				}
+				bountybarprogress.btybar__green {
+					background-color: var(--lyudi);
+				}
