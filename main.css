@@ -19267,3 +19267,16 @@ bounty {
 					margin-right: 10px;
 					width: 275px;
 				}
+
+	bountygameplay::before,
+	bountyconsequences::before {
+		font-family: var(--txt-font2);
+		font-weight: 800;
+		text-transform: uppercase;
+	}
+	bountygameplay::before {
+		content: "Gameplay";
+	}
+	bountyconsequences::before {
+		content: "Conséquences";
+	}
