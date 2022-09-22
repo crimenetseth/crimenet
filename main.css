@@ -19210,6 +19210,7 @@ bounty {
 			}
 				bountyline::before {
 					font-weight: 800;
+					order: 1;
 				}
 				bountyline.bounty__type::before {
 					content: "type de bounty";
@@ -19223,6 +19224,9 @@ bounty {
 					order: 2;
 					flex-grow: 1;
 					content: " ";
+				}
+				bountyline div {
+					order: 3;
 				}
 
 			bountyperk {
