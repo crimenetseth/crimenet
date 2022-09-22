@@ -19197,3 +19197,29 @@ bounty {
 				bottom: 0;
 				left: 0;
 			}
+
+		bountyinfo {
+			display: flex;
+			gap: 20px;
+			flex-flow: column;
+		}
+			bountyline {
+				font-family: var(--txt-font2);
+				text-transform: uppercase;
+				display: flex;
+			}
+				bountyline::before {
+					font-weight: 800;
+				}
+				bountyline.bounty__type::before {
+					content: "type de bounty";
+				}
+				bountyline.bounty__diff::before {
+					content: "Difficulté";
+				}
+				bountyline::after {
+					height: 1px;
+					background-color: var(--bg-light);
+					order: 2;
+					flex-grow: 1;
+				}
