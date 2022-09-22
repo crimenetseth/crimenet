@@ -9575,6 +9575,7 @@ bounty {
 			bountyimgtxt {
 				background: var(--bg-trans);
 				font-size: var(--txt-size-inter);
+				font-family: var(--txt-font2);
 				text-transform: uppercase;
 				display: flex;
 				align-items: center;
