@@ -9866,13 +9866,13 @@ tutobasebbl {
 				position: relative;
 				border-radius: 4px 4px 0 0;
 			}
-			tutoli a {
+			.thread__message__post__content tutoli a {
 				background-color: var(--bg-mid);
 				color: var(--txt-clr);
 
 				transition:  all 0.3s ease-in;
 			}
-			tutoli a:hover {
+			.thread__message__post__content tutoli a:hover {
 				background-color: var(--bg-light);
 
 				transition:  all 0.3s ease-in;
