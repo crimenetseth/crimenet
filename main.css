@@ -9626,12 +9626,13 @@ bounty {
 				display: flex;
 				gap: 12px;
 				width: 345px;
-				height: 70px;
+				min-height: 100%;
 				align-items: center;
 				background: var(--bg-mid);
 				border-radius: 4px;
 				font-family: var(--txt-font2);
 				font-size: var(--txt-size-mini);
+				background-color: var(--bg-light);
 			}
 				bountyperkimg {
 					border-radius: 4px;
@@ -9654,8 +9655,9 @@ bounty {
 					display: flex;
 					flex-flow: column;
 					gap: 1px;
-					margin-right: 10px;
+					margin: 10px 10px 10px 0;
 					width: 275px;
+					line-height: 1.2;
 				}
 
 	bountygameplay::before,
