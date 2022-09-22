@@ -9411,19 +9411,21 @@ somblock {
 
 	somtrans {
 		background-color: var(--bg-trans);
-		transform: rotate(-90deg);
-		transform-origin: center;
-		z-index: 2;
-		position: absolute;
-		width: fit-content;
-
 		margin: 15px;
 		padding: 10px;
+		position: relative;
+		width: Calc(100% - 30px);
+		height: Calc(100% - 30px);
+		display: flex;
+		align-items: center;
+		justify-content: center;
 	}
 		somtxt {
 			font-size: var(--txt-size-inter);
 			text-transform: uppercase;
 			word-break: normal;
+			transform-origin: center;
+			transform: rotate(-90deg);
 		}
 
 somflex {
