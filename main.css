@@ -9769,7 +9769,8 @@ tutobasebbl {
 	margin-bottom: 30px;
 }
 	tutobasebbl div,
-	tutojoinbbl div {
+	tutojoinbbl div,
+	tutojoinlinksbbl div a {
 		height: 26px;
 		width: 150px;
 		display: flex;
@@ -9787,8 +9788,12 @@ tutobasebbl {
 	tutojoinbbl div {
 		width: 225px;
 	}
-	tutojoinbbl div {
+	tutojoinbbl div,
+	tutojoinlinksbbl div a {
 		text-align: center;
+	}
+	tutojoinlinksbbl div a {
+		background-color: var(--affordance);
 	}
 	tutobasebbl div::before {
 		display: block;
@@ -10108,3 +10113,17 @@ tutobasebbl {
 			justify-content: space-between;
 			margin-bottom: 20px;
 		}
+
+		tutojoinlinks {
+			display: flex;
+			gap: 30px;
+		}
+			tutojoinlinksbbl {
+				display: flex;
+				flex-flow: column;
+				gap: 10px;
+			}
+
+			tutojoinlinksbbl div a {
+				color: var(--txt-clr);
+			}
