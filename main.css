@@ -10063,6 +10063,9 @@ tutobasebbl {
 
 		tutomorebbl div {
 			width: 345px;
+		}
+
+		tutomorebbl {
 			margin: 0;
 		}
 
