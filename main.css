@@ -9757,6 +9757,10 @@ tutomore {
 	display: block;
 	margin-bottom: 30px;
 }
+tutomoula {
+	display: flex;
+	gap: 30px;
+}
 tutobasebbl {
 	display: flex;
 	justify-content: space-between;
@@ -10034,3 +10038,19 @@ tutobasebbl {
 			ttl.vrach {
 				color: var(--vrach);
 			}
+
+	tutomoulabbl {
+		display: flex;
+		flex-flow: column;
+		gap: 10px;
+	}
+		tutomoulabbl div {
+			background-color: var(--bg-light);
+			border-radius: 4px;
+			text-transform: uppercase;
+			font-weight: 300;
+			display: flex;
+			align-items: center;
+			justify-content: center;
+			min-height: 26px;
+		}
