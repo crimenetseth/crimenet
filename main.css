@@ -10043,6 +10043,7 @@ tutobasebbl {
 		display: flex;
 		flex-flow: column;
 		gap: 10px;
+		margin-bottom: 30px;
 	}
 		tutomoulabbl div {
 			background-color: var(--bg-light);
