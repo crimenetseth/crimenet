@@ -10282,3 +10282,32 @@ mail {
 		background-color: var(--bg-light);
 		border-radius: 0 0 4px 4px;
 	}
+
+/*TOP DOWN BTNS*/
+topdownbtn {
+	position: fixed;
+	right: 10px;
+	width: 15px;
+	height: 15px;
+	display: block;
+	background-color: var(--bg-light);
+	
+	transition:  all 0.3s ease-in;
+}
+topdownbtn:hover {
+	background-color: var(--affordance);
+	
+	transition:  all 0.3s ease-in;
+}
+	btntop {
+		bottom: 35px;
+	}
+		btntop::before {
+			content: " ";
+			width: 15px;
+			height: 15px;
+			background: ;
+		}
+	btnbottom {
+		bottom: 10px;
+	}
