@@ -10055,4 +10055,6 @@ tutobasebbl {
 			justify-content: center;
 			min-height: 26px;
 			font-family: var(--txt-font2);
+			padding: 2px 10px;
+			text-align: center;
 		}
