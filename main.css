@@ -10240,3 +10240,41 @@ dl.codebox {
 	dl.codebox code {
 		padding-bottom: 20px;
 	}
+
+/*MAIL*/
+mail {
+	background-color: var(--bg-mid);
+	border-radius: 4px;
+	display: flex;
+	flex-direction: column;
+}
+	mailhead {
+		display: flex;
+		flex-flow: column;
+		font-family: var(--txt-font2);
+	}
+		sendby {
+			display: flex;
+			justify-content: space-between;
+		}
+			mailsender {
+				display: flex;
+				gap: 5px;
+			}
+			mailsendername {
+				font-weight: 800;
+			}
+			mailaddress,
+			maildate,
+			sendto {
+				font-size: var(--txt-size-small);
+				font-weight: 300;
+			}
+		sendto::before {
+			content: "À moi";
+		}
+	mailtxt {
+		padding: 20px;
+		background-color: var(--bg-light);
+		border-radius: 0 0 4px 4px;
+	}
