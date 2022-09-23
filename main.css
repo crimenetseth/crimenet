@@ -10128,6 +10128,6 @@ tutobasebbl {
 				gap: 10px;
 			}
 
-			tutojoinlinksbbl div a {
+			.thread__message__post__content tutojoinlinksbbl div a {
 				color: var(--txt-clr);
 			}
