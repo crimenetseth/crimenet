@@ -9394,25 +9394,32 @@ smsimg img {
 	}
 
 anonymain,
-sandymain {
+sandymain,
+smsgreyname,
+smsclrname {
 	display: flex;
 	flex-flow: column;
 	gap: 1px;
 }
 
 anonymtxt,
-sandytxt {
+sandytxt,
+smsgreytxt,
+smsclrtxt {
 	width: 350px;
 	position: relative;
 	border-radius: 4px;
 	padding: 5px 10px;
 }
 
-sandyname {
+sandyname,
+smsclrname {
 	text-align: right;
 }
 sandyname,
-anonymname {
+anonymname,
+smsgreyname,
+smsclrname {
 	font-size: var(--txt-size-small);
 	opacity: .7;
 }
