@@ -10039,13 +10039,15 @@ tutobasebbl {
 				color: var(--vrach);
 			}
 
-	tutomoulabbl {
+	tutomoulabbl,
+	tutomorebbl {
 		display: flex;
 		flex-flow: column;
 		gap: 10px;
 		margin-bottom: 30px;
 	}
-		tutomoulabbl div {
+		tutomoulabbl div,
+		tutomorebbl div {
 			background-color: var(--bg-light);
 			border-radius: 4px;
 			text-transform: uppercase;
@@ -10057,4 +10059,8 @@ tutobasebbl {
 			font-family: var(--txt-font2);
 			padding: 2px 10px;
 			text-align: center;
+		}
+
+		tutomorebbl div {
+			width: 345px;
 		}
