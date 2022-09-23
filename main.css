@@ -9993,6 +9993,7 @@ tutobasebbl {
 			tutogrplist div {
 				display: flex;
 				justify-content: center;
+				flex-flow: column;
 			}
 			tutogrplist div::before {
 				content: " ";
@@ -10009,7 +10010,7 @@ tutobasebbl {
 				background-image: url(https://crimenetseth.github.io/crimenet/svgs/groupes/geyster_clr.svg);
 			}
 			tutogrplist .spetsnaz::before {
-				background-image: url(https://crimenetseth.github.io/crimenet/svgs/groupes/septsnaz_clr.svg);
+				background-image: url(https://crimenetseth.github.io/crimenet/svgs/groupes/spetsnaz_clr.svg);
 			}
 			tutogrplist .vrach::before {
 				background-image: url(https://crimenetseth.github.io/crimenet/svgs/groupes/vrach_clr.svg);
