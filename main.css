@@ -10146,3 +10146,39 @@ tutobasebbl {
 	tutojoinlinksbbl div a:hover {
 			transition:  all 0.3s ease-in;
 	}
+
+/*QUOTE CODE & SPOILER*/
+blockquote {
+	background-color: transparent;
+	border: none;
+	font-size: var(--txt-size-normal);
+	margin: 25px 0 20px;
+	padding: 0;
+}
+	blockquote cite {
+		position: absolute;
+		top: -22px;
+		opacity: .7;
+		font-family: var(--txt-font2);
+	}
+
+	blockquote::before {
+		display: none;
+	}
+
+	blockquote::after {
+		width: 10px;
+		height: 10px;
+		transform: rotate(45deg);
+		position: absolute;
+		left: 0;
+		bottom: 0;
+		content: " ";
+		background-color: var(--bg-mid);
+	}
+
+	blockquote div {
+		background-color: var(--bg-mid);
+		border-radius: 4px;
+		padding: 20px;
+	}
