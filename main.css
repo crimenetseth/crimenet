@@ -9855,7 +9855,7 @@ tutobasebbl {
 			background-image: url(https://i.imgur.com/mnVG4oz.png);
 		}
 		tutojoinimg {
-			background-image: url(hhttps://i.imgur.com/iStXvUN.png);
+			background-image: url(https://i.imgur.com/iStXvUN.png);
 		}
 
 		tutocontainer {
@@ -10126,8 +10126,11 @@ tutobasebbl {
 				display: flex;
 				flex-flow: column;
 				gap: 10px;
+				margin: 20px 0;
 			}
 
 			.thread__message__post__content tutojoinlinksbbl div a {
 				color: var(--txt-clr);
+				width: 270px;
+				justify-content: center;
 			}
