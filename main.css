@@ -10312,6 +10312,7 @@ mail {
 			background-size: contain;
 			display: block;
 			margin:  5px;
+			z-index: 40;
 		}
 	.btnbottom {
 		bottom: 30px;
