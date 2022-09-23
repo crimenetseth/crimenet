@@ -10154,10 +10154,12 @@ blockquote {
 	font-size: var(--txt-size-normal);
 	margin: 25px 0 20px;
 	padding: 0;
+	overflow: inherit;
 }
 	blockquote cite {
 		position: absolute;
 		top: -22px;
+		left: 0;
 		opacity: .7;
 		font-family: var(--txt-font2);
 	}
@@ -10171,8 +10173,8 @@ blockquote {
 		height: 10px;
 		transform: rotate(45deg);
 		position: absolute;
-		left: 0;
-		bottom: 0;
+		left: 24px;
+		bottom: -5px;
 		content: " ";
 		background-color: var(--bg-mid);
 	}
