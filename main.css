@@ -10209,6 +10209,6 @@ dl.codebox {
 		cursor: pointer;
 	}
 
-	code {
+	dl.codebox code {
 		margin-bottom: 10px;
 	}
