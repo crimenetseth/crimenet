@@ -10185,12 +10185,12 @@ blockquote {
 		padding: 20px;
 	}
 
-.codebox {
+dl.codebox {
 	border-radius: 4px;
 	border: none;
 	background-color: var(--bg-mid);
 }
-	.codebox::before {
+	dl.codebox::before {
 		display: none !important;
 	}
 
