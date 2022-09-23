@@ -9768,7 +9768,8 @@ tutobasebbl {
 	gap: 10px;
 	margin-bottom: 30px;
 }
-	tutobasebbl div {
+	tutobasebbl div,
+	tutojoinbbl div {
 		height: 26px;
 		width: 150px;
 		display: flex;
@@ -9782,7 +9783,8 @@ tutobasebbl {
 		font-weight: 300;
 	}
 	tutobasebbl div.usa,
-	tutobasebbl div.rp {
+	tutobasebbl div.rp,
+	tutojoinbbl div {
 		width: 225px;
 	}
 	tutobasebbl div::before {
@@ -10097,4 +10099,8 @@ tutobasebbl {
 
 		tutoinvest {
 			margin-bottom: 30px;
+		}
+		tutojoinbbl {
+			display: flex;
+			justify-content: space-between;
 		}
