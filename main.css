@@ -104,6 +104,10 @@ select {
   background-color: var(--bg-light);
 }
 
+#cp-main .panel.sig {
+	background-color: var(--bg-light);
+}
+
 /*BOUTONS*/
 	.btn1,
 	.btn2,
