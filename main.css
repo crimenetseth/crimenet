@@ -9945,6 +9945,9 @@ tutobasebbl {
 
 				transition:  all 0.3s ease-in;
 			}
+			.thread__message__post__content .tutoinvest tutoli a {
+				padding: 0 17px 0 6px;
+			}
 			.thread__message__post__content tutoli a:hover {
 				background-color: var(--bg-light);
 
