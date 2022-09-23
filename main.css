@@ -9838,7 +9838,24 @@ tutobasebbl {
 		tutocontainer {
 			display: flex;
 			gap: 30px;
+			align-items: center;
 		}
+
+		tutogrpbbl{
+			display: flex;
+			flex-flow: column;
+			gap: 10px;
+		}
+			tutogrpbbl div {
+				width: 270px;
+				padding: 0 10px;
+				background-color: var(--bg-light);
+				border-radius: 4px;
+				display: flex;
+				align-items: center;
+				text-transform: uppercase;
+				font-family: var(--txt-font2);
+			}
 
 		tutowindow {
 			display: block;
