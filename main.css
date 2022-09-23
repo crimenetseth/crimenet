@@ -10072,9 +10072,14 @@ tutobasebbl {
 			text-align: center;
 		}
 
-		tutomorebbl div,
-		tutoinvestbbl div {
+		tutomorebbl div {
 			width: 345px;
+		}
+
+		tutoinvestbbl div {
+			width: 195px;
+			flex-flow: column;
+			gap: 1px;
 		}
 
 		tutomorebbl,
