@@ -10018,3 +10018,19 @@ tutobasebbl {
 			tutogrplist .lyudi::before {
 				background-image: url(https://crimenetseth.github.io/crimenet/svgs/groupes/lyudi_clr.svg);
 			}
+		ttl {
+			font-family: var(--txt-font2);
+			text-transform: uppercase;
+		}
+			ttl.lyudi {
+				color: var(--lyudi);
+			}
+			ttl.geyster {
+				color: var(--geyster);
+			}
+			ttl.spetsnaz {
+				color: var(--spetsnaz);
+			}
+			ttl.vrach {
+				color: var(--vrach);
+			}
