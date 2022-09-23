@@ -9902,7 +9902,8 @@ tutobasebbl {
 			}
 		tutogrp tutowindowhead,
 		tutomore tutowindowhead,
-		tutoinvest tutowindowhead {
+		tutoinvest tutowindowhead,
+		tutojoin tutowindowhead {
 			background-position: 441px 3px;
 		}
 		tutonav {
