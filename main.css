@@ -9401,8 +9401,8 @@ smsimg img {
 
 anonymain,
 sandymain,
-smsgreyname,
-smsclrname {
+smsgreymain,
+smsclrmain {
 	display: flex;
 	flex-flow: column;
 	gap: 1px;
