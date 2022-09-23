@@ -9944,7 +9944,7 @@ tutobasebbl {
 
 				transition:  all 0.3s ease-in;
 			}
-			.thread__message__post__content .tutoinvest tutoli a {
+			.thread__message__post__content tutoinvest tutoli a {
 				padding: 0 17px 0 6px;
 			}
 			.thread__message__post__content tutoli a:hover {
@@ -9958,7 +9958,7 @@ tutobasebbl {
 				position: absolute;
 				top: 5px;
 				right: 6px;
-				width: 6px;
+				width: 6px;s
 				height: 5px;
 				background: url(https://i.imgur.com/8pzUbbX.png) no-repeat center;
 				background-size: 5px;
@@ -10084,5 +10084,6 @@ tutobasebbl {
 
 		tutomore,
 		tutoinvest {
+			display: block;
 			margin-top: 30px;
 		}
