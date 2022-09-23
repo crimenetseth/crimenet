@@ -9787,6 +9787,9 @@ tutobasebbl {
 	tutojoinbbl div {
 		width: 225px;
 	}
+	tutojoinbbl div {
+		text-align: center;
+	}
 	tutobasebbl div::before {
 		display: block;
 		content: " ";
@@ -10103,4 +10106,5 @@ tutobasebbl {
 		tutojoinbbl {
 			display: flex;
 			justify-content: space-between;
+			margin-bottom: 20px;
 		}
