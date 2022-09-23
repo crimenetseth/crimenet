@@ -9818,7 +9818,8 @@ tutobasebbl {
 		tutobaseimg,
 		tutogrpimg,
 		tutomoulaimg,
-		tutomoreimg {
+		tutomoreimg,
+		tutoinvestimg {
 			width: 120px;
 			background-repeat: no-repeat;
 			background-size: contain;
@@ -9838,6 +9839,10 @@ tutobasebbl {
 		tutomoreimg {
 			width: 195px;
 			background-image: url(https://i.imgur.com/Jf7c0bD.png);
+		}
+		tutoinvestimg {
+			width: 195px;
+			background-image: url(https://i.imgur.com/mnVG4oz.png);
 		}
 
 		tutocontainer {
@@ -10040,7 +10045,8 @@ tutobasebbl {
 			}
 
 	tutomoulabbl,
-	tutomorebbl {
+	tutomorebbl,
+	tutoinvestbbl {
 		display: flex;
 		flex-flow: column;
 		gap: 10px;
