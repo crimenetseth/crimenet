@@ -10324,3 +10324,9 @@ mail {
 		.btnbottom:before {
 			transform: rotate(180deg);
 		}
+
+/*FEUILLE PERSO EDITION*/
+.feuillepersoedit {
+	margin:  0 auto 50px;
+	width:  650px;
+}
