@@ -10302,12 +10302,17 @@ topdownbtn:hover {
 	btntop {
 		bottom: 35px;
 	}
-		btntop::before {
+		btntop::before,
+		btnbottom:before {
 			content: " ";
 			width: 15px;
 			height: 15px;
-			background: ;
+			background: url(https://i.imgur.com/kpfkwL0.png) no-repeat center;
+			background-size: contain;
 		}
 	btnbottom {
 		bottom: 10px;
 	}
+		btnbottom:before {
+			transform: rotate(180deg);
+		}
