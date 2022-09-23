@@ -9970,3 +9970,50 @@ tutobasebbl {
 			display: block;
 			border-radius: 0 0 4px 4px;
 		}
+
+		tutogrplist {
+			display: flex;
+			justify-content: space-evenly;
+			margin: 15px 0 20px;
+			font-family: var(--txt-font2);
+			font-size: var(--txt-size-small);
+		}
+			tutogrplist .geyster {
+				color: var(--geyster);
+			}
+			tutogrplist .spetsnaz {
+				color: var(--spetsnaz);
+			}
+			tutogrplist .vrach {
+				color: var(--vrach);
+			}
+			tutogrplist .lyudi {
+				color: var(--lyudi);
+			}
+			tutogrplist div {
+				display: flex;
+				justify-content: center;
+			}
+			tutogrplist div::before {
+				content: " ";
+				width: 45px;
+				height: 45px;
+				border-radius: 4px;
+				background-color: var(--bg-light);
+				display: block;
+				background-position: center;
+				background-repeat: no-repeat;
+				background-size: 50%;
+			}
+			tutogrplist .geyster::before {
+				background-image: url(https://crimenetseth.github.io/crimenet/svgs/groupes/geyster_clr.svg);
+			}
+			tutogrplist .spetsnaz::before {
+				background-image: url(https://crimenetseth.github.io/crimenet/svgs/groupes/septsnaz_clr.svg);
+			}
+			tutogrplist .vrach::before {
+				background-image: url(https://crimenetseth.github.io/crimenet/svgs/groupes/vrach_clr.svg);
+			}
+			tutogrplist .lyudi::before {
+				background-image: url(https://crimenetseth.github.io/crimenet/svgs/groupes/lyudi_clr.svg);
+			}
