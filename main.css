@@ -10252,6 +10252,9 @@ mail {
 		display: flex;
 		flex-flow: column;
 		font-family: var(--txt-font2);
+		padding: 20px 20px 10px;
+		background: url(https://i.imgur.com/BJDC3bz.png) no-repeat 291px 3px;
+		background-size: 45px 8px;
 	}
 		sendby {
 			display: flex;
@@ -10260,6 +10263,7 @@ mail {
 			mailsender {
 				display: flex;
 				gap: 5px;
+				align-items: center;
 			}
 			mailsendername {
 				font-weight: 800;
