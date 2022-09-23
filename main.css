@@ -9344,31 +9344,38 @@ troph {
 	left: 75px;
 }
 
-/*BUBBLE CHAT*/
-faq {
+/*BUBBLE CHAT & SMS*/
+faq,
+sms {
 	display: flex;
 	flex-flow: column;
 	gap: 20px;
 }
 
-anonym {
+anonym,
+smsgrey {
 	float: left;
 }
-sandy {
+sandy,
+smsclr {
 	float: right;
 }
 anonym,
-sandy {
+sandy,
+smsgrey,
+smsclr {
 	display: flex;
 	align-items: flex-end;
 	gap: 10px;
 }
-sandy {
+sandy,
+smsclr {
 	flex-flow: row-reverse;
 }
 
 anonymimg,
-sandyimg {
+sandyimg,
+smsimg img {
 	width: 25px;
 	height: 25px;
 	border-radius: 100%;
@@ -9381,6 +9388,9 @@ sandyimg {
 	sandyimg {
 		background: url(https://i.imgur.com/c1itovs.jpg) no-repeat center;
 		background-size: cover;
+	}
+	simsimg img {
+		object-fit: cover;
 	}
 
 anonymain,
@@ -9473,6 +9483,9 @@ customtitle {
 }
 
 /* BLOC MISSION */
+mission {
+	scroll-margin-top: valeur;
+}
 misstitle {
 	display: block;
 	width: 100%;
