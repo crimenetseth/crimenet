@@ -10194,7 +10194,7 @@ blockquote {
 		display:  none;
 	}
 
-	.codebox dt {
+	dl.codebox dt {
 		border: none;
 		font-family:  var(--txt-font2);
 		text-transform: uppercase;
