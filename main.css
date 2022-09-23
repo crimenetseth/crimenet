@@ -10063,4 +10063,9 @@ tutobasebbl {
 
 		tutomorebbl div {
 			width: 345px;
+			margin: 0;
+		}
+
+		tutomore {
+			margin-top: 30px;
 		}
