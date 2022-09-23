@@ -9750,6 +9750,10 @@ tutohead {
 	margin-bottom: 20px;
 	text-align: left;
 }
+tutobase {
+	display: block;
+	margin-bottom: 30px;
+}
 tutobasebbl {
 	display: flex;
 	justify-content: space-between;
@@ -9799,7 +9803,10 @@ tutobasebbl {
 		background-image: url(https://crimenetseth.github.io/crimenet/svgs/tuto/map.svg);
 	}
 
-	tutobase {
+	tutobase,
+	tutogrp,
+	tutomoula,
+	tutomore {
 		display: flex;
 		gap: 30px;
 	}
