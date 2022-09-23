@@ -10191,7 +10191,7 @@ blockquote {
 	background-color: var(--bg-mid);
 }
 	.codebox::before {
-		display:  none;
+		display: none !important;
 	}
 
 	dl.codebox dt {
