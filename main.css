@@ -7979,11 +7979,13 @@ p.author {
 					.pa__staff__tit {
 						background-color: var(--bg-dark);
 					}
-					anonymtxt {
+					anonymtxt,
+					smsgreytxt {
 						background-color: var(--bg-mid);
 					}
 					.pa__staff__desc,
-					sandytxt {
+					sandytxt,
+					smsclrtxt {
 						background-color: var(--affordance);
 						text-align: right;
 					}
@@ -7993,7 +7995,9 @@ p.author {
 						.pa__staff__tit::after,
 						.pa__staff__desc::after,
 						sandytxt::after,
-						anonymtxt::after {
+						anonymtxt::after,
+						smsgreytxt::after,
+						smsclrtxt::after {
 							width: 6px;
 							height: 6px;
 							transform: rotate(45deg);
@@ -8005,12 +8009,14 @@ p.author {
 							background-color: var(--bg-dark);
 							left: 10px;
 						}
-						anonymtxt::after {
+						anonymtxt::after,
+						smsgreytxt::after {
 							background-color: var(--bg-mid);
 							left: 10px;
 						}
 						.pa__staff__desc::after,
-						sandytxt::after {
+						sandytxt::after,
+						smsclrtxt::after {
 							background-color: var(--affordance);
 							right: 10px;
 						}
