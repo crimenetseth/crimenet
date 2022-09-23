@@ -10284,7 +10284,7 @@ mail {
 	}
 
 /*TOP DOWN BTNS*/
-topdownbtn {
+.topdownbtn {
 	position: fixed;
 	right: 10px;
 	width: 15px;
@@ -10294,25 +10294,25 @@ topdownbtn {
 	
 	transition:  all 0.3s ease-in;
 }
-topdownbtn:hover {
+.topdownbtn:hover {
 	background-color: var(--affordance);
 	
 	transition:  all 0.3s ease-in;
 }
-	btntop {
+	.btntop {
 		bottom: 35px;
 	}
-		btntop::before,
-		btnbottom:before {
+		.btntop::before,
+		.btnbottom:before {
 			content: " ";
 			width: 15px;
 			height: 15px;
 			background: url(https://i.imgur.com/kpfkwL0.png) no-repeat center;
 			background-size: contain;
 		}
-	btnbottom {
+	.btnbottom {
 		bottom: 10px;
 	}
-		btnbottom:before {
+		.btnbottom:before {
 			transform: rotate(180deg);
 		}
