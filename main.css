@@ -9841,7 +9841,6 @@ tutobasebbl {
 			background-image: url(https://i.imgur.com/Jf7c0bD.png);
 		}
 		tutoinvestimg {
-			width: 195px;
 			background-image: url(https://i.imgur.com/mnVG4oz.png);
 		}
 
@@ -10058,7 +10057,8 @@ tutobasebbl {
 		margin-bottom: 30px;
 	}
 		tutomoulabbl div,
-		tutomorebbl div {
+		tutomorebbl div,
+		tutoinvestbbl div {
 			background-color: var(--bg-light);
 			border-radius: 4px;
 			text-transform: uppercase;
@@ -10072,14 +10072,17 @@ tutobasebbl {
 			text-align: center;
 		}
 
-		tutomorebbl div {
+		tutomorebbl div,
+		tutoinvestbbl div {
 			width: 345px;
 		}
 
-		tutomorebbl {
+		tutomorebbl,
+		tutoinvestbbl {
 			margin: 0;
 		}
 
-		tutomore {
+		tutomore,
+		tutoinvest {
 			margin-top: 30px;
 		}
