@@ -9792,6 +9792,9 @@ tutobasebbl {
 	tutojoinlinksbbl div a {
 		text-align: center;
 	}
+	tutojoinbbl div {
+    justify-content: center;
+	}
 	tutojoinlinksbbl div a {
 		background-color: var(--affordance);
 	}
