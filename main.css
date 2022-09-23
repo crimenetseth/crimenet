@@ -9876,7 +9876,8 @@ tutobasebbl {
 			border-radius: 4px;
 		}
 		tutogrp tutowindow,
-		tutomore tutowindow {
+		tutomore tutowindow,
+		tutoinvest tutowindow {
 			width: 100%;
 		}
 		tutowindowhead {
