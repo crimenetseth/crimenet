@@ -9876,7 +9876,8 @@ tutobasebbl {
 		}
 		tutogrp tutowindow,
 		tutomore tutowindow,
-		tutoinvest tutowindow {
+		tutoinvest tutowindow,
+		tutojoin tutowindow {
 			width: 100%;
 		}
 		tutowindowhead {
