@@ -10184,3 +10184,31 @@ blockquote {
 		border-radius: 4px;
 		padding: 20px;
 	}
+
+.codebox {
+	border-radius: 4px;
+	border: none;
+	background-color: var(--bg-mid);
+}
+	.codebox::before {
+		display:  none;
+	}
+
+	.codebox dt {
+		border: none;
+		font-family:  var(--txt-font2);
+		text-transform: uppercase;
+		position: relative;
+		padding: 0 0 0 5px;
+	}
+
+	.selectCode {
+		position: absolute;
+		top: 0;
+		right: 10px;
+		cursor: pointer;
+	}
+
+	code {
+		margin-bottom: 10px;
+	}
