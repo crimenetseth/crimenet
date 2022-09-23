@@ -9829,7 +9829,8 @@ tutobasebbl {
 		tutogrpimg,
 		tutomoulaimg,
 		tutomoreimg,
-		tutoinvestimg {
+		tutoinvestimg,
+		tutojoinimg {
 			width: 120px;
 			background-repeat: no-repeat;
 			background-size: contain;
@@ -9852,6 +9853,9 @@ tutobasebbl {
 		}
 		tutoinvestimg {
 			background-image: url(https://i.imgur.com/mnVG4oz.png);
+		}
+		tutojoinimg {
+			background-image: url(hhttps://i.imgur.com/iStXvUN.png);
 		}
 
 		tutocontainer {
