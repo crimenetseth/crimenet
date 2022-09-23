@@ -9992,7 +9992,7 @@ tutobasebbl {
 			}
 			tutogrplist div {
 				display: flex;
-				justify-content: center;
+				align-items: center;
 				flex-flow: column;
 			}
 			tutogrplist div::before {
