@@ -149,7 +149,8 @@ select {
 		.threadlist__actions__bottom a,
 		.pagination span a:link,
 		.pagination span a:visited,
-		.pagination span a:active {
+		.pagination span a:active,
+		tutojoinlinksbbl div a:hover {
 			background-color: var(--bg-light);
 			color: var(--txt-clr);
 		}
@@ -10142,3 +10143,6 @@ tutobasebbl {
 			.kitchengun {
 				margin-top: 30px;
 			}
+	tutojoinlinksbbl div a:hover {
+			transition:  all 0.3s ease-in;
+	}
