@@ -10287,10 +10287,11 @@ mail {
 .topdownbtn {
 	position: fixed;
 	right: 10px;
-	width: 15px;
-	height: 15px;
+	width: 25px;
+	height: 25px;
 	display: block;
 	background-color: var(--bg-light);
+	padding: 0;
 	
 	transition:  all 0.3s ease-in;
 }
@@ -10300,7 +10301,7 @@ mail {
 	transition:  all 0.3s ease-in;
 }
 	.btntop {
-		bottom: 35px;
+		bottom: 65px;
 	}
 		.btntop::before,
 		.btnbottom:before {
@@ -10309,9 +10310,11 @@ mail {
 			height: 15px;
 			background: url(https://i.imgur.com/kpfkwL0.png) no-repeat center;
 			background-size: contain;
+			display: block;
+			margin:  5px;
 		}
 	.btnbottom {
-		bottom: 10px;
+		bottom: 30px;
 	}
 		.btnbottom:before {
 			transform: rotate(180deg);
