@@ -4840,6 +4840,9 @@ relations {
 				padding-right: 5px;
 				overflow: auto;
 			}
+			modphytxt b {
+				color: var(--geyster);
+			}
 			assimg,
 			assimg::after {
 				height: 131px;
