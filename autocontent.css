@@ -136,7 +136,7 @@ invskill.hacking skilltxt::before {
 	content: "Hacker, n’importe qui de motivé avec une capacité d’apprentissage peut le faire. Ce qui distingue les vrais hackers des hobbyistes est la capacité d’entrer dans des systèmes protégés par ENV. Félicitations, vous en êtes désormais capable... parfois... ça dépend du système. Bon, vous n’allez pas pirater Fort Knox, mais c’est un bon début.";
 }
 invass.hacking asstxt::before {
-	content: " ";
+	content: "Quoi de mieux qu’un ami qui vous veut du bien ? Un hacker d’ENV est dépêché pour vous aider à briser les barrières numériques qui vous incommodent. Mais attention, ses services ne sont pas extensibles ad vitam aeternam.";
 }
 
 invskill.securite skilltitle::before,
