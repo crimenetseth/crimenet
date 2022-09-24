@@ -233,11 +233,8 @@ invass.eloquence asstxt::before {
 invass.delamain asstitle::before {
 	content: "Delamain Special Service";
 }
-invskill.delamain skilltxt::before {
-	content: "Besoin d'un véhicule pour un travail ? Laissez nous vous présenter le tout nouveau système de location de Delamain ! Vous pouvez sélectioner le type de véhicule de votre choix ! Une fois l'utilisation terminée, la voiture regagnera automatiquement le garage Delamain le plus proche.";
-}
 invass.delamain asstxt::before {
-	content: " ";
+	content: "Besoin d'un véhicule pour un travail ? Laissez nous vous présenter le tout nouveau système de location de Delamain ! Vous pouvez sélectioner le type de véhicule de votre choix ! Une fois l'utilisation terminée, la voiture regagnera automatiquement le garage Delamain le plus proche.";
 }
 
 invaccred.oxford accredtitle::before {
