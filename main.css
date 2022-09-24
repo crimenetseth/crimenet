@@ -6284,6 +6284,9 @@ opacity: 0 !important;
 			.thread__message__profile__chara .gen#rpg-accréditations {
 				color: var(--txt-clr) !important;
 			}
+			.thread__message__profile__chara span {
+				display: block;
+			}
 			.thread__message__profile__info {
 				font-family: var(--txt-font2);
 				font-size: var(--txt-size-small);
