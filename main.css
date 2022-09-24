@@ -4676,9 +4676,11 @@ relations {
 		invass.asset{
 			margin-bottom: 50px;
 		}
-		invaccred,
-		invmodphy {
+		invaccred {
 			margin-top: 80px;
+		}
+		invmodphy {
+			margin-top: 50px;
 		}
 		invskill::after,
 		invass.asset::after,
@@ -4806,7 +4808,12 @@ relations {
 			invmodphy.banalisee,
 			invmodphy.luxe,
 			invmodphy.blindee {
-				margin-top: 20px;
+				margin-top: 0;
+				margin-bottom: 50px;
+			}
+			invmodphy.reinitialisation,
+			invmodphy.lieudevie {
+				margin-top: 0;
 			}
 			skilltitle,
 			asstitle,
