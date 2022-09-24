@@ -4431,7 +4431,7 @@ majbody {
 		storimg::after {
 			content: "Histoire";
 		}
-		relationimg::relation {
+		relationimg::after {
 			content: "Relations";
 		}
 
