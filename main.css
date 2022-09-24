@@ -4376,7 +4376,7 @@ majbody {
 	mjcharimg,
 	mjcharimg img,
 	relationimg,
-	relationimg:before,
+	relationimg::before,
 	relationimg img {
 		width: 100%;
 		height: 115px;
@@ -4384,6 +4384,7 @@ majbody {
 	psyimg,
 	lookimg,
 	storimg,
+	relationimg,
 	majtitleimg,
 	mjarchimg {
 		position: relative;
@@ -4393,7 +4394,8 @@ majbody {
 		psyimg::before,
 		lookimg::before,
 		storimg:before,
-		majtitleimg::before {
+		majtitleimg::before,
+		relationimg::before {
 			position: absolute;
 			top: 0;
 			left: 0;
@@ -4405,6 +4407,7 @@ majbody {
 		lookimg::after,
 		storimg::after,
 		majtitleimg::after,
+		relationimg::before,
 		mjcharname {
 			position: absolute;
 			top: 25px;
@@ -4427,6 +4430,9 @@ majbody {
 		}
 		storimg::after {
 			content: "Histoire";
+		}
+		relationimg::relation {
+			content: "Relations";
 		}
 
 		majtitleimg::before {
