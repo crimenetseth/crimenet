@@ -4407,7 +4407,7 @@ majbody {
 		lookimg::after,
 		storimg::after,
 		majtitleimg::after,
-		relationimg::before,
+		relationimg::after,
 		mjcharname {
 			position: absolute;
 			top: 25px;
