@@ -317,3 +317,7 @@ invmodphy.blindee modphyimg {
 	background: url(https://zupimages.net/up/21/42/k0jr.png) center;
 	background-size: cover;
 }
+
+invmodphy.ravalementdefacade::before {
+	content:"Pensez à justifier ce changement de physique dans vos RPs";
+}

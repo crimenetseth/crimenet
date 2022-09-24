@@ -4803,6 +4803,11 @@ relations {
 			invmodphy modphycontent {
 				width: 330px;
 			}
+			invmodphy.banalisee,
+			invmodphy.luxe,
+			invmodphy.blindee {
+				margin-top: 20px;
+			}
 			skilltitle,
 			asstitle,
 			accredtitle,
