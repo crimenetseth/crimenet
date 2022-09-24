@@ -1858,7 +1858,7 @@ opacity: 0 !important;
 			padding-right: 0 !important;
 		}
 		.sceditor-container textarea {
-			height: 256px !important;
+			min-height: 256px !important;
 			width: 860px !important;
 			padding-right: 10px !important;
 		}
