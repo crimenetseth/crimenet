@@ -4667,6 +4667,9 @@ relations {
 			gap: 28px;
 			position: relative;
 		}
+		invass.asset {
+			margin-bottom: 30px;
+		}
 		invskill {
 			margin-bottom: 50px;
 		}
