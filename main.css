@@ -4740,6 +4740,9 @@ relations {
 			asscontent {
 				width: 300px;
 			}
+			invass.asset asscontent {
+				width: 330px;
+			}
 			skilltitle,
 			asstitle {
 				text-transform: uppercase;
