@@ -83,6 +83,11 @@ invass.lvl3 assimg::before {
 	content: "Lvl3";
 }
 
+/*usage*/
+invass.asset assimg::before {
+	content: "1 usage";
+}
+
 /*text*/
 invskill.reperage skilltitle::before,
 invass.reperage asstitle::before {
