@@ -4715,11 +4715,17 @@ relations {
 		invaccred::before {
 			content: "Attention avant d'acheter une accréditation, regardez bien si elle est compatible avec votre groupe ou vos accréditations déjà acquises.";
 		}
-		invmodphy.cent::before {
+		invmodphy.k100::before {
 			content: "Prix: 100k$";
 		}
-		invmodphy.100k::before {
-			content: "Prix: 100k$";
+		invmodphy.k25::before {
+			content: "Prix: 25k$";
+		}
+		invmodphy.k50::before {
+			content: "Prix: 50k$";
+		}
+		invmodphy.k200::before {
+			content: "Prix: 200k$";
 		}
 		invskill:nth-child(even),
 		invass:nth-child(even),
