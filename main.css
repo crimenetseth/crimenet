@@ -1860,6 +1860,9 @@ opacity: 0 !important;
 			color: var(--txt-clr) !important;
 			padding-right: 0 !important;
 		}
+		.sceditor-dropdown {
+			color: var(--bg-dark) !important;
+		}
 		.sceditor-container textarea {
 			min-height: 256px !important;
 			width: 860px !important;
