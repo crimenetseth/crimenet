@@ -4821,6 +4821,7 @@ relations {
 				max-height: 150px;
 				padding-right: 5px;
 				overflow: auto;
+				display: block;
 			}
 			asstxt,
 			accredtxt,
