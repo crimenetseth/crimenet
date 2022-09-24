@@ -6270,6 +6270,9 @@ opacity: 0 !important;
 					width: 388px;
 					font-weight: bold;
 				}
+			.thread__message__profile__chara a {
+				display: none;
+			}
 			.thread__message__profile__info {
 				font-family: var(--txt-font2);
 				font-size: var(--txt-size-small);
