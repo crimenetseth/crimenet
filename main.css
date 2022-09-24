@@ -1860,7 +1860,8 @@ opacity: 0 !important;
 			color: var(--txt-clr) !important;
 			padding-right: 0 !important;
 		}
-		.sceditor-dropdown {
+		.sceditor-dropdown,
+		.sceditor-dropdown input {
 			color: var(--bg-dark) !important;
 		}
 		.sceditor-container textarea {
