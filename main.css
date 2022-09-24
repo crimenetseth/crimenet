@@ -1801,6 +1801,9 @@ opacity: 0 !important;
 
 						transition:  all 0.3s ease-in;
 					}
+					.thread__message__post__content sandytxt a {
+						color: var(--bg-dark);
+					}
 					.thread__message__post__content a:hover,
 					.postingpreview__content a:hover {
 						color: var(--txt-clr);
