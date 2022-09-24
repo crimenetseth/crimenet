@@ -7097,6 +7097,30 @@ cassetitle {
 		background: url(https://cdn.statically.io/gh/crimenetseth/crimenet/main/svgs/groupes/lyudi_clr.svg) no-repeat center;
 		background-size: contain;
 	}
+	.env cassetitle::before {
+		background: url(https://cdn.statically.io/gh/crimenetseth/crimenet/main/svgs/affiliations/env.svg) no-repeat center;
+		background-size: contain;
+	}
+	.outerhaven cassetitle::before {
+		background: url(https://cdn.statically.io/gh/crimenetseth/crimenet/main/svgs/affiliations/outerhaven.svg) no-repeat center;
+		background-size: contain;
+	}
+	.oxford cassetitle::before {
+		background: url(https://cdn.statically.io/gh/crimenetseth/crimenet/main/svgs/affiliations/oxford.svg) no-repeat center;
+		background-size: contain;
+	}
+	.redmercy cassetitle::before {
+		background: url(https://cdn.statically.io/gh/crimenetseth/crimenet/main/svgs/affiliations/redmercy.svg) no-repeat center;
+		background-size: contain;
+	}
+	.skynet cassetitle::before {
+		background: url(https://cdn.statically.io/gh/crimenetseth/crimenet/main/svgs/affiliations/skynet.svg) no-repeat center;
+		background-size: contain;
+	}
+	.vidocq cassetitle::before {
+		background: url(https://cdn.statically.io/gh/crimenetseth/crimenet/main/svgs/affiliations/vidocq.svg) no-repeat center;
+		background-size: contain;
+	}
 
 cassecontainer {
 	display: flex;
