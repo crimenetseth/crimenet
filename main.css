@@ -4741,7 +4741,8 @@ relations {
 		}
 			skillimg,
 			assimg,
-			accredimg {
+			accredimg,
+			modphyimg {
 				display: block;
 				width: 120px;
 				height: 210px;
@@ -4749,7 +4750,8 @@ relations {
 			}
 			skillimg::after,
 			assimg::after,
-			accredimg::after {
+			accredimg::after,
+			modphyimg::after {
 				position: absolute;
 				width: 120px;
 				height: 210px;
@@ -4762,7 +4764,8 @@ relations {
 			}
 			skillimg::before,
 			assimg::before,
-			accredimg::before {
+			accredimg::before,
+			modphyimg::before {
 				position: absolute;
 				display: flex;
 				align-items: center;
@@ -4781,12 +4784,14 @@ relations {
 			}	
 			invskill:nth-child(even) skillimg::before,
 			invass:nth-child(even) assimg::before,
-			invaccred:nth-child(even) accredimg::before {
+			invaccred:nth-child(even) accredimg::before,
+			invmodphy:nth-child(even) modphyimg::before {
 				right: -162px;
 				left: auto;
 			}
 			invass:nth-child(even) assimg::before,
-			invaccred:nth-child(even) accredimg::before {
+			invaccred:nth-child(even) accredimg::before,
+			invmodphy:nth-child(even) modphyimg::before {
 				right: -75px;
 			}
 			skillcontent,
@@ -4794,19 +4799,22 @@ relations {
 				width: 300px;
 			}
 			invass.asset asscontent,
-			invaccred accredcontent {
+			invaccred accredcontent,
+			invmodphy modphycontent {
 				width: 330px;
 			}
 			skilltitle,
 			asstitle,
-			accredtitle {
+			accredtitle,
+			modphytitle {
 				text-transform: uppercase;
 				font-weight: 800;
 				display: block;
 			}
 			skilltxt,
 			asstxt,
-			accredtxt {
+			accredtxt,
+			modphytxt {
 				font-family: var(--txt-font2);
 				font-size: var(--txt-size-small);
 				line-height: 1.4;
@@ -4815,7 +4823,8 @@ relations {
 				overflow: auto;
 			}
 			asstxt,
-			accredtxt {
+			accredtxt,
+			modphytxt {
 				min-height: 66px;
 				padding-right: 5px;
 				overflow: auto;
