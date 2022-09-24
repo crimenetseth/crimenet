@@ -4788,6 +4788,10 @@ opacity: 0 !important;
 					background: url(https://i.imgur.com/wnIp1te.png) center;
 					background-size: cover;
 				}
+				.navsearchbar__symbols__home a {
+					display: block;
+					height: 45px;
+				}
 		.navsearchbar__bar {
 			flex-grow: 1;
 			min-width: 220px;
