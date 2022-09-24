@@ -4663,7 +4663,8 @@ relations {
 		gap: 15px;
 	}
 		invskill,
-		invass {
+		invass,
+		invaccred {
 			background-color: var(--bg-mid);
 			display: flex;
 			align-items: center;
@@ -4671,11 +4672,15 @@ relations {
 			position: relative;
 		}
 		invskill,
-		invass.asset {
+		invass.asset{
 			margin-bottom: 50px;
 		}
+		invaccred {
+			margin-bottom: 80px;
+		}
 		invskill::after,
-		invass.asset::after {
+		invass.asset::after,
+		invaccred::after {
 			position: absolute;
 			width: 100%;
 			height: 20px;
@@ -4684,29 +4689,48 @@ relations {
 			text-align: center;
 			bottom: -25px;
 		}
-		invskill::after {
+		invaccred::before {
+			position: absolute;
+			width: 100%;
+			height: 20px;
+			text-transform: uppercase;
+			font-family: var(--txt-font2);
+			color: var(--spetsnaz);
+			font-weight: 800;
+			text-align: center;
+			bottom: 25px;
+		}
+		invskill::after,
+		invaccred::after {
 			content: "Prix:  50k$";
 		}
 		invass.asset::after {
 			content: "Prix : Niv. 1 = 20k$/ Niv. 2 = ?/ Niv. 3 = ?";
 		}
+		invaccred::before {
+			content: "Attention avant d'acheter une accréditation, regardez bien si elle est compatible avec votre groupe ou vos accréditations déjà acquises.";
+		}
 		invskill:nth-child(even),
-		invass:nth-child(even) {
+		invass:nth-child(even),
+		invaccred:nth-child(even) {
 			flex-flow: row-reverse;
 		}
 		invskill:nth-child(even) skillcontent,
-		invass:nth-child(even) asscontent {
+		invass:nth-child(even) asscontent,
+		invaccred:nth-child(even) accredcontent {
 			text-align: right;
 		}
 			skillimg,
-			assimg {
+			assimg,
+			accredimg {
 				display: block;
 				width: 120px;
 				height: 210px;
 				filter: grayscale(1);
 			}
 			skillimg::after,
-			assimg::after {
+			assimg::after,
+			accredimg::after {
 				position: absolute;
 				width: 120px;
 				height: 210px;
@@ -4718,7 +4742,8 @@ relations {
 				content: "";
 			}
 			skillimg::before,
-			assimg::before {
+			assimg::before,
+			accredimg::before {
 				position: absolute;
 				display: flex;
 				align-items: center;
@@ -4736,18 +4761,21 @@ relations {
 				z-index: 2;
 			}	
 			invskill:nth-child(even) skillimg::before,
-			invass:nth-child(even) assimg::before {
+			invass:nth-child(even) assimg::before,
+			invaccred:nth-child(even) accredimg::before {
 				right: -162px;
 				left: auto;
 			}
-			invass:nth-child(even) assimg::before {
+			invass:nth-child(even) assimg::before,
+			invaccred:nth-child(even) accredimg::before {
 				right: -75px;
 			}
 			skillcontent,
 			asscontent {
 				width: 300px;
 			}
-			invass.asset asscontent {
+			invass.asset asscontent,
+			invaccred accredcontent {
 				width: 330px;
 			}
 			skilltitle,

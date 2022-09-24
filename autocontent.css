@@ -63,6 +63,11 @@
 	background-size: cover;
 }
 
+accredimg {
+	background: url(https://i.imgur.com/zphJwpl.jpg) center;
+	background-size: cover;
+}
+
 /*niveaux*/
 invskill.lvl1 skillimg::before{
 	content: "Niveau 1";
