@@ -6,7 +6,7 @@ Go sur SVGs > trophees et dépose ton svg à la bonne taille (35x35) dans le dos
 copie le lien de partage et remplace le "www" par "dl"*/
 
 .operationjudith trophicone {
-	background-image: url(https://dl.dropbox.com/s/ltlls28r9k6nteh/halloween.svg?dl=0);
+	background-image: url(https://cdn.statically.io/gh/crimenetseth/crimenet/main/svgs/trophees/halloween.svg);
 }
 .operationjudith trophname::before {
 	content: "Opération Judith";

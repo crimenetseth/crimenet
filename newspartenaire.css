@@ -83,7 +83,7 @@ crimenet li {
 	line-height: 28px;
 	position: relative;
 	font-size: var(--txt-size-small);
-	background-image: url(https://dl.dropbox.com/s/g9ru7027t3ah7md/navclose.svg?dl=0);
+	background-image: url(https://cdn.statically.io/gh/crimenetseth/crimenet/main/navclose.svg);
 	background-position: 83px 11px;
 	background-repeat: no-repeat;
 
@@ -365,22 +365,22 @@ newbie {
 		left: 0;
 	}
 		.oxford::after {
-			background-image: url(https://crimenetseth.github.io/crimenet/svgs/affiliations/oxford.svg);
+			background-image: url(https://cdn.statically.io/gh/crimenetseth/crimenet/main/svgs/affiliations/oxford.svg);
 		}
 		.skynet::after {
-			background-image: url(https://crimenetseth.github.io/crimenet/svgs/affiliations/skynet.svg);
+			background-image: url(https://cdn.statically.io/gh/crimenetseth/crimenet/main/svgs/affiliations/skynet.svg);
 		}
 		.outerhaven::after {
-			background-image: url(https://crimenetseth.github.io/crimenet/svgs/affiliations/outerhaven.svg);
+			background-image: url(https://cdn.statically.io/gh/crimenetseth/crimenet/main/svgs/affiliations/outerhaven.svg);
 		}
 		.env::after {
-			background-image: url(https://crimenetseth.github.io/crimenet/svgs/affiliations/env.svg);
+			background-image: url(https://cdn.statically.io/gh/crimenetseth/crimenet/main/svgs/affiliations/env.svg);
 		}
 		.vidocq::after {
-			background-image: url(https://crimenetseth.github.io/crimenet/svgs/affiliations/vidocq.svg);
+			background-image: url(https://cdn.statically.io/gh/crimenetseth/crimenet/main/svgs/affiliations/vidocq.svg);
 		}
 		.redmercy::after {
-			background-image: url(https://crimenetseth.github.io/crimenet/svgs/affiliations/redmercy.svg);
+			background-image: url(https://cdn.statically.io/gh/crimenetseth/crimenet/main/svgs/affiliations/redmercy.svg);
 		}
 .crimestats,
 .crimegroups {
@@ -415,10 +415,10 @@ newbie {
 			height: 30px;
 		}
 		.crimemembers::before {
-			background: url(https://crimenetseth.github.io/crimenet/svgs/members.svg) no-repeat center;
+			background: url(https://cdn.statically.io/gh/crimenetseth/crimenet/main/svgs/members.svg) no-repeat center;
 		}
 		.messages::before {
-			background: url(https://crimenetseth.github.io/crimenet/svgs/sujets.svg) no-repeat center;
+			background: url(https://cdn.statically.io/gh/crimenetseth/crimenet/main/svgs/sujets.svg) no-repeat center;
 		}
 	.crimegroups li {
 		width: 140px;
@@ -459,16 +459,16 @@ newbie {
 				background-repeat: no-repeat;
 			}
 			.geyster::before {
-				background-image: url(https://crimenetseth.github.io/crimenet/svgs/groupes/geyster_clr.svg);
+				background-image: url(https://cdn.statically.io/gh/crimenetseth/crimenet/main/svgs/groupes/geyster_clr.svg);
 			}
 			.spetsnaz::before {
-				background-image: url(https://crimenetseth.github.io/crimenet/svgs/groupes/spetsnaz_clr.svg);
+				background-image: url(https://cdn.statically.io/gh/crimenetseth/crimenet/main/svgs/groupes/spetsnaz_clr.svg);
 			}
 			.vrach::before {
-				background-image: url(https://crimenetseth.github.io/crimenet/svgs/groupes/vrach_clr.svg);
+				background-image: url(https://cdn.statically.io/gh/crimenetseth/crimenet/main/svgs/groupes/vrach_clr.svg);
 			}
 			.lyudi::before {
-				background-image: url(https://crimenetseth.github.io/crimenet/svgs/groupes/lyudi_clr.svg);
+				background-image: url(https://cdn.statically.io/gh/crimenetseth/crimenet/main/svgs/groupes/lyudi_clr.svg);
 			}
 			.geyster::after,
 			.spetsnaz::after,

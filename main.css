@@ -253,7 +253,7 @@ opacity: 0 !important;
 		height: 45px;
 	}
 		.nav__logo {
-			background: url(https://crimenetseth.github.io/crimenet/svgs/logo_crimenet_light.svg) no-repeat center 15px;
+			background: url(https://cdn.statically.io/gh/crimenetseth/crimenet/main/svgs/logo_crimenet_light.svg) no-repeat center 15px;
 			background-size: 20px;
 			height: 48px;
 			width: 68px;
@@ -1229,7 +1229,7 @@ opacity: 0 !important;
 }
 .threadlist__container,
 .privmsgs__container {
-	background: url(https://i.imgur.com/BJDC3bz.png) no-repeat 1100px 16px, url(https://crimenetseth.github.io/crimenet/svgs/folder.svg) no-repeat 16px 16px;
+	background: url(https://i.imgur.com/BJDC3bz.png) no-repeat 1100px 16px, url(https://cdn.statically.io/gh/crimenetseth/crimenet/main/svgs/folder.svg) no-repeat 16px 16px;
 	background-color: var(--bg-dark);
 	margin-top: 50px;
 	width: 1200px;
@@ -1305,7 +1305,7 @@ opacity: 0 !important;
 		}
 			.threadlist__breadcrumbs__path,
 			.mp__breadcrumbs__path {
-				background: url(https://crimenetseth.github.io/crimenet/svgs/folder.svg) no-repeat 16px center;
+				background: url(https://cdn.statically.io/gh/crimenetseth/crimenet/main/svgs/folder.svg) no-repeat 16px center;
 				background-color: var(--bg-light);
 				min-width: 220px;
 				flex-grow: 1;
@@ -2505,19 +2505,19 @@ relations {
 		opacity: .25;
 	}
 	invitem.banalcar::before {
-		background-image: url(https://crimenetseth.github.io/crimenet/svgs/assets/banalisedcar.svg);
+		background-image: url(https://cdn.statically.io/gh/crimenetseth/crimenet/main/svgs/assets/banalisedcar.svg);
 	}
 	invitem.luxcar::before {
-		background-image: url(https://crimenetseth.github.io/crimenet/svgs/assets/luxcar.svg);
+		background-image: url(https://cdn.statically.io/gh/crimenetseth/crimenet/main/svgs/assets/luxcar.svg);
 	}
 	invitem.tankcar::before {
-		background-image: url(https://crimenetseth.github.io/crimenet/svgs/assets/tankcar.svg);
+		background-image: url(https://cdn.statically.io/gh/crimenetseth/crimenet/main/svgs/assets/tankcar.svg);
 	}
 	invitem.house::before {
-		background-image: url(https://crimenetseth.github.io/crimenet/svgs/assets/house.svg);
+		background-image: url(https://cdn.statically.io/gh/crimenetseth/crimenet/main/svgs/assets/house.svg);
 	}
 	invitem.workplace::before {
-		background-image: url(https://crimenetseth.github.io/crimenet/svgs/assets/workplace.svg);
+		background-image: url(https://cdn.statically.io/gh/crimenetseth/crimenet/main/svgs/assets/workplace.svg);
 	}
 	.active invlabel,
 	.active invitem.banalcar::before,
@@ -2548,22 +2548,22 @@ relations {
 		margin-top: 100px;
 	}
 	invitem.inv__oxford::before {
-		background-image: url(https://crimenetseth.github.io/crimenet/svgs/affiliations/oxford.svg);
+		background-image: url(https://cdn.statically.io/gh/crimenetseth/crimenet/main/svgs/affiliations/oxford.svg);
 	}
 	invitem.inv__redmercy::before {
-		background-image: url(https://crimenetseth.github.io/crimenet/svgs/affiliations/redmercy.svg);
+		background-image: url(https://cdn.statically.io/gh/crimenetseth/crimenet/main/svgs/affiliations/redmercy.svg);
 	}
 	invitem.inv__outerhaven::before {
-		background-image: url(https://crimenetseth.github.io/crimenet/svgs/affiliations/outerhaven.svg);
+		background-image: url(https://cdn.statically.io/gh/crimenetseth/crimenet/main/svgs/affiliations/outerhaven.svg);
 	}
 	invitem.inv__env::before {
-		background-image: url(https://crimenetseth.github.io/crimenet/svgs/affiliations/env.svg);
+		background-image: url(https://cdn.statically.io/gh/crimenetseth/crimenet/main/svgs/affiliations/env.svg);
 	}
 	invitem.inv__vidocq::before {
-		background-image: url(https://crimenetseth.github.io/crimenet/svgs/affiliations/vidocq.svg);
+		background-image: url(https://cdn.statically.io/gh/crimenetseth/crimenet/main/svgs/affiliations/vidocq.svg);
 	}
 	invitem.inv__skynet::before {
-		background-image: url(https://crimenetseth.github.io/crimenet/svgs/affiliations/skynet.svg);
+		background-image: url(https://cdn.statically.io/gh/crimenetseth/crimenet/main/svgs/affiliations/skynet.svg);
 	}
 	skillscontainer,
 	asscontainer {
@@ -2821,7 +2821,7 @@ relations {
 	left: -16px;
 	border-radius: 0;
 	border: none;
-	background: url(https://i.imgur.com/BJDC3bz.png) no-repeat 1100px 16px, url(https://crimenetseth.github.io/crimenet/svgs/folder.svg) no-repeat 16px 16px;
+	background: url(https://i.imgur.com/BJDC3bz.png) no-repeat 1100px 16px, url(https://cdn.statically.io/gh/crimenetseth/crimenet/main/svgs/folder.svg) no-repeat 16px 16px;
 	background-color: var(--bg-dark);
 }
 	#preview .h3 {
@@ -3241,10 +3241,10 @@ p.author {
 					transition:  all 0.15s ease-in;
 				}
 				.pa__staff__tab__staff__info__contact {
-					background-image: url(https://crimenetseth.github.io/crimenet/svgs/staff/contact.svg);
+					background-image: url(https://cdn.statically.io/gh/crimenetseth/crimenet/main/svgs/staff/contact.svg);
 				}
 				.pa__staff__tab__staff__info__profile {
-					background-image: url(https://crimenetseth.github.io/crimenet/svgs/staff/profile.svg);
+					background-image: url(https://cdn.statically.io/gh/crimenetseth/crimenet/main/svgs/staff/profile.svg);
 					background-position: 8.5px 6px;
 				}
 				.pa__staff__tab__staff__info__profile:hover,
@@ -4084,7 +4084,7 @@ troph {
 	height: 70px;
 	width: 100%;
 	background-color: var(--bg-mid);
-	background-image: url(https://crimenetseth.github.io/crimenet/svgs/trophees/trophy.svg);
+	background-image: url(https://cdn.statically.io/gh/crimenetseth/crimenet/main/svgs/trophees/trophy.svg);
 	background-repeat: no-repeat;
 	background-position: 463px 10px;
 	border-radius: 4px;
@@ -4129,7 +4129,7 @@ troph {
 .mp__dossier {
 	width: 40px;
 	height: 40px;
-	background: url(https://crimenetseth.github.io/crimenet/svgs/folder.svg) no-repeat center;
+	background: url(https://cdn.statically.io/gh/crimenetseth/crimenet/main/svgs/folder.svg) no-repeat center;
 	background-size: contain;
 	position: relative;
 	top: 5px;
@@ -4183,7 +4183,7 @@ troph {
 		content: " ";
 		width: 8px;
 		height: 8px;
-		background: url(https://crimenetseth.github.io/crimenet/svgs/right.svg) no-repeat center;
+		background: url(https://cdn.statically.io/gh/crimenetseth/crimenet/main/svgs/right.svg) no-repeat center;
 		background-size: contain;
 		transform: rotate(90deg);
 		margin: 6px;
@@ -4530,18 +4530,18 @@ troph {
 						background-position: center;
 					}
 						.profilepage__infos__icon.lastvisitime::before {
-							background-image: url(https://crimenetseth.github.io/crimenet/svgs/profilepage/lastco.svg);
+							background-image: url(https://cdn.statically.io/gh/crimenetseth/crimenet/main/svgs/profilepage/lastco.svg);
 							position: relative;
 							left: 2px;
 							top: 1px;
 						}
 						.profilepage__infos li:nth-child(2) .profilepage__infos__icon::before {
-							background-image: url(https://crimenetseth.github.io/crimenet/svgs/profilepage/subscribtiondate.svg);
+							background-image: url(https://cdn.statically.io/gh/crimenetseth/crimenet/main/svgs/profilepage/subscribtiondate.svg);
 							width: 20px;
 							height: 20px;
 						}
 						.profilepage__infos li:nth-child(3) .profilepage__infos__icon::before {
-							background-image: url(https://crimenetseth.github.io/crimenet/svgs/messages.svg);
+							background-image: url(https://cdn.statically.io/gh/crimenetseth/crimenet/main/svgs/messages.svg);
 						}
 						.profilepage__infos li:nth-child(4) .profilepage__infos__icon::before {
 							content: "$";
@@ -4555,19 +4555,19 @@ troph {
 						.profilepage__infos__icon.crimenet::before,
 						.profilepage__infos__icon.bot::before,
 						.profilepage__infos__icon.off::before {
-							background-image: url(https://crimenetseth.github.io/crimenet/svgs/logo_crimenet_light.svg);
+							background-image: url(https://cdn.statically.io/gh/crimenetseth/crimenet/main/svgs/logo_crimenet_light.svg);
 						}
 						.profilepage__infos__icon.geyster::before {
-							background-image: url(https://crimenetseth.github.io/crimenet/svgs/groupes/geyster.svg);
+							background-image: url(https://cdn.statically.io/gh/crimenetseth/crimenet/main/svgs/groupes/geyster.svg);
 						}
 						.profilepage__infos__icon.spetsnaz::before {
-							background-image: url(https://crimenetseth.github.io/crimenet/svgs/groupes/spetsnaz.svg);
+							background-image: url(https://cdn.statically.io/gh/crimenetseth/crimenet/main/svgs/groupes/spetsnaz.svg);
 						}
 						.profilepage__infos__icon.vrach::before {
-							background-image: url(https://crimenetseth.github.io/crimenet/svgs/groupes/vrach.svg);
+							background-image: url(https://cdn.statically.io/gh/crimenetseth/crimenet/main/svgs/groupes/vrach.svg);
 						}
 						.profilepage__infos__icon.lyudi::before {
-							background-image: url(https://crimenetseth.github.io/crimenet/svgs/groupes/lyudi.svg);
+							background-image: url(https://cdn.statically.io/gh/crimenetseth/crimenet/main/svgs/groupes/lyudi.svg);
 						}
 
 				.profilepage__infos__txt {
@@ -4824,7 +4824,7 @@ opacity: 0 !important;
 		height: 45px;
 	}
 		.nav__logo {
-			background: url(https://crimenetseth.github.io/crimenet/svgs/logo_crimenet_light.svg) no-repeat center 15px;
+			background: url(https://cdn.statically.io/gh/crimenetseth/crimenet/main/svgs/logo_crimenet_light.svg) no-repeat center 15px;
 			background-size: 20px;
 			height: 48px;
 			width: 68px;
@@ -5800,7 +5800,7 @@ opacity: 0 !important;
 }
 .threadlist__container,
 .privmsgs__container {
-	background: url(https://i.imgur.com/BJDC3bz.png) no-repeat 1100px 16px, url(https://crimenetseth.github.io/crimenet/svgs/folder.svg) no-repeat 16px 16px;
+	background: url(https://i.imgur.com/BJDC3bz.png) no-repeat 1100px 16px, url(https://cdn.statically.io/gh/crimenetseth/crimenet/main/svgs/folder.svg) no-repeat 16px 16px;
 	background-color: var(--bg-dark);
 	margin-top: 50px;
 	width: 1200px;
@@ -5876,7 +5876,7 @@ opacity: 0 !important;
 		}
 			.threadlist__breadcrumbs__path,
 			.mp__breadcrumbs__path {
-				background: url(https://crimenetseth.github.io/crimenet/svgs/folder.svg) no-repeat 16px center;
+				background: url(https://cdn.statically.io/gh/crimenetseth/crimenet/main/svgs/folder.svg) no-repeat 16px center;
 				background-color: var(--bg-light);
 				min-width: 220px;
 				flex-grow: 1;
@@ -6819,7 +6819,7 @@ mjtxt {
 		width: 20px;
 		height: 20px;
 		display: block;
-		background: url(https://crimenetseth.github.io/crimenet/svgs/logo_crimenet_light.svg) no-repeat center;
+		background: url(https://cdn.statically.io/gh/crimenetseth/crimenet/main/svgs/logo_crimenet_light.svg) no-repeat center;
 		background-size: contain;
 		position: relative;
 		left: Calc(50% - 10px);
@@ -7212,19 +7212,19 @@ relations {
 		opacity: .25;
 	}
 	invitem.banalcar::before {
-		background-image: url(https://crimenetseth.github.io/crimenet/svgs/assets/banalisedcar.svg);
+		background-image: url(https://cdn.statically.io/gh/crimenetseth/crimenet/main/svgs/assets/banalisedcar.svg);
 	}
 	invitem.luxcar::before {
-		background-image: url(https://crimenetseth.github.io/crimenet/svgs/assets/luxcar.svg);
+		background-image: url(https://cdn.statically.io/gh/crimenetseth/crimenet/main/svgs/assets/luxcar.svg);
 	}
 	invitem.tankcar::before {
-		background-image: url(https://crimenetseth.github.io/crimenet/svgs/assets/tankcar.svg);
+		background-image: url(https://cdn.statically.io/gh/crimenetseth/crimenet/main/svgs/assets/tankcar.svg);
 	}
 	invitem.house::before {
-		background-image: url(https://crimenetseth.github.io/crimenet/svgs/assets/house.svg);
+		background-image: url(https://cdn.statically.io/gh/crimenetseth/crimenet/main/svgs/assets/house.svg);
 	}
 	invitem.workplace::before {
-		background-image: url(https://crimenetseth.github.io/crimenet/svgs/assets/workplace.svg);
+		background-image: url(https://cdn.statically.io/gh/crimenetseth/crimenet/main/svgs/assets/workplace.svg);
 	}
 	.active invlabel,
 	.active invitem.banalcar::before,
@@ -7258,19 +7258,19 @@ relations {
 		background-image: url(https://i.imgur.com/m6AYpzY.png);
 	}
 	invitem.inv__redmercy::before {
-		background-image: url(https://crimenetseth.github.io/crimenet/svgs/affiliations/redmercy.svg);
+		background-image: url(https://cdn.statically.io/gh/crimenetseth/crimenet/main/svgs/affiliations/redmercy.svg);
 	}
 	invitem.inv__outerhaven::before {
-		background-image: url(https://crimenetseth.github.io/crimenet/svgs/affiliations/outerhaven.svg);
+		background-image: url(https://cdn.statically.io/gh/crimenetseth/crimenet/main/svgs/affiliations/outerhaven.svg);
 	}
 	invitem.inv__env::before {
-		background-image: url(https://crimenetseth.github.io/crimenet/svgs/affiliations/env.svg);
+		background-image: url(https://cdn.statically.io/gh/crimenetseth/crimenet/main/svgs/affiliations/env.svg);
 	}
 	invitem.inv__vidocq::before {
-		background-image: url(https://crimenetseth.github.io/crimenet/svgs/affiliations/vidocq.svg);
+		background-image: url(https://cdn.statically.io/gh/crimenetseth/crimenet/main/svgs/affiliations/vidocq.svg);
 	}
 	invitem.inv__skynet::before {
-		background-image: url(https://crimenetseth.github.io/crimenet/svgs/affiliations/skynet.svg);
+		background-image: url(https://cdn.statically.io/gh/crimenetseth/crimenet/main/svgs/affiliations/skynet.svg);
 	}
 	skillscontainer,
 	asscontainer {
@@ -7528,7 +7528,7 @@ relations {
 	left: -16px;
 	border-radius: 0;
 	border: none;
-	background: url(https://i.imgur.com/BJDC3bz.png) no-repeat 1100px 16px, url(https://crimenetseth.github.io/crimenet/svgs/folder.svg) no-repeat 16px 16px;
+	background: url(https://i.imgur.com/BJDC3bz.png) no-repeat 1100px 16px, url(https://cdn.statically.io/gh/crimenetseth/crimenet/main/svgs/folder.svg) no-repeat 16px 16px;
 	background-color: var(--bg-dark);
 }
 	#preview .h3 {
@@ -7951,10 +7951,10 @@ p.author {
 					transition:  all 0.15s ease-in;
 				}
 				.pa__staff__tab__staff__info__contact {
-					background-image: url(https://crimenetseth.github.io/crimenet/svgs/staff/contact.svg);
+					background-image: url(https://cdn.statically.io/gh/crimenetseth/crimenet/main/svgs/staff/contact.svg);
 				}
 				.pa__staff__tab__staff__info__profile {
-					background-image: url(https://crimenetseth.github.io/crimenet/svgs/staff/profile.svg);
+					background-image: url(https://cdn.statically.io/gh/crimenetseth/crimenet/main/svgs/staff/profile.svg);
 					background-position: 8.5px 6px;
 				}
 				.pa__staff__tab__staff__info__profile:hover,
@@ -8812,7 +8812,7 @@ troph {
 	height: 70px;
 	width: 100%;
 	background-color: var(--bg-mid);
-	background-image: url(https://crimenetseth.github.io/crimenet/svgs/trophees/trophy.svg);
+	background-image: url(https://cdn.statically.io/gh/crimenetseth/crimenet/main/svgs/trophees/trophy.svg);
 	background-repeat: no-repeat;
 	background-position: 463px 10px;
 	border-radius: 4px;
@@ -8857,7 +8857,7 @@ troph {
 .mp__dossier {
 	width: 40px;
 	height: 40px;
-	background: url(https://crimenetseth.github.io/crimenet/svgs/folder.svg) no-repeat center;
+	background: url(https://cdn.statically.io/gh/crimenetseth/crimenet/main/svgs/folder.svg) no-repeat center;
 	background-size: contain;
 	position: relative;
 	top: 5px;
@@ -8911,7 +8911,7 @@ troph {
 		content: " ";
 		width: 8px;
 		height: 8px;
-		background: url(https://crimenetseth.github.io/crimenet/svgs/right.svg) no-repeat center;
+		background: url(https://cdn.statically.io/gh/crimenetseth/crimenet/main/svgs/right.svg) no-repeat center;
 		background-size: contain;
 		transform: rotate(90deg);
 		margin: 6px;
@@ -9263,18 +9263,18 @@ troph {
 						background-position: center;
 					}
 						.profilepage__infos__icon.lastvisitime::before {
-							background-image: url(https://crimenetseth.github.io/crimenet/svgs/profilepage/lastco.svg);
+							background-image: url(https://cdn.statically.io/gh/crimenetseth/crimenet/main/svgs/profilepage/lastco.svg);
 							position: relative;
 							left: 2px;
 							top: 1px;
 						}
 						.profilepage__infos li:nth-child(2) .profilepage__infos__icon::before {
-							background-image: url(https://crimenetseth.github.io/crimenet/svgs/profilepage/subscribtiondate.svg);
+							background-image: url(https://cdn.statically.io/gh/crimenetseth/crimenet/main/svgs/profilepage/subscribtiondate.svg);
 							width: 20px;
 							height: 20px;
 						}
 						.profilepage__infos li:nth-child(3) .profilepage__infos__icon::before {
-							background-image: url(https://crimenetseth.github.io/crimenet/svgs/messages.svg);
+							background-image: url(https://cdn.statically.io/gh/crimenetseth/crimenet/main/svgs/messages.svg);
 						}
 						.profilepage__infos li:nth-child(4) .profilepage__infos__icon::before {
 							content: "$";
@@ -9288,19 +9288,19 @@ troph {
 						.profilepage__infos__icon.crimenet::before,
 						.profilepage__infos__icon.bot::before,
 						.profilepage__infos__icon.off::before {
-							background-image: url(https://crimenetseth.github.io/crimenet/svgs/logo_crimenet_light.svg);
+							background-image: url(https://cdn.statically.io/gh/crimenetseth/crimenet/main/svgs/logo_crimenet_light.svg);
 						}
 						.profilepage__infos__icon.geyster::before {
-							background-image: url(https://crimenetseth.github.io/crimenet/svgs/groupes/geyster.svg);
+							background-image: url(https://cdn.statically.io/gh/crimenetseth/crimenet/main/svgs/groupes/geyster.svg);
 						}
 						.profilepage__infos__icon.spetsnaz::before {
-							background-image: url(https://crimenetseth.github.io/crimenet/svgs/groupes/spetsnaz.svg);
+							background-image: url(https://cdn.statically.io/gh/crimenetseth/crimenet/main/svgs/groupes/spetsnaz.svg);
 						}
 						.profilepage__infos__icon.vrach::before {
-							background-image: url(https://crimenetseth.github.io/crimenet/svgs/groupes/vrach.svg);
+							background-image: url(https://cdn.statically.io/gh/crimenetseth/crimenet/main/svgs/groupes/vrach.svg);
 						}
 						.profilepage__infos__icon.lyudi::before {
-							background-image: url(https://crimenetseth.github.io/crimenet/svgs/groupes/lyudi.svg);
+							background-image: url(https://cdn.statically.io/gh/crimenetseth/crimenet/main/svgs/groupes/lyudi.svg);
 						}
 
 				.profilepage__infos__txt {
@@ -9392,7 +9392,7 @@ smsimg img {
 	border-radius: 100%;
 }
 	anonymimg {
-		background: url(https://crimenetseth.github.io/crimenet/svgs/anonym.svg) no-repeat center;
+		background: url(https://cdn.statically.io/gh/crimenetseth/crimenet/main/svgs/anonym.svg) no-repeat center;
 		background-size: 60%;
 		background-color: var(--bg-light);
 	}
@@ -9550,7 +9550,7 @@ cassetitle {
 		content: " ";
 		width: 15px;
 		height: 15px;
-		background: url(https://crimenetseth.github.io/crimenet/svgs/groupes/geyster_clr.svg) no-repeat center;
+		background: url(https://cdn.statically.io/gh/crimenetseth/crimenet/main/svgs/groupes/geyster_clr.svg) no-repeat center;
 		background-size: contain;
 		display: block;
 		position: absolute;
@@ -9842,19 +9842,19 @@ tutobasebbl {
 		background-size: contain;
 	}
 	tutobasebbl div.age18::before {
-		background-image: url(https://crimenetseth.github.io/crimenet/svgs/tuto/18.svg);
+		background-image: url(https://cdn.statically.io/gh/crimenetseth/crimenet/main/svgs/tuto/18.svg);
 	}
 	tutobasebbl div.year::before {
-		background-image: url(https://crimenetseth.github.io/crimenet/svgs/tuto/calendar.svg);
+		background-image: url(https://cdn.statically.io/gh/crimenetseth/crimenet/main/svgs/tuto/calendar.svg);
 	}
 	tutobasebbl div.money::before {
-		background-image: url(https://crimenetseth.github.io/crimenet/svgs/tuto/money.svg);
+		background-image: url(https://cdn.statically.io/gh/crimenetseth/crimenet/main/svgs/tuto/money.svg);
 	}
 	tutobasebbl div.usa::before {
-		background-image: url(https://crimenetseth.github.io/crimenet/svgs/tuto/nuclear.svg);
+		background-image: url(https://cdn.statically.io/gh/crimenetseth/crimenet/main/svgs/tuto/nuclear.svg);
 	}
 	tutobasebbl div.rp::before {
-		background-image: url(https://crimenetseth.github.io/crimenet/svgs/tuto/map.svg);
+		background-image: url(https://cdn.statically.io/gh/crimenetseth/crimenet/main/svgs/tuto/map.svg);
 	}
 
 	tutobase {
@@ -9946,7 +9946,7 @@ tutobasebbl {
 				width: 10px;
 				height: 10px;
 				content: " ";
-				background: url(https://crimenetseth.github.io/crimenet/svgs/logo_crimenet_light.svg) no-repeat center;
+				background: url(https://cdn.statically.io/gh/crimenetseth/crimenet/main/svgs/logo_crimenet_light.svg) no-repeat center;
 				background-size: contain;
 				display: block;
 				margin-left: 6px;
@@ -9966,7 +9966,7 @@ tutobasebbl {
 				width: 8px;
 				height: 8px;
 				position: absolute;
-				background: url(https://crimenetseth.github.io/crimenet/svgs/logo_crimenet_light.svg) no-repeat center;
+				background: url(https://cdn.statically.io/gh/crimenetseth/crimenet/main/svgs/logo_crimenet_light.svg) no-repeat center;
 				background-size: contain;
 				content: " ";
 				top: 3px;
@@ -10073,16 +10073,16 @@ tutobasebbl {
 				background-size: 50%;
 			}
 			tutogrplist .geyster::before {
-				background-image: url(https://crimenetseth.github.io/crimenet/svgs/groupes/geyster_clr.svg);
+				background-image: url(https://cdn.statically.io/gh/crimenetseth/crimenet/main/svgs/groupes/geyster_clr.svg);
 			}
 			tutogrplist .spetsnaz::before {
-				background-image: url(https://crimenetseth.github.io/crimenet/svgs/groupes/spetsnaz_clr.svg);
+				background-image: url(https://cdn.statically.io/gh/crimenetseth/crimenet/main/svgs/groupes/spetsnaz_clr.svg);
 			}
 			tutogrplist .vrach::before {
-				background-image: url(https://crimenetseth.github.io/crimenet/svgs/groupes/vrach_clr.svg);
+				background-image: url(https://cdn.statically.io/gh/crimenetseth/crimenet/main/svgs/groupes/vrach_clr.svg);
 			}
 			tutogrplist .lyudi::before {
-				background-image: url(https://crimenetseth.github.io/crimenet/svgs/groupes/lyudi_clr.svg);
+				background-image: url(https://cdn.statically.io/gh/crimenetseth/crimenet/main/svgs/groupes/lyudi_clr.svg);
 			}
 		ttl {
 			font-family: var(--txt-font2);
