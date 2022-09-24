@@ -7024,6 +7024,34 @@ missgain {
 	text-transform: uppercase;
 }
 
+.missGeyster {
+	background-color: var(--geyster);
+}
+.cstmTgeyster {
+	color: var(--geyster);
+}
+
+.missSpetsnaz {
+	background-color: var(--spetsnaz);
+}
+.cstmTseptsnaz {
+	color: var(--spetsnaz);
+}
+
+.missVrach {
+	background-color: var(--vrach);
+}
+.cstmTvrach {
+	color: var(--vrach);
+}
+
+.missLyudi {
+	background-color: var(--lyudi);
+}
+.cstmTlyudi {
+	color: var(--lyudi);
+}
+
 /*FICHE CASSES*/
 casse {
 	display: block;
