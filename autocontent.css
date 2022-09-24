@@ -279,3 +279,41 @@ tag.vidocq::before {
 tag.redmercy::before {
 	content: "Red Mercy";
 }
+
+/*MARCHE NOIR*/
+invmodphy.ravalementdefacade modphyimg {
+	background: url(https://i.imgur.com/vUjVFW5.jpg) center;
+	background-size: cover;
+}
+invmodphy.mutation modphyimg {
+	background: url(https://zupimages.net/up/22/18/16t9.png) center;
+	background-size: cover;
+}
+invmodphy.reservationavy modphyimg {
+	background: url(https://i.imgur.com/xFy3cxi.jpg) center;
+	background-size: cover;
+}
+invmodphy.reinitialisation modphyimg {
+	background: url(https://i.imgur.com/8Q81fTp.jpg) center;
+	background-size: cover;
+}
+invmodphy.lieudevie modphyimg {
+	background: url(https://i.imgur.com/pc5ehJz.jpg) center;
+	background-size: cover;
+}
+invmodphy.lieudetravail modphyimg {
+	background: url(https://i.imgur.com/YzCnItn.jpg) center;
+	background-size: cover;
+}
+invmodphy.banalisee modphyimg {
+	background: url(https://zupimages.net/up/21/42/mddt.png) center;
+	background-size: cover;
+}
+invmodphy.luxe modphyimg {
+	background: url(https://zupimages.net/up/21/42/pe46.png) center;
+	background-size: cover;
+}
+invmodphy.blindee modphyimg {
+	background: url(https://zupimages.net/up/21/42/k0jr.png) center;
+	background-size: cover;
+}
