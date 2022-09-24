@@ -4830,6 +4830,9 @@ relations {
 				overflow: auto;
 				position: relative;
 				right: -5px;
+				max-height: 150px;
+				padding-right: 5px;
+				overflow: auto;
 			}
 			assimg,
 			assimg::after {
