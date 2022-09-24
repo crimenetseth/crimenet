@@ -4664,7 +4664,8 @@ relations {
 	}
 		invskill,
 		invass,
-		invaccred {
+		invaccred,
+		invmodphy {
 			background-color: var(--bg-mid);
 			display: flex;
 			align-items: center;
@@ -4675,12 +4676,14 @@ relations {
 		invass.asset{
 			margin-bottom: 50px;
 		}
-		invaccred {
+		invaccred,
+		invmodphy {
 			margin-top: 80px;
 		}
 		invskill::after,
 		invass.asset::after,
-		invaccred::after {
+		invaccred::after,
+		invmodphy::after {
 			position: absolute;
 			width: 100%;
 			height: 20px;
@@ -4689,7 +4692,8 @@ relations {
 			text-align: center;
 			bottom: -25px;
 		}
-		invaccred::before {
+		invaccred::before,
+		invmodphy::before {
 			position: absolute;
 			width: 100%;
 			height: 20px;
@@ -4711,14 +4715,19 @@ relations {
 		invaccred::before {
 			content: "Attention avant d'acheter une accréditation, regardez bien si elle est compatible avec votre groupe ou vos accréditations déjà acquises.";
 		}
+		invmodphy.100k {
+			content: "Prix: 100k$";
+		}
 		invskill:nth-child(even),
 		invass:nth-child(even),
-		invaccred:nth-child(even) {
+		invaccred:nth-child(even),
+		invmodphy:nth-child(even) {
 			flex-flow: row-reverse;
 		}
 		invskill:nth-child(even) skillcontent,
 		invass:nth-child(even) asscontent,
-		invaccred:nth-child(even) accredcontent {
+		invaccred:nth-child(even) accredcontent,
+		invmodphy:nth-child(even) modphycontent {
 			text-align: right;
 		}
 			skillimg,
