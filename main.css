@@ -4670,10 +4670,8 @@ relations {
 			gap: 28px;
 			position: relative;
 		}
+		invskill,
 		invass.asset {
-			margin-bottom: 30px;
-		}
-		invskill {
 			margin-bottom: 50px;
 		}
 		invskill::after,
