@@ -1801,6 +1801,9 @@ opacity: 0 !important;
 
 						transition:  all 0.3s ease-in;
 					}
+					.postingpreview__content timeline a {
+						color: var(--txt-clr);
+					}
 					.thread__message__post__content prez a {
 						color: var(--txt-clr) !important;
 					}
