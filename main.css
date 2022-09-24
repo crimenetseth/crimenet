@@ -4680,6 +4680,12 @@ relations {
 		invass.asset{
 			margin-bottom: 50px;
 		}
+		invass.asset asstxt {
+			display: block;
+			max-height: 80px;
+			overflow-y: auto;
+			overflow-x: hidden;
+		}
 		invaccred {
 			margin-top: 80px;
 		}
