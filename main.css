@@ -6270,8 +6270,7 @@ opacity: 0 !important;
 					width: 388px;
 					font-weight: bold;
 				}
-			.thread__message__profile__chara a ,
-			.thread__message__profile__chara br {
+			.thread__message__profile__chara a {
 				display: none;
 			}
 			.thread__message__profile__chara .gen#rpg-genre,
@@ -6283,9 +6282,6 @@ opacity: 0 !important;
 			.thread__message__profile__chara .gen#rpg-compétences,
 			.thread__message__profile__chara .gen#rpg-accréditations {
 				color: var(--txt-clr) !important;
-			}
-			.thread__message__profile__chara span {
-				display: block;
 			}
 			.thread__message__profile__info {
 				font-family: var(--txt-font2);
