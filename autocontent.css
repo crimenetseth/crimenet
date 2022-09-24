@@ -226,6 +226,25 @@ invass.eloquence asstxt::before {
 	content: " ";
 }
 
+invaccred.oxford accredtitle::before {
+	content: "Accréditation Oxford";
+}
+invaccred.skynet accredtitle::before {
+	content: "Accréditation Skynet";
+}
+invaccred.outerhaven accredtitle::before {
+	content: "Accréditation Outerhaver";
+}
+invaccred.env accredtitle::before {
+	content: "Accréditation ENV";
+}
+invaccred.vidocq accredtitle::before {
+	content: "Accréditation Vidocq";
+}
+invaccred.redmercy accredtitle::before {
+	content: "Accréditation Red Mercy";
+}
+
 /*Tags sujets*/
 tag.termine::before {
 	content: "Terminé";
