@@ -5188,7 +5188,8 @@ p.author {
 .postingpreview__content relimg img,
 .postingpreview__content majimg img,
 .postingpreview__content mjimg img,
-.postingpreview__content rpimg::before,
+.postingpreview__content rpimg::before,,
+.postingpreview__content prezimg::before
 .postingpreview__content majimg::before,
 .postingpreview__content invimg::before,
 .postingpreview__content rplistimg::before,
