@@ -6270,17 +6270,13 @@ opacity: 0 !important;
 					width: 388px;
 					font-weight: bold;
 				}
+			.thread__message__profile__chara {
+				margin-top: -36px;
+			}
 			.thread__message__profile__chara a {
 				display: none;
 			}
-			.thread__message__profile__chara #rpg-genre,
-			.thread__message__profile__chara #rpg-Âge,
-			.thread__message__profile__chara #rpg-origine,
-			.thread__message__profile__chara #rpg-orientation-sexuelle,
-			.thread__message__profile__chara #rpg-nom-de-code,
-			.thread__message__profile__chara #rpg-spécialité-/-métier,
-			.thread__message__profile__chara #rpg-compétences,
-			.thread__message__profile__chara #rpg-accréditations {
+			.thread__message__profile__chara .gen:nth-child(even) {
 				color: var(--txt-clr) !important;
 			}
 			.thread__message__profile__info {
