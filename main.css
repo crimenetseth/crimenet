@@ -5910,6 +5910,12 @@ opacity: 0 !important;
 					}
 					.threadlist__title h3 a {
 						transition:  all 0.15s ease-in;
+						text-overflow: ellipsis;
+						height: 19px;
+						display: block;
+						width: 455px;
+						white-space: nowrap;
+						overflow: hidden;
 					}
 						.threadlist__title h3 a:hover {
 							color: var(--affordance);
