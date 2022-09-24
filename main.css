@@ -4521,6 +4521,9 @@ majh2 {
 	text-transform: uppercase;
 	border-radius: 4px;
 }
+invh2 {
+	background-color: var(--affordance);
+}
 
 majh2 {
 	background-color: var(--affordance);
