@@ -1850,7 +1850,7 @@ opacity: 0 !important;
 		overflow: inherit !important;
 	}
 		#quick_reply #textarea_content .sceditor-container {
-			height: 300px !important;
+			height: 300px !important; 
 	    border-radius: 0 !important;
 		}
 		.sceditor-container iframe,
@@ -7048,12 +7048,26 @@ cassetitle {
 		content: " ";
 		width: 15px;
 		height: 15px;
-		background: url(https://cdn.statically.io/gh/crimenetseth/crimenet/main/svgs/groupes/geyster_clr.svg) no-repeat center;
-		background-size: contain;
 		display: block;
 		position: absolute;
 		top: 10px;
 		left: 10px;
+	}
+	.geyster cassetitle::before {
+		background: url(https://cdn.statically.io/gh/crimenetseth/crimenet/main/svgs/groupes/geyster_clr.svg) no-repeat center;
+		background-size: contain;
+	}
+	.spetsnaz cassetitle::before {
+		background: url(https://cdn.statically.io/gh/crimenetseth/crimenet/main/svgs/groupes/spetsnaz_clr.svg) no-repeat center;
+		background-size: contain;
+	}
+	.vrach cassetitle::before {
+		background: url(https://cdn.statically.io/gh/crimenetseth/crimenet/main/svgs/groupes/vrach_clr.svg) no-repeat center;
+		background-size: contain;
+	}
+	.lyudi cassetitle::before {
+		background: url(https://cdn.statically.io/gh/crimenetseth/crimenet/main/svgs/groupes/lyudi_clr.svg) no-repeat center;
+		background-size: contain;
 	}
 
 cassecontainer {
