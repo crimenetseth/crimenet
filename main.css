@@ -4780,13 +4780,15 @@ relations {
 				width: 330px;
 			}
 			skilltitle,
-			asstitle {
+			asstitle,
+			accredtitle {
 				text-transform: uppercase;
 				font-weight: 800;
 				display: block;
 			}
 			skilltxt,
-			asstxt {
+			asstxt,
+			accredtxt {
 				font-family: var(--txt-font2);
 				font-size: var(--txt-size-small);
 				line-height: 1.4;
@@ -4794,7 +4796,8 @@ relations {
 				padding-right: 5px;
 				overflow: auto;
 			}
-			asstxt {
+			asstxt,
+			accredtxt {
 				min-height: 66px;
 				padding-right: 5px;
 				overflow: auto;
