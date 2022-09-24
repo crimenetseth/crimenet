@@ -6276,9 +6276,6 @@ opacity: 0 !important;
 			.thread__message__profile__chara a {
 				display: none;
 			}
-			.thread__message__profile__chara .gen:nth-child(even) {
-				color: var(--txt-clr) !important;
-			}
 			.thread__message__profile__info {
 				font-family: var(--txt-font2);
 				font-size: var(--txt-size-small);
