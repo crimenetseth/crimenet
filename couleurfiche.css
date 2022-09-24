@@ -28,6 +28,10 @@ prez.geyster timetitle::before {
 	border: 2px solid var(--geyster);
 }
 
+.geyster cassecondition b {
+	color: var(--geyster);
+}
+
 /*SPETSNAZ*/
 prez.spetsnaz civname,
 prez.spetsnaz civimg::before,
@@ -56,6 +60,10 @@ prez.spetsnaz timetxt {
 rplist.spetsnaz timetitle::before,
 prez.spetsnaz timetitle::before {
 	border: 2px solid var(--spetsnaz);
+}
+
+.spetsnaz cassecondition b {
+	color: var(--spetsnaz);
 }
 
 /*VRACH*/
@@ -88,6 +96,10 @@ prez.vrach timetitle::before {
 	border: 2px solid var(--vrach);
 }
 
+.vrach cassecondition b {
+	color: var(--vrach);
+}
+
 /*LYUDI*/
 prez.lyudi civname,
 prez.lyudi civimg::before,
@@ -116,4 +128,8 @@ prez.lyudi timetxt {
 rplist.lyudi timetitle::before,
 prez.lyudi timetitle::before {
 	border: 2px solid var(--lyudi-bg);
+}
+
+.lyudi cassecondition b {
+	color: var(--lyudi);
 }

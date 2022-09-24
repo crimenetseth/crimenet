@@ -7179,6 +7179,9 @@ cassecontainer {
 			cassederoulement::before {
 				content: "Déroulement";
 			}
+		cassecondition b {
+	color: var(--affordance);
+}
 
 /*FICHE BOUNTY*/
 bounty {
