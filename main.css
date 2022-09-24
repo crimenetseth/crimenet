@@ -5768,6 +5768,7 @@ opacity: 0 !important;
 				background: url(https://i.imgur.com/bNrWB1C.png) no-repeat 16px center;
 				background-color: var(--bg-light);
 				width: 270px;
+				padding-left: 40px;
 			}
 			.threadlist__searchbox form input::placeholder {
 				opacity: .5;
@@ -6201,7 +6202,10 @@ opacity: 0 !important;
 				.pagination span strong,
 				.thread__botactions .pagination span a:link,
 				.thread__botactions .pagination span a:visited,
-				.thread__botactions .pagination span a:active {
+				.thread__botactions .pagination span a:active,
+				.paginationforums span a:link,
+				.paginationforums span a:visited,
+				.paginationforums span a:active {
 					height: 30px;
 					width: 30px;
 					line-height: 30px;
