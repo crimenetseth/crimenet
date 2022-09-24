@@ -6825,6 +6825,15 @@ sommaire {
 	font-family: var(--txt-font2);	
 }
 
+sommaire a {
+	display: block;
+	max-width: 405px;
+	white-space: nowrap;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	height: 21px;
+}
+
 somhead,
 tutohead {
 	font-size: var(--txt-size-title);
@@ -6841,7 +6850,7 @@ somblock {
 	justify-content: center;
 	align-items: center;
 	position: relative;
-	width: 80px;
+	width: 40px;
 }
 
 	somtrans {
