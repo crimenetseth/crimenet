@@ -6273,14 +6273,14 @@ opacity: 0 !important;
 			.thread__message__profile__chara a {
 				display: none;
 			}
-			.thread__message__profile__chara .gen#rpg-genre,
-			.thread__message__profile__chara .gen#rpg-Âge,
-			.thread__message__profile__chara .gen#rpg-origine,
-			.thread__message__profile__chara .gen#rpg-orientation-sexuelle,
-			.thread__message__profile__chara .gen#rpg-nom-de-code,
-			.thread__message__profile__chara .gen#rpg-spécialité-/-métier,
-			.thread__message__profile__chara .gen#rpg-compétences,
-			.thread__message__profile__chara .gen#rpg-accréditations {
+			.thread__message__profile__chara #rpg-genre,
+			.thread__message__profile__chara #rpg-Âge,
+			.thread__message__profile__chara #rpg-origine,
+			.thread__message__profile__chara #rpg-orientation-sexuelle,
+			.thread__message__profile__chara #rpg-nom-de-code,
+			.thread__message__profile__chara #rpg-spécialité-/-métier,
+			.thread__message__profile__chara #rpg-compétences,
+			.thread__message__profile__chara #rpg-accréditations {
 				color: var(--txt-clr) !important;
 			}
 			.thread__message__profile__info {
