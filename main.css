@@ -4469,7 +4469,8 @@ majbody {
 
 	psyimg img,
 	lookimg img,
-	storimg img {
+	storimg img,
+	relationimg img {
 		object-fit: cover;
 		opacity: .5;
 	}
