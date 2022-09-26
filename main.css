@@ -6895,6 +6895,10 @@ smsclr {
 	flex-flow: row-reverse;
 }
 
+sms {
+	clear: both;
+}
+
 anonymimg,
 sandyimg,
 smsimg img {
