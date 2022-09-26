@@ -3713,6 +3713,7 @@ opacity: 0 !important;
 					width: 30px;
 					line-height: 30px;
 					padding: 0;
+					margin-right: 20px;
 				}				
 				.pagination span strong {
 					position: relative;
