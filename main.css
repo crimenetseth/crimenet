@@ -4021,7 +4021,8 @@ invimg,
 rplistimg,
 relimg,
 majimg,
-mjimg {
+mjimg,
+tutoimg {
 	position: absolute;
 	top: 0;
 	left: -1px;
@@ -4037,7 +4038,8 @@ mjimg {
 	rplistimg::before,
 	relimg::before,
 	majimg::before,
-	mjimg::before {
+	mjimg::before,
+	tutoimg::before {
 		content: " ";
 		width: 826px;
 		height: 337px;
@@ -4064,7 +4066,8 @@ mjimg {
 	rplistimg img,
 	relimg img,
 	majimg img,
-	mjimg img {
+	mjimg img,
+	tutoimg img {
 		width: 826px;
 		height: 337px;
 		opacity: .5;
@@ -4076,11 +4079,13 @@ inv,
 rplist,
 relations,
 majbody,
-som {
+som,
+tuto {
 	position: relative;
 	z-index: 1;	
 }
-prez-civ {
+prez-civ,
+tuto {
 	margin-top: 120px;
 }
 som {
@@ -5204,7 +5209,8 @@ p.author {
 .postingpreview__content rplistimg::before,
 .postingpreview__content relimg::before,
 .postingpreview__content majimg::before,
-.postingpreview__content mjimg::before {
+.postingpreview__content mjimg::before,
+.postingpreview__content tutoimg::before {
 	width: 1200px;
 } 
 .postpage__details {
