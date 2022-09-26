@@ -90,6 +90,10 @@ body {
 	margin-top: 0 !important;
 }
 
+#fa_toolbar #fa_right #notif_list li {
+	color: #919191;
+}
+
 /*SCROLLBAR*/
 ::-webkit-scrollbar { 
   width: 5px;
