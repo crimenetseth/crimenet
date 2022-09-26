@@ -6069,6 +6069,10 @@ p.author {
 				.qeel__contain__last__user__txt {
 					font-family: var(--txt-font2);
 				}
+				.statistics-item a:link,
+				.statistics-item a:visited {
+				    color: var(--txt-clr) !important;
+				}
 				.qeel__lastmember strong {
 					font-size: var(--txt-size-inter);
 				}
