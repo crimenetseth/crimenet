@@ -6897,6 +6897,7 @@ smsclr {
 
 sms {
 	clear: both;
+	margin-bottom: 20px;
 }
 
 anonymimg,
