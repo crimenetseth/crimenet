@@ -7772,6 +7772,15 @@ tutobasebbl {
 				justify-content: center;
 			}
 
+			.thread__message__post__edit {
+				position: absolute;
+				bottom: 10px;
+				left: 20px;
+				font-family: var(--txt-font2);
+				opacity: .5;
+				font-size: var(--txt-size-small);
+			}
+
 			.kitchengun {
 				margin-top: 30px;
 			}
