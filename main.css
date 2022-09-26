@@ -6032,6 +6032,8 @@ p.author {
 			background-color: var(--bg-mid);
 			padding: 25px 45px;
 			font-family: var(--txt-font2);
+			height: 273px;
+			overflow: auto;
 		}
 			.connectedmembers::before {
 				content: "Ils étaient en ligne il y a peu";
