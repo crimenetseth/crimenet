@@ -6071,7 +6071,7 @@ p.author {
 				}
 				.statistics-item a:link,
 				.statistics-item a:visited {
-				    color: var(--txt-clr) !important;
+				    color: var(--txt-clr);
 				}
 				.qeel__lastmember strong {
 					font-size: var(--txt-size-inter);
