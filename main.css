@@ -61,6 +61,10 @@ html {
     font-size: 1rem;
 }
 
+i {
+	line-height: 1.4;
+}
+
 .linklist.top,
 #fa_menulist
 {
