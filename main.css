@@ -5459,8 +5459,15 @@ p.author {
 					display: flex;
 					gap: 5px;
 				}
+				.pa__mdm__contact {
+					position: absolute;
+					top: 15px;
+					left: 15px;
+					z-index: 3;
+				}
 				.pa__staff__tab__staff__info__profile,
-				.pa__staff__tab__staff__info__contact {
+				.pa__staff__tab__staff__info__contact,
+				.pa__mdm__contact {
 					display: block;
 					width: 26px;
 					height: 26px;
@@ -5474,7 +5481,8 @@ p.author {
 				.pa__staff__tab__staff__info__contact {
 					background-image: url(https://cdn.statically.io/gh/crimenetseth/crimenet/main/svgs/staff/contact.svg);
 				}
-				.pa__staff__tab__staff__info__profile {
+				.pa__staff__tab__staff__info__profile,
+				.pa__mdm__contact {
 					background-image: url(https://cdn.statically.io/gh/crimenetseth/crimenet/main/svgs/staff/profile.svg);
 					background-position: 8.5px 6px;
 				}
