@@ -1,3 +1,37 @@
+/*NO GROUP*/
+prez civname,
+prez civimg::before,
+prez profname,
+prez profimg::before,
+prez psyimg:before,
+prez lookimg:before,
+prez storimg:before,
+prez relationimg:before,
+inv invh2,
+inv trophicone,
+rplist rplisth2,
+rplist timevent a,
+prez timevent a {
+	background-color: var(--affordance);
+}
+inv skilltitle,
+inv asstitle {
+	color: var(--affordance);
+}
+
+rplist timetxt,
+prez timetxt {
+	border-left: 3px solid var(--affordance);
+}
+rplist timetitle::before,
+prez timetitle::before {
+	border: 2px solid var(--affordance);
+}
+
+ cassecondition b {
+	color: var(--affordance);
+}
+
 /*GEYSTER*/
 prez.geyster civname,
 prez.geyster civimg::before,
