@@ -12,24 +12,24 @@ inv trophicone,
 rplist rplisth2,
 rplist timevent a,
 prez timevent a {
-	background-color: var(--affordance);
+	background-color: var(--invite);
 }
 inv skilltitle,
 inv asstitle {
-	color: var(--affordance);
+	color: var(--invite);
 }
 
 rplist timetxt,
 prez timetxt {
-	border-left: 3px solid var(--affordance);
+	border-left: 3px solid var(--invite);
 }
 rplist timetitle::before,
 prez timetitle::before {
-	border: 2px solid var(--affordance);
+	border: 2px solid var(--invite);
 }
 
  cassecondition b {
-	color: var(--affordance);
+	color: var(--invite);
 }
 
 /*GEYSTER*/
