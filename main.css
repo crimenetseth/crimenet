@@ -4779,6 +4779,10 @@ relations {
 		invmodphy:nth-child(even) modphycontent {
 			text-align: right;
 		}
+		invskill:nth-child(even) skillcontent skilltxt {
+			position: relative;
+			right: -5px;
+		}
 			skillimg,
 			assimg,
 			accredimg,
