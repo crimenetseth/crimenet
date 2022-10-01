@@ -87,6 +87,8 @@ copie le lien de partage et remplace le "www" par "dl"*/
 	content: "Parier et jouer ton Offshore ne te fait pas peur. Impressionnant.";
 }
 
+
+
 .elonmusk trophicone {
 	background-image: url(https://cdn.statically.io/gh/crimenetseth/crimenet/main/svgs/trophees/halloween.svg);
 }
@@ -102,6 +104,8 @@ copie le lien de partage et remplace le "www" par "dl"*/
 .elonmusk trophcontent::after {
 	content: "Cette folle soirée a vraiment fait ressortir l'animal qui sommeille en vous. Attention aux morsures~";
 }
+
+
 
 .crimevswild trophicone {
 	background-image: url(https://cdn.statically.io/gh/crimenetseth/crimenet/main/svgs/trophees/halloween.svg);
