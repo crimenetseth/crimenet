@@ -4665,7 +4665,7 @@ relations {
 		margin-top: 100px;
 	}
 	invitem.inv__oxford::before {
-		background-image: url(https://i.imgur.com/m6AYpzY.png);
+		background-image: url(https://cdn.statically.io/gh/crimenetseth/crimenet/main/svgs/affiliations/oxford.svg);
 	}
 	invitem.inv__redmercy::before {
 		background-image: url(https://cdn.statically.io/gh/crimenetseth/crimenet/main/svgs/affiliations/redmercy.svg);
