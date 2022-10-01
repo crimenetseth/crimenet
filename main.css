@@ -6379,10 +6379,13 @@ troph {
 		width: 115px;
 		text-align: left;
 		font-weight: 800;
-		padding: 15px;
+		padding: 0 10px;
 		font-size: var(--txt-size-small);
 		text-transform: uppercase;
 		background-color: var(--bg-light);
+		display: flex;
+		flex-flow: column;
+		justify-content: center;
 	}
 		trophname::after {
 			opacity: .5;
