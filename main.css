@@ -4134,10 +4134,10 @@ timevent a {
 		background-color: #888888;
 	}
 	tag.mission {
-		background-color: #888888;
+		background-color: #8d2f2f;
 	}
 	tag.casse {
-		background-color: #888888;
+		background-color: #7542d9;
 	}
 	tag.neutre {
 		background-color: var(--lyudi-bg);
