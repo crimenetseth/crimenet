@@ -266,6 +266,9 @@ tag.solo::before {
 tag.mission::before {
 	content: "Mission";
 }
+tag.casse::before {
+	content: "Casse";
+}
 tag.neutre::before {
 	content: "Neutre";
 }
