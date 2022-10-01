@@ -263,6 +263,9 @@ tag.termine::before {
 tag.solo::before {
 	content: "Solo";
 }
+tag.mission::before {
+	content: "Mission";
+}
 tag.neutre::before {
 	content: "Neutre";
 }

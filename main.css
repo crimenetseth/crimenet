@@ -4133,6 +4133,9 @@ timevent a {
 	tag.solo {
 		background-color: #888888;
 	}
+	tag.mission {
+		background-color: #888888;
+	}
 	tag.neutre {
 		background-color: var(--lyudi-bg);
 	}
