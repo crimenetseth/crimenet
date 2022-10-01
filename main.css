@@ -6372,6 +6372,7 @@ troph {
 		border-radius: 4px;
 		background-repeat: no-repeat;
 		background-position: center;
+		background-size: 35px;
 	}
 	trophname {
 		height: 70px;
