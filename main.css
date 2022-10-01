@@ -4943,6 +4943,7 @@ relations {
 				padding: 0 10px;
 				position: relative;
 				top: 8px;
+				color: var(txt-clr) !important;
 			}
 			prez timevent a {
 				cursor: inherit;
