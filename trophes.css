@@ -93,7 +93,7 @@ copie le lien de partage et remplace le "www" par "dl"*/
 	background-image: url(https://crimenetseth.github.io/crimenet/svgs/trophees/elon.svg);
 }
 .elonmusk trophname::before {
-	content: "La grosse soirée d'Elon Musk";
+	content: "Grosse soirée d'Elon";
 }
 .elonmusk trophname::after {
 	content: "-2022";
