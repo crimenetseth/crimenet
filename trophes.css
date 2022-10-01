@@ -72,7 +72,7 @@ copie le lien de partage et remplace le "www" par "dl"*/
 
 
 .riogrande trophicone {
-	background-image: url(https://cdn.statically.io/gh/crimenetseth/crimenet/main/svgs/trophees/halloween.svg);
+	background-image: url(https://cdn.statically.io/gh/crimenetseth/crimenet/main/svgs/trophees/casino.svg);
 }
 .riogrande trophname::before {
 	content: "Rio Grande Casino";
@@ -90,7 +90,7 @@ copie le lien de partage et remplace le "www" par "dl"*/
 
 
 .elonmusk trophicone {
-	background-image: url(https://cdn.statically.io/gh/crimenetseth/crimenet/main/svgs/trophees/halloween.svg);
+	background-image: url(https://cdn.statically.io/gh/crimenetseth/crimenet/main/svgs/trophees/elon.svg);
 }
 .elonmusk trophname::before {
 	content: "La grosse soirée d'Elon Musk";
@@ -108,7 +108,7 @@ copie le lien de partage et remplace le "www" par "dl"*/
 
 
 .crimevswild trophicone {
-	background-image: url(https://cdn.statically.io/gh/crimenetseth/crimenet/main/svgs/trophees/halloween.svg);
+	background-image: url(https://cdn.statically.io/gh/crimenetseth/crimenet/main/svgs/trophees/carte.svg);
 }
 .crimevswild trophname::before {
 	content: "Crime vs Wild";
