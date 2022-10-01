@@ -95,6 +95,11 @@ body {
 	color: #919191;
 }
 
+.ajax-profil_edit {
+	top: -2px;
+	left: 20px;
+}
+
 /*SCROLLBAR*/
 ::-webkit-scrollbar { 
   width: 5px;
