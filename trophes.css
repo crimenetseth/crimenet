@@ -5,18 +5,116 @@ HERBERGER UN SVG SUR DROPBOX
 Go sur SVGs > trophees et dépose ton svg à la bonne taille (35x35) dans le dossier
 copie le lien de partage et remplace le "www" par "dl"*/
 
-.operationjudith trophicone {
+.operationjudith1 trophicone {
 	background-image: url(https://cdn.statically.io/gh/crimenetseth/crimenet/main/svgs/trophees/halloween.svg);
 }
-.operationjudith trophname::before {
+.operationjudith1 trophname::before {
 	content: "Opération Judith";
 }
-.operationjudith trophname::after {
+.operationjudith1 trophname::after {
 	content: "- 2021";
 }
-.operationjudith trophcontent::before {
+.operationjudith1 trophcontent::before {
 	content: "Enfant de la rouille";
 }
-.operationjudith trophcontent::after {
+.operationjudith1 trophcontent::after {
 	content: "Votre âme et votre sang ont été mit à l’épreuve dans l’École Midwich et vous avez survécu.";
+}
+
+.operationjudith2 trophicone {
+	background-image: url(https://cdn.statically.io/gh/crimenetseth/crimenet/main/svgs/trophees/halloween.svg);
+}
+.operationjudith2 trophname::before {
+	content: "Opération Judith";
+}
+.operationjudith2 trophname::after {
+	content: "- 2021";
+}
+.operationjudith2 trophcontent::before {
+	content: "Gibier de choix";
+}
+.operationjudith2 trophcontent::after {
+	content: "Vous avez survécu au traqueur le plus dangereux de Crystal Lake, et peut-être du monde.";
+}
+
+.operationjudith3 trophicone {
+	background-image: url(https://cdn.statically.io/gh/crimenetseth/crimenet/main/svgs/trophees/halloween.svg);
+}
+.operationjudith3 trophname::before {
+	content: "Opération Judith";
+}
+.operationjudith3 trophname::after {
+	content: "- 2021";
+}
+.operationjudith3 trophcontent::before {
+	content: "Technicien infernal";
+}
+.operationjudith3 trophcontent::after {
+	content: "Les entités vengeresses n'ont plus de secrets pour vous.";
+}
+
+.operationjudith4 trophicone {
+	background-image: url(https://cdn.statically.io/gh/crimenetseth/crimenet/main/svgs/trophees/halloween.svg);
+}
+.operationjudith4 trophname::before {
+	content: "Opération Judith";
+}
+.operationjudith4 trophname::after {
+	content: "- 2021";
+}
+.operationjudith4 trophcontent::before {
+	content: "Joueur de poupée";
+}
+.operationjudith4 trophcontent::after {
+	content: "A votre âge, vous devriez lâcher les poupées. En tout cas, les My Buddy seront toujours vos amis.";
+}
+
+
+
+.riogrande trophicone {
+	background-image: url(https://cdn.statically.io/gh/crimenetseth/crimenet/main/svgs/trophees/halloween.svg);
+}
+.riogrande trophname::before {
+	content: "Rio Grande Casino";
+}
+.riogrande trophname::after {
+	content: "- 2021-2022";
+}
+.riogrande trophcontent::before {
+	content: "Jeux d'argent";
+}
+.riogrande trophcontent::after {
+	content: "Parier et jouer ton Offshore ne te fait pas peur. Impressionnant.";
+}
+
+.elonmusk trophicone {
+	background-image: url(https://cdn.statically.io/gh/crimenetseth/crimenet/main/svgs/trophees/halloween.svg);
+}
+.elonmusk trophname::before {
+	content: "La grosse soirée d'Elon Musk";
+}
+.elonmusk trophname::after {
+	content: "-2022";
+}
+.elonmusk trophcontent::before {
+	content: "Rawr !!!";
+}
+.elonmusk trophcontent::after {
+	content: "Cette folle soirée a vraiment fait ressortir l'animal qui sommeille en vous. Attention aux morsures~";
+}
+
+.crimevswild trophicone {
+	background-image: url(https://cdn.statically.io/gh/crimenetseth/crimenet/main/svgs/trophees/halloween.svg);
+}
+.crimevswild trophname::before {
+	content: "Crime vs Wild";
+}
+.crimevswild trophname::after {
+	content: "-2022";
+}
+.crimevswild trophcontent::before {
+	content: "Quelle survie !";
+}
+.crimevswild trophcontent::after {
+	content: "Tu as vu du pays. La prochaine fois, prépare mieux ton voyage.";
 }
