@@ -4743,6 +4743,9 @@ relations {
 		invaccred::after {
 			content: "Prix:  50k$";
 		}
+		inv invskill::after {
+			display: none;
+		}
 		invass.asset::after {
 			content: "Prix : Niv. 1 = 20k$/ Niv. 2 = ?/ Niv. 3 = ?";
 		}
