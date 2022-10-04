@@ -1194,6 +1194,10 @@ opacity: 0 !important;
 				flex-grow: 1;
 				text-transform: lowercase;
 				letter-spacing: 2.1px;
+				overflow: hidden;
+				text-overflow: ellipsis;
+				white-space: nowrap;
+				padding-right: 10px;
 			}
 				.threadlist__breadcrumbs__path:before {
 					content: "d:\\";
