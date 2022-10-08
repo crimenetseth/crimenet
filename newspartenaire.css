@@ -50,11 +50,6 @@
 }
 .crimeheaderm {
 	background-color: var(--bg-dark);
-	background-image: url(https://i.imgur.com/BJDC3bz.png);
-	background-repeat: no-repeat;
-	background-position: 570px 5px;
-	background-size: 60px;
-	display: block;
 }
 .crimenet ul {
 	padding: 0;
@@ -73,7 +68,10 @@
 	display: flex;
 	align-items: flex-end;
 	background-color: var(--bg-dark);
-	width: 100%;
+	background-image: url(https://i.imgur.com/BJDC3bz.png);
+	background-repeat: no-repeat;
+	background-position: 570px 5px;
+	background-size: 60px;
 }
 .crimenav ul {
 	display: flex;
@@ -118,7 +116,6 @@
 	display: flex;
 	padding: 0 15px;
 	align-items: center;
-	width: 100%;
 }
 .crimenavsearch input {
 	border: none;
