@@ -48,7 +48,7 @@
 
 	transition:  all 0.3s ease-in;
 }
-.crimeheader {
+.crimeheaderm {
 	background-color: var(--bg-dark);
 	background-image: url(https://i.imgur.com/BJDC3bz.png);
 	background-repeat: no-repeat;
@@ -74,6 +74,7 @@
 	align-items: flex-end;
 	background-color: var(--bg-dark);
 	width: 100%;
+	z-index: 1;
 }
 .crimenav ul {
 	display: flex;
@@ -118,6 +119,8 @@
 	display: flex;
 	padding: 0 15px;
 	align-items: center;
+	z-index: 1;
+	width: 100%;
 }
 .crimenavsearch input {
 	border: none;
@@ -153,7 +156,7 @@
 .crimeheader {
 	background: url(https://i.imgur.com/TEDsgjp.png) no-repeat center;
 	background-size: cover;
-	height: 250px;
+	height: 339px;
 	display: flex;
 	flex-flow: column;
 	align-items: center;
@@ -439,6 +442,7 @@
 		padding: 2px 5px;
 		display: flex;
 		font-family: var(--txt-font1);
+		font-size: var(--txt-size-small);
 	}
 		.crimegroups li.geyster {
 			color: var(--geyster);
