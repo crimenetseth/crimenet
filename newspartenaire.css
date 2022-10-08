@@ -74,7 +74,6 @@
 	align-items: flex-end;
 	background-color: var(--bg-dark);
 	width: 100%;
-	z-index: 1;
 }
 .crimenav ul {
 	display: flex;
@@ -119,7 +118,6 @@
 	display: flex;
 	padding: 0 15px;
 	align-items: center;
-	z-index: 1;
 	width: 100%;
 }
 .crimenavsearch input {
@@ -156,7 +154,7 @@
 .crimeheader {
 	background: url(https://i.imgur.com/TEDsgjp.png) no-repeat center;
 	background-size: cover;
-	height: 339px;
+	height: 250px;
 	display: flex;
 	flex-flow: column;
 	align-items: center;
