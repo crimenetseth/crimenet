@@ -69,6 +69,22 @@ copie le lien de partage et remplace le "www" par "dl"*/
 	content: "A votre âge, vous devriez lâcher les poupées. En tout cas, les My Buddy seront toujours vos amis.";
 }
 
+.operationjudith5 trophicone {
+	background-image: url(https://crimenetseth.github.io/crimenet/svgs/trophees/halloween.svg);
+}
+.operationjudith5 trophname::before {
+	content: "Opération Judith";
+}
+.operationjudith5 trophname::after {
+	content: "- 2021";
+}
+.operationjudith5 trophcontent::before {
+	content: "Attrape-Rêves";
+}
+.operationjudith5 trophcontent::after {
+	content: "Vous avez réussi à échapper à des cauchemars mortels, espérons que ça ne hante pas vos rêves.";
+}
+
 
 
 .riogrande trophicone {
