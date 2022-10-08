@@ -38,6 +38,8 @@
 .crimenet a {
 	color: var(--txt-clr);
 	text-decoration: none;
+	text-align: left;
+	text-transform: lowercase;
 
 	transition:  all 0.3s ease-in;
 }
@@ -70,6 +72,8 @@
 .crimenav {
 	display: flex;
 	align-items: flex-end;
+	background-color: var(--bg-dark);
+	width: 100%;
 }
 .crimenav ul {
 	display: flex;
@@ -86,6 +90,8 @@
 	background-image: url(https://cdn.statically.io/gh/crimenetseth/crimenet/main/navclose.svg);
 	background-position: 83px 11px;
 	background-repeat: no-repeat;
+	text-align: left;
+	text-transform: lowercase;
 
 	transition:  all 0.3s ease-in;
 }
@@ -434,22 +440,22 @@
 		display: flex;
 		font-family: var(--txt-font1);
 	}
-		.geyster {
+		.crimegroups li.geyster {
 			color: var(--geyster);
 		}
-		.spetsnaz {
+		.crimegroups li.spetsnaz {
 			color: var(--spetsnaz);
 		}
-		.vrach {
+		.crimegroups li.vrach {
 			color: var(--vrach);
 		}
-		.lyudi {
+		.crimegroups li.lyudi {
 			color: var(--lyudi);
 		}
-			.geyster::before,
-			.spetsnaz::before,
-			.vrach::before,
-			.lyudi::before {
+			.crimegroups li.geyster::before,
+			.crimegroups li.spetsnaz::before,
+			.crimegroups li.vrach::before,
+			.crimegroups li.lyudi::before {
 				content: " ";
 				width: 12px;
 				height: 12px;
@@ -458,35 +464,35 @@
 				background-position: center;
 				background-repeat: no-repeat;
 			}
-			.geyster::before {
+			.crimegroups li.geyster::before {
 				background-image: url(https://cdn.statically.io/gh/crimenetseth/crimenet/main/svgs/groupes/geyster_clr.svg);
 			}
-			.spetsnaz::before {
+			.crimegroups li.spetsnaz::before {
 				background-image: url(https://cdn.statically.io/gh/crimenetseth/crimenet/main/svgs/groupes/spetsnaz_clr.svg);
 			}
-			.vrach::before {
+			.crimegroups li.vrach::before {
 				background-image: url(https://cdn.statically.io/gh/crimenetseth/crimenet/main/svgs/groupes/vrach_clr.svg);
 			}
-			.lyudi::before {
+			.crimegroups li.lyudi::before {
 				background-image: url(https://cdn.statically.io/gh/crimenetseth/crimenet/main/svgs/groupes/lyudi_clr.svg);
 			}
-			.geyster::after,
-			.spetsnaz::after,
-			.vrach::after,
-			.lyudi::after {
+			.crimegroups li.geyster::after,
+			.crimegroups li.spetsnaz::after,
+			.crimegroups li.vrach::after,
+			.crimegroups li.lyudi::after {
 				color: var(--txt-clr);
 				font-weight: 400;
 				font-family: var(--txt-font2);
 			}
-			.geyster::after {
+			.crimegroups li.geyster::after {
 				content: "Geyster";
 			}
-			.spetsnaz::after {
+			.crimegroups li.spetsnaz::after {
 				content: "spetsnaz";
 			}
-			.vrach::after {
+			.crimegroups li.vrach::after {
 				content: "vrach";
 			}
-			.lyudi::after {
+			.crimegroups li.lyudi::after {
 				content: "lyudi";
 			}
