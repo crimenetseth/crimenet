@@ -1918,9 +1918,12 @@ opacity: 0 !important;
 			#message-box div.sceditor-toolbar {
 				flex-wrap: wrap;
 			}
-			.sceditor-color-column {
+			.sceditor-color-picker div {
 				float: none;
 				display: flex;
+			}
+			.sceditor-color-column {
+				flex-flow: column;
 			}
 
 	#quick_reply .word-count {
