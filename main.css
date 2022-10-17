@@ -1918,6 +1918,11 @@ opacity: 0 !important;
 			#message-box div.sceditor-toolbar {
 				flex-wrap: wrap;
 			}
+			.sceditor-color-column {
+				float: none;
+				display: flex;
+			}
+
 	#quick_reply .word-count {
 		position: absolute;
 		top: 32px;
