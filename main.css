@@ -2251,7 +2251,7 @@ opacity: 0 !important;
 				}
 				nav.nav__main .nav__main__bar li:nth-of-type(2),
 				nav.nav__main .nav__main__bar li:nth-of-type(3),
-				nav.nav__main .nav__main__bar li:nth-of-type(7){
+				nav.nav__main .nav__main__bar li:nth-of-type(11){
 					display: none;
 				}
 	.navsearchbar {
