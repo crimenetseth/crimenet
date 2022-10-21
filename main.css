@@ -1725,9 +1725,6 @@ opacity: 0 !important;
 
 					transition:  all 0.3s ease-in;
 				}
-				.thread__message__profile__contact a:nth-child(3) {
-					display: none;
-				}
 				.thread__message__profile__contact a:hover {
 					background-color: var(--affordance);
 
@@ -3820,9 +3817,6 @@ opacity: 0 !important;
 					justify-content: center;
 
 					transition:  all 0.3s ease-in;
-				}
-				.thread__message__profile__contact a:nth-child(3) {
-					display: none;
 				}
 				.thread__message__profile__contact a:hover {
 					background-color: var(--affordance);
