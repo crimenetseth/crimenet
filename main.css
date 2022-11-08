@@ -4768,10 +4768,10 @@ relations {
 		inv invskill::after {
 			display: none;
 		}
-		invass.asset::after {
+		annoncetxt invass.asset::after {
 			content: "Prix : Niv. 1 = 20k$/ Niv. 2 = ?/ Niv. 3 = ?";
 		}
-		invass.asset.delamain::after {
+		annoncetxt invass.asset.delamain::after {
 			content: "Prix : 25k Banalisée / Luxe / Blindée";
 		}
 		invaccred::before {
