@@ -1021,8 +1021,8 @@ opacity: 0 !important;
 			gap:  15px;
 			margin: 0 0 0 15px;
 			flex-wrap: nowrap;
-			overflow-x: scroll;
-			overflow-y: hidden;
+			overflow-x: hidden;
+			overflow-y: auto;
 			width: 705px;
 			padding-bottom: 5px;
 		}
@@ -3088,23 +3088,6 @@ opacity: 0 !important;
 		gap: 20px;
 		justify-content: center;
 	}
-		.cat__fora__sub {
-			display: flex;
-			gap:  15px;
-			margin: 0 0 0 15px;
-			flex-wrap: nowrap;
-			overflow-x: scroll;
-			overflow-y: hidden;
-			width: 705px;
-			padding-bottom: 5px;
-		}
-		.cat__fora__sub a {
-			transition: all 0.3s ease-in;
-			flex-shrink: 0;
-		} 
-			.cat__fora__sub a:hover {
-				transition: all 0.3s ease-in;
-			} 
 .cat__fora__last {
 	background-color: var(--bg-mid);
 	width: 270px;
