@@ -5377,31 +5377,35 @@ p.author {
 					background: url(https://i.imgur.com/QtuGM6l.png) no-repeat center;
 					background-size: cover;
 				}
-				.pa__staff__tab1 {
-					background: url(https://i.imgur.com/qsliH1F.png) no-repeat center;
-					background-size: cover;
-				}
-				.pa__staff__tab2 {
+				.pa__staff__tab1 { /*AIMIE*/
 					background: url(https://i.imgur.com/c4NRmJq.png) no-repeat center;
 					background-size: cover;
 				}
-				.pa__staff__tab3 {
+				.pa__staff__tab2 { /*JEZEZBEL*/
 					background: url(https://i.imgur.com/JHFBFJ4.png) no-repeat center;
 					background-size: cover;
 				}
-				.pa__staff__tab4 {
+				.pa__staff__tab3 { /*YNYR*/
 					background: url(https://i.imgur.com/jMdGePk.png) no-repeat center;
 					background-size: cover;
 				}
-				.pa__staff__tab5 {
+				.pa__staff__tab4 { /*MASARONI*/
 					background: url(https://i.imgur.com/hhXRwBa.png) no-repeat center;
 					background-size: cover;
 				}
-				.pa__staff__tab6 {
+				.pa__staff__tab5 { /*JALDHAR*/
 					background: url(https://i.imgur.com/oFWgJ6w.png) no-repeat center;
 					background-size: cover;
 				}
-				.pa__staff__tab8 {
+				.pa__staff__tab6 { /*NZAMBI*/
+					background: url(https://i.imgur.com/TDPKZdE.png) no-repeat center;
+					background-size: cover;
+				}
+				.pa__staff__tab7 { /*TOUJI*/
+					background: url(https://i.imgur.com/qsliH1F.png) no-repeat center;
+					background-size: cover;
+				}
+				.pa__staff__tab8 { /*ÞJALFI*/
 					background: url(https://i.imgur.com/JboVrl4.jpg) no-repeat center;
 					background-size: cover;
 				}
