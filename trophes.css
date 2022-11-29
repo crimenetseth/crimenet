@@ -138,3 +138,19 @@ copie le lien de partage et remplace le "www" par "dl"*/
 .crimevswild trophcontent::after {
 	content: "Tu as vu du pays. La prochaine fois, prépare mieux ton voyage.";
 }
+
+.cassecrime trophicone {
+	background-image: url(https://crimenetseth.github.io/crimenet/svgs/trophees/cassecrime.svg);
+}
+.cassecrime trophname::before {
+	content: "Casse Crime.net";
+}
+.cassecrime trophname::after {
+	content: "-2022";
+}
+.cassecrime trophcontent::before {
+	content: "Combattant acharné";
+}
+.cassecrime trophcontent::after {
+	content: "Tu as participé aux combats farouches entre Geysters et Spetsnaz.";
+}
