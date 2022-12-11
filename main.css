@@ -4614,7 +4614,8 @@ relations {
 	invitem.inv__outerhaven::before,
 	invitem.inv__env::before,
 	invitem.inv__vidocq::before,
-	invitem.inv__skynet::before {
+	invitem.inv__skynet::before,
+	invitem.inv__umbrella::before {
 		position: absolute;
 		top: Calc(50% - 7.5px);
 		left: Calc(50% - 7.5px);
@@ -4652,7 +4653,8 @@ relations {
 	.active invitem.inv__outerhaven::before,
 	.active invitem.inv__env::before,
 	.active invitem.inv__vidocq::before,
-	.active invitem.inv__skynet::before {
+	.active invitem.inv__skynet::before
+	.active invitem.inv__umbrella::before, {
 		opacity: 1;
 	}
 	skillbot,
@@ -4686,6 +4688,9 @@ relations {
 	}
 	invitem.inv__skynet::before {
 		background-image: url(https://cdn.statically.io/gh/crimenetseth/crimenet/main/svgs/affiliations/skynet.svg);
+	}
+	invitem.inv__umbrella::before {
+		background-image: url(https://cdn.statically.io/gh/crimenetseth/crimenet/main/svgs/affiliations/umbrella.svg);
 	}
 	skillscontainer,
 	asscontainer {
@@ -7188,6 +7193,10 @@ cassetitle {
 	}
 	.vidocq cassetitle::before {
 		background: url(https://cdn.statically.io/gh/crimenetseth/crimenet/main/svgs/affiliations/vidocq.svg) no-repeat center;
+		background-size: contain;
+	}
+	.umbrella cassetitle::before {
+		background: url(https://cdn.statically.io/gh/crimenetseth/crimenet/main/svgs/affiliations/umbrella.svg) no-repeat center;
 		background-size: contain;
 	}
 
