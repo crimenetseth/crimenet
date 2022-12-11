@@ -230,6 +230,40 @@ invass.eloquence asstxt::before {
 	content: " ";
 }
 
+invskill.chimie skilltitle::before,
+invass.chimie asstitle::before {
+	content: "Chimie";
+}
+invskill.chimie skilltxt::before {
+	content: "Du sucre, des épices, des tas de bonnes choses ! Un jour, vous avez décidé de vous improviser professeur. Et n’étant pas complètement demeuré, vous n’avez pas foutu d’agent chimique X dans votre préparation. Ni eu l’idée de faire une préparation pour créer des petites filles. Glauque. Par contre, vous savez jouer des fioles pour faire des trucs sympas !";
+}
+invass.chimie asstxt::before {
+	content: " ";
+}
+
+invskill.herboristerie skilltitle::before,
+invass.herboristerie asstitle::before {
+	content: "Herboristerie";
+}
+invskill.herboristerie skilltxt::before {
+	content: "Passionné par la botanique, vous voici devenu expert dans l’art de reconnaître les plantes. Vous voilà bien plus avancé qu’à l’époque de votre herbier, au collège ! Vous devriez savoir quel type de plante fait quoi, quelle fleur a quelle rareté et surtout si en manger vous ferait du bien, ou finirait de vous achever.";
+}
+invass.herboristerie asstxt::before {
+	content: " ";
+}
+
+invskill.psychotrope skilltitle::before,
+invass.psychotrope asstitle::before {
+	content: "Expertise Psychotrope";
+}
+invskill.psychotrope skilltxt::before {
+	content: "Cela ne vous suffisait pas d’être le plus cool en soirée, à jongler avec des cachets assez puissants pour transformer un enterrement en rave party. Il vous en fallait plus ! Alors vous avez appris à reconnaître, et même comment gérer ces jolis cachets aux couleurs de l’arc-en-ciel, afin de devenir expert en la matière !";
+}
+invass.psychotrope asstxt::before {
+	content: " ";
+}
+
+
 invass.delamain asstitle::before {
 	content: "Delamain Special Service";
 }
