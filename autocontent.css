@@ -348,6 +348,9 @@ tag.vidocq::before {
 tag.redmercy::before {
 	content: "Red Mercy";
 }
+tag.redmercy::before {
+	content: "Umbrella";
+}
 
 /*MARCHE NOIR*/
 invmodphy.ravalementdefacade modphyimg {
