@@ -62,6 +62,21 @@
 	background: url(https://www.zupimages.net/up/21/48/vfl5.png) center;
 	background-size: cover;
 }
+.chimie skillimg,
+.chimie assimg {
+	background: url(https://cdn.discordapp.com/attachments/874986732842516480/1051521209583550504/chimie.png) center;
+	background-size: cover;
+}
+.herboristerie skillimg,
+.herboristerie assimg {
+	background: url(https://cdn.discordapp.com/attachments/874986732842516480/1051521209877139496/herboristerie.png) center;
+	background-size: cover;
+}
+.expertisepsychotrope skillimg,
+.expertisepsychotrope assimg {
+	background: url(https://cdn.discordapp.com/attachments/874986732842516480/1051521799940218880/expertise-psychotrope.png) center;
+	background-size: cover;
+}
 .delamain assimg {
 	background: url(https://i.imgur.com/QGFgGfJ.png) center;
 	background-size: cover;
@@ -252,14 +267,14 @@ invass.herboristerie asstxt::before {
 	content: " ";
 }
 
-invskill.psychotrope skilltitle::before,
-invass.psychotrope asstitle::before {
+invskill.expertisepsychotrope skilltitle::before,
+invass.expertisepsychotrope asstitle::before {
 	content: "Expertise Psychotrope";
 }
-invskill.psychotrope skilltxt::before {
+invskill.expertisepsychotrope skilltxt::before {
 	content: "Cela ne vous suffisait pas d’être le plus cool en soirée, à jongler avec des cachets assez puissants pour transformer un enterrement en rave party. Il vous en fallait plus ! Alors vous avez appris à reconnaître, et même comment gérer ces jolis cachets aux couleurs de l’arc-en-ciel, afin de devenir expert en la matière !";
 }
-invass.psychotrope asstxt::before {
+invass.expertisepsychotrope asstxt::before {
 	content: " ";
 }
 
