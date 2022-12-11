@@ -255,6 +255,9 @@ invaccred.vidocq accredtitle::before {
 invaccred.redmercy accredtitle::before {
 	content: "Accréditation Red Mercy";
 }
+invaccred.umbrella accredtitle::before {
+	content: "Accréditation Umbrella";
+}
 
 /*Tags sujets*/
 tag.termine::before {
