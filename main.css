@@ -4615,7 +4615,7 @@ relations {
 	invitem.inv__env::before,
 	invitem.inv__vidocq::before,
 	invitem.inv__skynet::before,
-	invitem.inv__umbrella::before {
+	invitem.inv_umbrella::before {
 		position: absolute;
 		top: Calc(50% - 7.5px);
 		left: Calc(50% - 7.5px);
@@ -4689,7 +4689,7 @@ relations {
 	invitem.inv__skynet::before {
 		background-image: url(https://cdn.statically.io/gh/crimenetseth/crimenet/main/svgs/affiliations/skynet.svg);
 	}
-	invitem.inv__umbrella::before {
+	invitem.inv_umbrella::before {
 		background-image: url(https://cdn.statically.io/gh/crimenetseth/crimenet/main/svgs/affiliations/umbrella.svg);
 	}
 	skillscontainer,
