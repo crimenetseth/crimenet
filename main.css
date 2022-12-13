@@ -4653,8 +4653,8 @@ relations {
 	.active invitem.inv__outerhaven::before,
 	.active invitem.inv__env::before,
 	.active invitem.inv__vidocq::before,
-	.active invitem.inv__skynet::before
-	.active invitem.inv__umbrella::before, {
+	.active invitem.inv__skynet::before,
+	.active invitem.inv__umbrella::before {
 		opacity: 1;
 	}
 	skillbot,
