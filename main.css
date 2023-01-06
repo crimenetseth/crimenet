@@ -7984,3 +7984,43 @@ mail {
 	margin:  0 auto 50px;
 	width:  650px;
 }
+
+/*CONTENT MESSAGE PRO AND CON*/
+positive,
+negative {
+	display: flex;
+	width: 100%;
+	border-radius: 4px;
+	overflow: hidden;
+	background-color: var(--bg-light);
+	font-family: var(--txt-font2);
+}
+
+positive::before,
+negative::after {
+	width: 45px;
+	content:" ";
+	display: block;
+	background-repeat: no-repeat;
+}
+	positive::before {
+		width: 45px;
+		background-color: var(--lyudi);
+		background-image: url(https://crimenetseth.github.io/crimenet/svgs/sujets/chek.svg);
+		background-position: center;
+	}
+	negative::after {
+		width: 45px;
+		background-color: var(--spetsnaz);
+		background-image: url(https://crimenetseth.github.io/crimenet/svgs/sujets/cross.svg);
+		background-position: center;
+	}
+
+positive div,
+negative div {
+	padding: 20px 30px;
+	width: 450px;
+}
+	negative div {
+		text-align: right;
+	}
