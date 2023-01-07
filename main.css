@@ -4949,11 +4949,13 @@ relations {
 		}
 			timevent a {
 				display: block;
-				height: 15px;
+				min-height: 15px;
 				line-height: 15px;
 				padding: 0 10px;
 				position: relative;
 				top: 8px;
+				width: 50px;
+				text-align: center;
 				color: var(--txt-clr) !important;
 			}
 			prez timevent a {
