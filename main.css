@@ -1827,6 +1827,9 @@ opacity: 0 !important;
 
 						transition:  all 0.3s ease-in;
 					}
+					.thread__message__post__content a.btn4 {
+						color: var(--txt-clr);
+					}
 					.postingpreview__content timeline a {
 						color: var(--txt-clr);
 					}
