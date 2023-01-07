@@ -4949,7 +4949,7 @@ relations {
 		}
 			timevent a {
 				display: block;
-				min-height: 15px;
+				height: fit-content;
 				line-height: 15px;
 				padding: 0 10px;
 				position: relative;
