@@ -183,7 +183,7 @@ body {
 		.pagination span a:visited,
 		.pagination span a:active,
 		tutojoinlinksbbl div a:hover,
-		a.btn4 {
+		a.btn4:hover {
 			background-color: var(--bg-light);
 			color: var(--txt-clr);
 		}
