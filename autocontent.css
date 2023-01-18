@@ -77,6 +77,37 @@
 	background: url(https://cdn.discordapp.com/attachments/874986732842516480/1051521799940218880/expertise-psychotrope.png) center;
 	background-size: cover;
 }
+.astronomie skillimg,
+.astronomie assimg {
+	background: url(https://cdn.discordapp.com/attachments/874986732842516480/1051521799940218880/expertise-psychotrope.png) center;
+	background-size: cover;
+}
+.spaciotech skillimg,
+.spaciotech assimg {
+	background: url(https://cdn.discordapp.com/attachments/874986732842516480/1051521799940218880/expertise-psychotrope.png) center;
+	background-size: cover;
+}
+.geologie skillimg,
+.geologie assimg {
+	background: url(https://cdn.discordapp.com/attachments/874986732842516480/1051521799940218880/expertise-psychotrope.png) center;
+	background-size: cover;
+}
+.traduction skillimg,
+.traduction assimg {
+	background: url(https://cdn.discordapp.com/attachments/874986732842516480/1051521799940218880/expertise-psychotrope.png) center;
+	background-size: cover;
+}
+.sciouthum skillimg,
+.sciouthum assimg {
+	background: url(https://cdn.discordapp.com/attachments/874986732842516480/1051521799940218880/expertise-psychotrope.png) center;
+	background-size: cover;
+}
+
+
+
+
+
+
 .delamain assimg {
 	background: url(https://i.imgur.com/QGFgGfJ.png) center;
 	background-size: cover;
@@ -277,6 +308,63 @@ invskill.expertisepsychotrope skilltxt::before {
 invass.expertisepsychotrope asstxt::before {
 	content: " ";
 }
+
+invskill.astronomie skilltitle::before,
+invass.astronomie asstitle::before {
+	content: "Astronomie";
+}
+invskill.astronomie skilltxt::before {
+	content: "Plus que donner le nord ou pointer la Grande Ourse, vous êtes capables de reconnaître les étoiles, les astres et même lire certaines choses. Vous êtes même capable de dire si ce truc dans le ciel est un avion qui clignote, ou un satellite. Quel oeil !";
+}
+invass.astronomie asstxt::before {
+	content: " ";
+}
+
+invskill.spaciotech skilltitle::before,
+invass.spaciotech asstitle::before {
+	content: "Spaciotech";
+}
+invskill.spaciotech skilltxt::before {
+	content: "Navettes, satellites, combinaison spatiale… Quand je serai grand, je voudrais devenir astronaute ! Un rêve qui vous a peut-être échappé, mais vous avez toutes les connaissances pour faire plus que jouer avec du carton dans le jardin ! Vous devriez pouvoir faire opérer ce genre d’appareils, maintenant.";
+}
+invass.spaciotech asstxt::before {
+	content: " ";
+}
+
+invskill.geologie skilltitle::before,
+invass.geologie asstitle::before {
+	content: "Géologie";
+}
+invskill.geologie skilltxt::before {
+	content: "Elle est loin, l’époque où vous mangiez du sable dans les cours de récré. Maintenant, vous connaissez la terre sur le bout des ongles, surtout en dessous des ongles ouais. Formations caverneuses, pierres précieuses et exploration tunnelière sont devenus plus que des passions !";
+}
+invass.geologie asstxt::before {
+	content: " ";
+}
+
+invskill.traduction skilltitle::before,
+invass.traduction asstitle::before {
+	content: "Traduction";
+}
+invskill.traduction skilltxt::before {
+	content: "Malgré vos notes en langues appliquées, vous avez décidé de vous investir dans la traduction ! Que ce soit les langues modernes, ou des dialectes sumériens, extra-terrestres ou de l’allemand, vous parvenez à donner du sens à ces mots imprononçables !";
+}
+invass.traduction asstxt::before {
+	content: " ";
+}
+
+invskill.sciouthum skilltitle::before,
+invass.sciouthum asstitle::before {
+	content: "Sciences outre-humanité";
+}
+invskill.sciouthum skilltxt::before {
+	content: "Avec les nouveaux satellites et les nouvelles capsules spatiales de la WY, vous avez pu apprendre pas mal de choses sur ce passe dans l’espace. Vous arrivez même à saisir qu’il y a peut être des choses qui sont construites, par delà les astéroïdes et les galaxies. C’est très utile, de savoir si un truc sur Terre n’a rien à y faire.";
+}
+invass.sciouthum asstxt::before {
+	content: " ";
+}
+
+
 
 
 invass.delamain asstitle::before {
