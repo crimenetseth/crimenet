@@ -3714,6 +3714,7 @@ opacity: 0 !important;
 				}
 			.pagination {
 				font-family: var(--txt-font2);
+				margin-bottom: 20px;
 			}
 				.thread__actions .pagination span a:link,
 				.thread__actions .pagination span a:visited,
@@ -3735,6 +3736,11 @@ opacity: 0 !important;
 					position: relative;
 					top: 1px;
 				}
+
+			.topic-actions.bottom {
+				display: flex;
+				flex-wrap: wrap;
+			}
 	.thread__container {
 		display: flex;
 		flex-flow: column;
