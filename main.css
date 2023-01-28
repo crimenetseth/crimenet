@@ -4630,7 +4630,8 @@ relations {
 	invitem.inv__env::before,
 	invitem.inv__vidocq::before,
 	invitem.inv__skynet::before,
-	invitem.inv_umbrella::before {
+	invitem.inv_umbrella::before,
+	invitem.inv_weylandyutani::before {
 		position: absolute;
 		top: Calc(50% - 7.5px);
 		left: Calc(50% - 7.5px);
@@ -4669,7 +4670,8 @@ relations {
 	.active invitem.inv__env::before,
 	.active invitem.inv__vidocq::before,
 	.active invitem.inv__skynet::before,
-	.active invitem.inv__umbrella::before {
+	.active invitem.inv__umbrella::before,
+	.active invitem.inv__weylandyutani::before {
 		opacity: 1;
 	}
 	skillbot,
@@ -4706,6 +4708,9 @@ relations {
 	}
 	invitem.inv_umbrella::before {
 		background-image: url(https://cdn.statically.io/gh/crimenetseth/crimenet/main/svgs/affiliations/umbrella.svg);
+	}
+	invitem.inv_weylandyutani::before {
+		background-image: url(https://cdn.statically.io/gh/crimenetseth/crimenet/main/svgs/affiliations/weylandyutani.svg);
 	}
 	skillscontainer,
 	asscontainer {
