@@ -395,6 +395,9 @@ invaccred.redmercy accredtitle::before {
 invaccred.umbrella accredtitle::before {
 	content: "Accréditation Umbrella";
 }
+invaccred.weylandyutani accredtitle::before {
+	content: "Accréditation Weyland-Yutani";
+}
 
 /*Tags sujets*/
 tag.termine::before {
