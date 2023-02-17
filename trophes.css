@@ -154,3 +154,19 @@ copie le lien de partage et remplace le "www" par "dl"*/
 .cassecrime trophcontent::after {
 	content: "Tu as participé aux combats farouches entre Geysters et Spetsnaz.";
 }
+
+.riogrande2 trophicone {
+	background-image: url(https://crimenetseth.github.io/crimenet/svgs/trophees/casino.svg);
+}
+.riogrande2 trophname::before {
+	content: "Rio Grande Casino";
+}
+.riogrande2 trophname::after {
+	content: "- 2022-2023";
+}
+.riogrande2 trophcontent::before {
+	content: "Jeux d'argent";
+}
+.riogrande2 trophcontent::after {
+	content: "Entre jeux et amour, vous avez été bien occupés.";
+}
