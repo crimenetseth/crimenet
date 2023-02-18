@@ -4785,7 +4785,7 @@ relations {
 			content: "Prix : Niv. 1 = 20k$/ Niv. 2 = ?/ Niv. 3 = ?";
 		}
 		annoncetxt invass.asset.delamain::after {
-			content: "Prix : 25k Banalisée / Luxe / Blindée";
+			content: "Prix : 25k Banalisée / Luxe / Blindée / Spatiale";
 		}
 		invaccred::before {
 			content: "Attention avant d'acheter une accréditation, regardez bien si elle est compatible avec votre groupe ou vos accréditations déjà acquises.";
