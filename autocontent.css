@@ -163,7 +163,7 @@ invskill.relation skilltxt::before {
 	content: "Vous connaissez des personnes qui connaissent d’autres personnes. Bon, n’imaginez pas que vous allez pouvoir faire la fête à Ibiza avec le reste de la Jet Set, mais des connaissances, ça ouvre des portes et certaines vous sont désormais ouvertes.";
 }
 invass.relation asstxt::before {
-	content: " ";
+	content: "Si vous ne connaissez pas les bonnes personnes, vous connaissez au moins quelqu'un qui permettra de vous mettre en contact. Et n'est-ce pas là le principal ?";
 }
 
 invskill.technologie skilltitle::before,
@@ -240,7 +240,7 @@ invskill.diagnostic skilltxt::before {
 	content: "Vous avez tous joué au docteur quand vous étiez petits (et moins petits). Maintenant, vous avez les connaissances pour le faire réellement. Le corps humain a toujours des tas de secrets pour vous, mais vous savez le réparer en cas de souci...";
 }
 invass.diagnostic asstxt::before {
-	content: " ";
+	content: "La technologie est magnifique aujourd'hui, permettant d'avoir accès à un médecin dans votre main. Parfait en cas de petits bobos.";
 }
 
 invskill.urgence skilltitle::before,
@@ -251,7 +251,7 @@ invskill.urgence skilltxt::before {
 	content: "Une suture ? Une blessure ouverte ? Pas de soucis. Avec une agrafeuse et du scotch, vous pouvez empêcher ce genre de blessure d’être mortelle, et laisser le temps au patient de tomber sur des personnes pouvant le soigner ! Peut-être sauriez-vous même faire un véritable bandage, avec de vraies fournitures médicales !";
 }
 invass.urgence asstxt::before {
-	content: " ";
+	content: "La technologie est magnifique aujourd'hui, permettant d'avoir accès à un spécialiste en chirurgie de terrain dans votre main. Parfait si vous devez sauver quelqu'un en urgence !";
 }
 
 invskill.armeslourdes skilltitle::before,
