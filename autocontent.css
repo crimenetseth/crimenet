@@ -480,6 +480,10 @@ invmodphy.blindee modphyimg {
 	background: url(https://zupimages.net/up/21/42/k0jr.png) center;
 	background-size: cover;
 }
+invmodphy.spatiale modphyimg {
+	background: url(https://i.ibb.co/6cSGcpP/spatiale.jpg) center;
+	background-size: cover;
+}
 
 invmodphy.ravalementdefacade::before {
 	content:"Pensez à justifier ce changement de physique dans vos RPs";
