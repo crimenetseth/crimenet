@@ -4622,6 +4622,7 @@ relations {
 	invitem.banalcar::before,
 	invitem.luxcar::before,
 	invitem.tankcar::before,
+    invitem.spacecar::before,
 	invitem.house::before,
 	invitem.workplace::before,
 	invitem.inv__oxford::before,
@@ -4652,6 +4653,9 @@ relations {
 	invitem.tankcar::before {
 		background-image: url(https://cdn.statically.io/gh/crimenetseth/crimenet/main/svgs/assets/tankcar.svg);
 	}
+    invitem.spacecar::before {
+		background-image: url(https://cdn.statically.io/gh/crimenetseth/crimenet/main/svgs/assets/spacecar.svg);
+	}
 	invitem.house::before {
 		background-image: url(https://cdn.statically.io/gh/crimenetseth/crimenet/main/svgs/assets/house.svg);
 	}
@@ -4662,6 +4666,7 @@ relations {
 	.active invitem.banalcar::before,
 	.active invitem.luxcar::before,
 	.active invitem.tankcar::before,
+    .active invitem.spacecar::before,
 	.active invitem.house::before,
 	.active invitem.workplace::before,
 	.active invitem.inv__oxford::before,
